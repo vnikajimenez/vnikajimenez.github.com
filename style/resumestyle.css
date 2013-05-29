@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Pontano+Sans);
+body {
+	background-color:#999;
+	color:#F1F1E2;
+	font-family: 'Pontano Sans', sans-serif; }
+	
+#block {
+	width:1600px;
+	margin:auto;
+	/*position:absolute;*/
+}
+
+#main {
+	background-image:url(../images/binding_dark.png);
+	width:700px;
+	height:1600px;
+	padding:20px;
+	position:relative;
+	margin:auto;
+	bottom:600px;
+	}
+	
+	
+	
+.side {
+	background-image:url(../images/binding_dark.png);
+	width:300px;
+	height:600px;
+	position:relative;
+	top:60px;
+}
+	
+.profile {
+	position:relative;
+	margin:auto;
+	left:50px;
+	top:10px;
+	
+	
+	
+}
+
+
+
+ul.social-media-nav {
+    text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden; 
+    list-style: none;
+	text-decoration: none;
+	display: block;
+}
+
+
+
+ul.social-media-nav {
+	background-image: url("../images/chingao.png");
+	background-repeat:no-repeat;
+	margin-left: 25px;
+	margin-top: 100px;
+	
+}
+
+ul.social-media-nav li a {
+
+	display: block;
+}
+	
+	
+	/* hide text */
+	
+	
+
+
+
+
+
+
+ul.social-media-nav li .behance { background-position: 0 0; width: 47px; height: 52px; } 
+ul.social-media-nav li .email { background-position:-67px 0; width: 67px; height: 45px; } 
+ul.social-media-nav li .phone { background-position:-154px 0; width: 27px; height: 51px; }
+ul.social-media-nav li .twitter{background-position: -201px 0; width: 58px; height: 54px; } 
+
+
+
+
+	
+.logo {
+  position:relative;
+  top:60px;
+  width:100%;
+  margin-bottom:40px;
+	
+	}
+	
+
+	
+	h2 {
+		color:#D35B30;
+		font-size:18px;
+		
+	}
+	
+	h4 {
+		
+		color:#E0922F;
+		font-size:17px;
+	}
+		
+.list {
+	font-size:16px;
+	line-height:20px;
+	
+}
+
+
+p {
+	font-size:16px;
+	line-height:20px;
+	
+	
+}
+
+
