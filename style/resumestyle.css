@@ -3,12 +3,13 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@import url(http://fonts.googleapis.com/css?family=Lato:400,300italic,700);
+@import url(http://fonts.googleapis.com/css?family=Lato);
 
 body {
 	background-color:#BDB39B;
 	color:#F1F1E2;
-	font-family: 'lato', sans-serif; }
+	font-family: 'lato', sans-serif;
+	font-weight: normal; }
 	
 #block {
 	width:1600px;
@@ -19,7 +20,7 @@ body {
 #main {
 	background-color: #1D1D1D;
 	width:700px;
-	height:1600px;
+	height:1800px;
 	padding:20px;
 	position:relative;
 	margin:auto;
@@ -107,6 +108,7 @@ ul.social-media-nav li .twitter{background-position: -201px 0; width: 58px; heig
 	h2 {
 		color:#D35B30;
 		font-size:18px;
+
 		
 	}
 	
@@ -114,12 +116,22 @@ ul.social-media-nav li .twitter{background-position: -201px 0; width: 58px; heig
 		
 		color:#E0922F;
 		font-size:17px;
+		font-variant: bold;
+	}
+
+
+	
+
+
+	h5 {
+
+		font-size: 17px;
+
 	}
 		
 .list {
 	font-size:16px;
 	line-height:20px;
-	font-variant: normal;
 	
 }
 
@@ -127,7 +139,7 @@ ul.social-media-nav li .twitter{background-position: -201px 0; width: 58px; heig
 p {
 	font-size:16px;
 	line-height:20px;
-	font-variant: normal;
+
 	
 	
 }
