@@ -13,6 +13,73 @@
 /*webfonts*/
 
 
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.7em;
+    line-height: 1.5em;
+}
+
+
+p {
+	 font-size: 1.063em;
+	 line-height: 1.750em;
+	 margin: 1.5em 0;
+}
+
+h1{
+	color: #fffdfe;
+   font-size:  2.813em;
+
+}
+
+h2, nav ul li {
+
+color: #fffdfe;
+font-size:  1.5882em;
+line-height: 1.8888em;
+    margin:  1.8888em 0 .9444em 0;
+
+
+}
+
+h3 {
+
+    font-size:  1.4706em; 
+ 
+	
+}
+
+
+h4 {
+    font-size:  1.3529em; /* equiv 23px */
+   
+   
+}
+
+
+/*Margins*/
+
+
+li, p, li ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+
+
+
+textarea, table, td, th, code, pre, samp, div, p {
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+}
+
+
+
 
 
 /*landingpage*/
