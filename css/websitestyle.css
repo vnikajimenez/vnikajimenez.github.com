@@ -39,8 +39,7 @@ color: #fffdfe;
 font-size:  1.5882em;
 line-height: 1.8888em;
  margin:  1.8888em 0 .9444em 0;
-font-family: "museo",serif;
-font-weight:500;
+
 }
 
 h3 {
@@ -55,6 +54,15 @@ h4 {
     font-size:  1.3529em; /* equiv 23px */
    
    
+}
+
+
+nav ul li a {
+
+font-family: "museo",serif;
+font-weight:500;
+
+
 }
 
 
@@ -80,7 +88,7 @@ textarea, table, td, th, code, pre, samp, div, p {
 
 /*typography*/
 
-h1{
+h1, h2{
 	font-weight:900;
 	color: #fffdfe;
 	font-family: "museo",serif;
