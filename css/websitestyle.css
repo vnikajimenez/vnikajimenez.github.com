@@ -20,6 +20,7 @@
     z-index: 0;
     display: block;
     position: fixed;
+    top:15px;
     height:100%;
     left: 50%;
     margin-left: -475px;
@@ -50,8 +51,8 @@ height: 3400px;
     margin: auto;
 	background-position: center;
 	width: 1000px;
-	height: 800px;
-	top:0px;
+	height: 850px;
+	top:10px;
 	position: relative;
 	overflow: hidden;
 	z-index: 6;
