@@ -25,6 +25,9 @@ html{
 body{
     font-size: 1.7em;
     line-height: 1.5em;
+    font-family: "museo-sans",sans-serif;
+    font-weight: 300;
+
 }
 
 
@@ -81,12 +84,7 @@ font-weight:500;
 
 }
 
-.insidequotes {
 
-font-family: "museo",serif;
-font-weight:500;
-
-}
 
 /*Margins*/
 
