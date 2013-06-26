@@ -48,7 +48,7 @@ line-height: 1.8888em;
 
 }
 
-h3, nav ul li a  {
+h3, nav ul li a, .insidequotes {
     font-family: "museo",serif
     font-size:  1.4706em;
     font-weight:300;
@@ -73,6 +73,12 @@ font-weight:500;
 
 }
 
+.insidequotes {
+
+font-family: "museo",serif;
+font-weight:500;
+
+}
 
 /*Margins*/
 
