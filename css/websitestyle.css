@@ -42,14 +42,14 @@ p {
 }
 
 
-
-h2{
+h2 {
 
 color: #fffdfe;
 font-size:  1.5882em;
 line-height: 1.8888em;
- margin:  1.8888em 0 .9444em 0;
-
+margin:  1.8888em 0 .9444em 0;
+font-family: "museo",serif;
+font-weight:500;
 }
 
 h3, nav ul li a {
@@ -76,12 +76,20 @@ h5{
     line-height:  1.2143em;
     margin:  2.4286em 0  1.2143em 0;}
 
+.insidequotes{ 
 
-h2, .insidequotes{
+ font-size:  1.4706em; /* equiv 25px */
+ line-height:  1.02em;
+ margin:  2.04em 0  1.02em 0;
+ font-family: "museo",serif;
+ font-weight: 100;
+ font-style: italic;
 
-font-family: "museo",serif;
-font-weight:500;
+
+
 }
+
+
 
 
 
