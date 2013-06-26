@@ -74,13 +74,12 @@ h5{
 	font-style: italic;
     font-size:  1.2353em; /* equiv 21px */
     line-height:  1.2143em;
-    margin:  2.4286em 0  1.2143em 0;}
+  }
 
 .insidequotes{ 
 
  font-size:  1.4706em; /* equiv 25px */
  line-height:  1.02em;
- margin:  2.04em 0  1.02em 0;
  font-family: "museo",serif;
  font-weight: 100;
  font-style: italic;
