@@ -39,7 +39,7 @@ h2, nav ul li {
 color: #fffdfe;
 font-size:  1.5882em;
 line-height: 1.8888em;
-    margin:  1.8888em 0 .9444em 0;
+ margin:  1.8888em 0 .9444em 0;
 
 
 }
@@ -143,14 +143,11 @@ height: 3580px;
 
 
 .titulo {
-	font-family:"museo",serif;
 	text-align: center;
 	margin: auto;
-	font-size: 1.5em;
 	bottom: 740px;
     position: relative;
 	z-index: 8;
-	color: black;
 
 
 		
@@ -168,10 +165,6 @@ color: #fffdfe;
 
 }
 
-p {
-
-	font-family:"museo",serif;
-}
 
 
 
@@ -183,7 +176,7 @@ margin: auto;
 width: 100%;
 z-index: 8;
 position: relative;
-bottom: 50px;
+bottom: 570px;
 
 }
 
