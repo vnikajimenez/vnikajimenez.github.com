@@ -228,6 +228,36 @@ nav ul li a {
 }
 
 
+/*animations*/
+
+
+.social ul li {
+	list-style: none;
+	display: inline-block;
+	position: relative;
+	float: right;
+	top: 40px;
+	right: 20px;
+	
+}
+.social li a img {
+
+	transition: all 0.8s ease;
+	-webkit-transition: all 0.8s ease;
+	-moz-transition: all 0.8s ease;
+	-o-transition: all 0.8s ease;
+	
+}
+
+.social li  a:hover img {
+       transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+}
+
+
 
  .quota,.thankyou {
  	animation: bobble 5s infinite 2s;
@@ -398,31 +428,7 @@ h6 {
 }
 
 
-/*animations*/
 
-
-.social ul li {
-	list-style: none;
-	display: inline-block;
-	position: relative;
-	float: right;
-	top: 40px;
-	right: 20px;
-	
-}
-.social li a img {
-
-	transition: all 0.4s ease;
-	
-}
-
-.social li  a:hover img {
-       transform:rotate(360deg);
-	-o-transform:rotate(360deg);
-	-webkit-transform:rotate(360deg);
-	-moz-transform:rotate(360deg);
-	-ms-transform:rotate(360deg);
-}
 
 
 
