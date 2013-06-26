@@ -31,9 +31,7 @@ p {
 h1{
 	color: #fffdfe;
    font-size:  2.813em;
-    font-family: "museo",serif;
-
-}
+    }
 
 h2, nav ul li {
 
@@ -80,6 +78,12 @@ textarea, table, td, th, code, pre, samp, div, p {
 }
 
 
+/*typography*/
+
+h1, h2{
+	color: #fffdfe;
+	font-family: "museo",serif;
+}
 
 
 
@@ -154,17 +158,8 @@ height: 3580px;
 		
 }
 
-/*typography*/
 
-h1{
-	color: #fffdfe;
-}
 
-h2 {
-
-color: #fffdfe;
-
-}
 
 
 
@@ -177,7 +172,7 @@ margin: auto;
 width: 100%;
 z-index: 8;
 position: relative;
-bottom: 550px;
+bottom: 530px;
 
 }
 
