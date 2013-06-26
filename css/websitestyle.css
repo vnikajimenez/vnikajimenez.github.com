@@ -10,7 +10,13 @@
 
 
 
-/*webfonts*/
+/*typography*/
+
+h1, h2{
+	font-weight:900;
+	color: #fffdfe;
+	font-family: "museo",serif;
+}
 
 
 html{
@@ -43,16 +49,18 @@ line-height: 1.8888em;
 }
 
 h3 {
-
-    font-size:  1.4706em; 
- 
+    font-family: "museo",serif
+    font-size:  1.4706em;
+    font-weight:300;
 	
 }
 
 
 h4 {
     font-size:  1.3529em; /* equiv 23px */
-   
+   font-family: "museo-sans",sans-serif;
+    font-weight: 500;
+ 
    
 }
 
@@ -86,13 +94,7 @@ textarea, table, td, th, code, pre, samp, div, p {
 }
 
 
-/*typography*/
 
-h1, h2{
-	font-weight:900;
-	color: #fffdfe;
-	font-family: "museo",serif;
-}
 
 
 
