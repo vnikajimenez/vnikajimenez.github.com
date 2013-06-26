@@ -64,6 +64,14 @@ h4 {
    
 }
 
+h5{
+	font-family: "museo-sans",sans-serif;
+	font-weight:100;
+	font-style: italic;
+    font-size:  1.2353em; /* equiv 21px */
+    line-height:  1.2143em;
+    margin:  2.4286em 0  1.2143em 0;}
+
 
 h2 {
 
