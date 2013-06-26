@@ -450,13 +450,14 @@ font-weight: 300;
 
 }
 
+.imsocial {
 
-
-h6 {
-	position: relative;
-	top: 95px;
-	
+position: relative;
+top: 95px;
+float: right;
 }
+
+
 
 .copyright {
    
