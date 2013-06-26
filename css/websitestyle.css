@@ -13,6 +13,8 @@
 /*typography*/
 
 h1 {
+	color: #fffdfe;
+    font-size:  3em;
 	font-weight:900;
 	color: #fffdfe;
 	font-family: "museo",serif;
@@ -37,10 +39,7 @@ p {
 	 margin: 1.5em 0;
 }
 
-h1{
-	color: #fffdfe;
-   font-size:  3em;
-    }
+
 
 h2{
 
@@ -51,7 +50,7 @@ line-height: 1.8888em;
 
 }
 
-h3, nav ul li a, .insidequotes {
+h3, nav ul li a {
     font-family: "museo",serif
     font-size:  1.4706em;
     font-weight:300;
@@ -76,12 +75,10 @@ h5{
     margin:  2.4286em 0  1.2143em 0;}
 
 
-h2 {
+h2, .insidequotes{
 
 font-family: "museo",serif;
 font-weight:500;
-
-
 }
 
 
