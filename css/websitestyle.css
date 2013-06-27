@@ -452,9 +452,11 @@ font-weight: 300;
 .copyright {
    
 
+   font-size:0.625em;
    position: relative;
    left: 50px;
    top: 76px;
+   color: #f1f1e2;
 
 }
 
