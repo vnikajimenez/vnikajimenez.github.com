@@ -45,9 +45,8 @@ p {
 h2 {
 
 color: #fffdfe;
-font-size:  1.5882em;
-line-height: 1.8888em;
-margin:  1.8888em 0 .9444em 0;
+line-height: 1.7586em;
+margin:  1.7586em 0 .8793em 0;
 font-family: "museo",serif;
 font-weight:500;
 }
@@ -79,7 +78,7 @@ h5{
 .insidequotes{ 
 
  font-size:  1.4706em; /* equiv 25px */
- line-height:  1.02em;
+ line-height:  1.3em;
  font-family: "museo",serif;
  font-weight: 100;
  font-style: italic;
@@ -89,7 +88,7 @@ h5{
 
 .insidequotes2 {
  font-size:  1.4706em; /* equiv 25px */
- line-height:  1.02em;
+ line-height:  1.3em;
  font-family: "museo",serif;
  font-weight: 100;
  font-style:normal;
@@ -465,7 +464,7 @@ font-weight: 300;
 position: relative;
 top: 69px;
 float: right;
-right: 460px;
+right: 480px;
 }
 
 
