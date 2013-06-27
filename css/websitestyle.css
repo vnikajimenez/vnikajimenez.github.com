@@ -459,17 +459,22 @@ font-weight: 300;
 }
 
 .imsocial {
-font-size:  1.4706em; /* equiv 25px */
+font-size:  1.1176em; 
  line-height:  1.3em;
  font-family: "museo",serif;
  font-weight: 100;
  color: #f1f1e2;
  font-style:normal;
 position: relative;
-top: 40px;
+top: 60px;
 float: right;
-right: 500px;
+right: 470px;
 }
+
+
+
+
+
 
 
 
