@@ -45,7 +45,6 @@ h2 {
 
 color: #f1f1e2;
 line-height: 1.7586em;
-margin:  1.7586em 0 .8793em 0;
 font-family: "museo",serif;
 font-weight:500;
 }
@@ -61,7 +60,7 @@ h3, nav ul li a {
 h4 {
     font-size:  1.3529em; /* equiv 23px */
    font-family: "museo-sans",sans-serif;
-    font-weight: 500;
+    font-weight: 300;
  
    
 }
@@ -85,7 +84,7 @@ h5{
 
 }
 
-.insidequotes2 {
+.insidequotes2,.imsocial {
  font-size:  1.4706em; /* equiv 25px */
  line-height:  1.3em;
  font-family: "museo",serif;
@@ -461,12 +460,6 @@ font-weight: 300;
 }
 
 .imsocial {
-font-size:  1.1176em; 
- line-height:  1.3em;
- font-family: "museo",serif;
- font-weight: 100;
- color: #f1f1e2;
- font-style:normal;
 position: relative;
 top: 60px;
 float: right;
