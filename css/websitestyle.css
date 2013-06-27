@@ -13,10 +13,9 @@
 /*typography*/
 
 h1 {
-	color: #fffdfe;
+	color:#f1f1e2;
     font-size:  3em;
 	font-weight:900;
-	color: #fffdfe;
 	font-family: "museo",serif;
 }
 
@@ -44,7 +43,7 @@ p {
 
 h2 {
 
-color: #fffdfe;
+color: #f1f1e2;
 line-height: 1.7586em;
 margin:  1.7586em 0 .8793em 0;
 font-family: "museo",serif;
@@ -348,12 +347,14 @@ padding: 10px;
 .insidequotes{
 /*top: 10px;*/
 position: relative;
+color: #f1f1e2;
 }
 
 .insidequotes2 {
 	position: relative;
 	top: 50px;
 	padding-top: 10px;
+	color: #f1f1e2;
 
 }
 
