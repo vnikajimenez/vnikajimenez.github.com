@@ -50,7 +50,7 @@ font-weight:500;
 }
 
 h3{
-	color: #D35B30;
+
     font-family: "museo-sans",sans-serif;
     font-size:  1.4706em;
     font-weight:300;
@@ -68,6 +68,7 @@ line-height: 1.7586em;
 
 
 h4 {
+	color: #D35B30;
     font-size:  1.3529em; /* equiv 23px */
    font-family: "museo-sans",sans-serif;
     font-weight: 300;
@@ -239,7 +240,7 @@ nav ul li a:hover {
 
 .profile {
    position: relative;
-   top: 40px;
+   top: 20px;
    right: 70px;
 }
 
@@ -255,7 +256,7 @@ nav ul li a:hover {
 
 .veronica {
  
-    bottom: 70px;
+    bottom: 40px;
     margin: auto;
 	position: relative;
     text-align: center;
