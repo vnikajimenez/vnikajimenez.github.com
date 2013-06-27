@@ -84,7 +84,7 @@ h5{
 
 }
 
-.insidequotes2,.imsocial {
+.insidequotes2 {
  font-size:  1.4706em; /* equiv 25px */
  line-height:  1.3em;
  font-family: "museo",serif;
@@ -245,7 +245,7 @@ nav ul li a:hover {
 
 .veronica {
  
-    bottom: 150px;
+    bottom: 110px;
     margin: auto;
 	position: relative;
     text-align: center;
@@ -334,7 +334,7 @@ border-radius: 240px;
 text-align:center;
 background-color:#D35B30;
 position: relative;
-bottom: 977px;
+bottom: 990px;
 left: 675px;
 padding: 10px;
  
@@ -460,6 +460,13 @@ font-weight: 300;
 }
 
 .imsocial {
+color: #f1f1e2;
+font-size:  1.4706em; /* equiv 25px */
+ line-height:  1.3em;
+ font-family: "museo",serif;
+ font-weight: 100;
+ font-style:normal;
+ margin:  2.04em 0  1.02em 0;	
 position: relative;
 top: 60px;
 float: right;
