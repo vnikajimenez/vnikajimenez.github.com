@@ -242,6 +242,17 @@ nav ul li a:hover {
 }
 
 
+
+.veronica {
+ 
+    bottom: 150px;
+    margin: auto;
+	position: relative;
+    text-align: center;
+
+}
+
+
 /*animations*/
 
 
@@ -333,6 +344,7 @@ padding: 10px;
 
 
 .insidequotes{
+/*top: 10px;*/
 position: relative;
 }
 
@@ -358,13 +370,6 @@ left: 675px;
 }
 
 
-.veronica {
- 
-    margin: auto;
-	position: relative;
-    text-align: center;
-
-}
 
 
 
