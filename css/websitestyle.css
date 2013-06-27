@@ -293,7 +293,7 @@ nav ul li a:hover {
 
 
 
- .quota,.thankyou {
+ .thankyou {
  	animation: bobble 5s infinite 2s;
  	-webkit-animation: bobble 5s infinite 2s;
  	-moz-animation: bobble 5s infinite 2s;
