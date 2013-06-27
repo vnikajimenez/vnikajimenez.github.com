@@ -42,18 +42,27 @@ p {
 
 
 h2 {
-
+font-size:  1.7059em; /* equiv 29px */
 color: #f1f1e2;
 line-height: 1.7586em;
 font-family: "museo",serif;
 font-weight:500;
 }
 
-h3, nav ul li a {
-    font-family: "museo",serif
+h3{
+    font-family: "museo-sans",sans-serif;
     font-size:  1.4706em;
     font-weight:300;
 	
+}
+
+nav ul li a {
+font-size:  1.7059em; /* equiv 29px */
+color: #f1f1e2;
+font-family: "museo-sans",sans-serif;
+color: #f1f1e2;
+line-height: 1.7586em;
+
 }
 
 
