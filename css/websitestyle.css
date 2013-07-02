@@ -252,7 +252,7 @@ nav ul li a:hover {
 }
 
 .story {
-
+            text-align: justify;
 			margin-top: 0px;
 			padding: 40px;
 			margin-bottom: 300px;
@@ -354,7 +354,7 @@ nav ul li a:hover {
 			text-align:center;
 			background-color:#D35B30;
 			position: relative;
-			bottom: 977px;
+			bottom: 1120px;
 			left: 675px;
 			padding: 10px;
  
@@ -418,6 +418,9 @@ nav ul li a:hover {
 			margin: auto;
 			position: relative;
 			top: 70px;
+			left: 170px;
+			width: 700px;
+			height: 550px;
 }
 
 
@@ -475,12 +478,12 @@ nav ul li a:hover {
 
 
 
-.copyright {
+/*.copyright {
    
 		   font-size:0.625em;
 		   color: #f1f1e2;
 
-}
+}*/
 
 .social .findme {
 
@@ -506,7 +509,7 @@ nav ul li a:hover {
 	position: relative;
 	float: right;
 	right: 430px;
-	top: 70px;
+	top: 50px;
 }
 
 
