@@ -108,11 +108,15 @@ h5 {
 }
 
 
-.subtitle{
-	position: relative;
-	right: 20px;
+.subtitle {
+		position: relative;
+		right: 20px;
 }
 
+.move {
+		position: relative;
+		right: 90px;
+}
 
 /*Margins*/
 
@@ -152,8 +156,8 @@ li, p, li ul {
 			margin-right: auto;
 			width: 100%;
 			overflow: hidden;
-			/*height: 3800px;*/
-			min-height: 100%
+			
+			min-height: 100%;
 }
 
 
