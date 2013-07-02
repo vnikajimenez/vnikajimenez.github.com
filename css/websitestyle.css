@@ -149,7 +149,7 @@ li, p, li ul {
 			margin-right: auto;
 			width: 100%;
 			overflow: hidden;
-			height: 3800px;
+			/*height: 3800px;*/
 }
 
 
@@ -354,7 +354,7 @@ nav ul li a:hover {
 			text-align:center;
 			background-color:#D35B30;
 			position: relative;
-			bottom: 1120px;
+			bottom: 1000px;
 			left: 675px;
 			padding: 10px;
  
