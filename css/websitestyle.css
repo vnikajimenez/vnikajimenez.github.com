@@ -390,7 +390,7 @@ nav ul li a:hover {
 			background-color:#D35B30;
 			position: relative;
 			bottom: 80px;
-			left: 645px;
+			left: 675px;
 }
 
 
@@ -418,7 +418,7 @@ nav ul li a:hover {
 			margin: auto;
 			position: relative;
 			top: 70px;
-			left: 170px;
+			left: 145px;
 			width: 700px;
 			height: 550px;
 }
@@ -454,8 +454,8 @@ nav ul li a:hover {
 
 .forma {
 			position: relative;
-			right: 370px;
-			bottom: 120px;
+			right: 380px;
+			bottom: 250px;
 			font-family: "museo-sans",sans-serif;
 			font-weight: 300;
 }
