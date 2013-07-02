@@ -150,6 +150,7 @@ li, p, li ul {
 			width: 100%;
 			overflow: hidden;
 			/*height: 3800px;*/
+			min-height: 100%
 }
 
 
