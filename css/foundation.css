@@ -2973,7 +2973,7 @@ form.custom {
     top: 50%;
     margin-top: -25px;
     background-color: black;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(80, 78, 91, 0.6);
     width: 50px;
     height: 60px;
     line-height: 50px;
@@ -3011,7 +3011,7 @@ form.custom {
   margin: 0 auto 30px auto;
   overflow: hidden;
   position: relative;
-  left: 290px;
+  left: 300px;
   top: 10px; }
   .orbit-bullets li {
     display: block;
