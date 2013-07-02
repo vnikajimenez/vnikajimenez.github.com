@@ -108,7 +108,10 @@ h5 {
 }
 
 
-
+.subtitle{
+	position: relative;
+	right: 20px;
+}
 
 
 /*Margins*/
