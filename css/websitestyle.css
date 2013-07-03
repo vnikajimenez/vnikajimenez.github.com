@@ -277,8 +277,8 @@ nav ul li a:hover {
 
 .profile {
 		   position: relative;
-		   top: 90px;
-		   right: 70px;
+		   top: 0;
+		   right: 75px;
 }
 
 .story {
@@ -387,7 +387,7 @@ nav ul li a:hover {
 			text-align:center;
 			background-color:#D35B30;
 			position: relative;
-			bottom: 1020px;
+			bottom: 1320px;
 			left: 675px;
 			padding: 10px;
  
@@ -400,14 +400,13 @@ nav ul li a:hover {
 
 			position: relative;
 			color: #f1f1e2;
-			bottom: 70px;
-			top: 0;
+			
 }
 
 .insidequotes2 {
 
 			position: relative;
-			top: 50px;
+			top: 60px;
 			padding-top: 10px;
 			color: #f1f1e2;
 
