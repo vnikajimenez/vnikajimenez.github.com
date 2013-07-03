@@ -17,6 +17,7 @@ h1 {
 	    font-size:  3em;
 		font-weight:900;
 		font-family: "museo-slab",serif;
+		word-spacing:-0.125em
 }
 
 
@@ -115,7 +116,7 @@ h5 {
 
 .move {
 		position: relative;
-		right: 90px;
+		right: 120px;
 		color: #D35B30;
 }
 
