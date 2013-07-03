@@ -399,7 +399,8 @@ nav ul li a:hover {
 
 			position: relative;
 			color: #f1f1e2;
-			bottom: 10px;
+			bottom: 30px;
+			top: 0;
 }
 
 .insidequotes2 {
