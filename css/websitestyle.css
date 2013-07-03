@@ -41,7 +41,7 @@ p {
 	 margin: 1.5em 0;
 	 font-family: "museo-sans",sans-serif;
      font-weight: 300;
-     word-spacing:-0.125em;
+     word-spacing:0.25em;
    }
 
 
@@ -69,6 +69,7 @@ nav ul li a {
 		color: #f1f1e2;
 		font-family: "museo-sans",sans-serif;
 		line-height: 1.7586em;
+		word-spacing:0.25em;
 }
 
 
@@ -95,7 +96,8 @@ h5 {
 		 font-family: "museo",serif;
 		 font-weight: 100;
 		 font-style: italic;
-		 margin:  2.04em 0  1.02em 0
+		 margin:  2.04em 0  1.02em 0;
+		 word-spacing:0.25em;
 
   }
 
@@ -106,7 +108,8 @@ h5 {
 		 font-family: "museo",serif;
 		 font-weight: 100;
 		 font-style:normal;
-		 margin:  2.04em 0  1.02em 0
+		 margin:  2.04em 0  1.02em 0;
+		 word-spacing:0.25em;
 }
 
 
@@ -263,11 +266,12 @@ nav ul li a:hover {
 }
 
 .story {
-            text-align: justify;
+            text-align: left;
 			margin-top: 0px;
 			padding: 40px;
 			margin-bottom: 300px;
 			width: 50%;
+		
 			
 }
 
