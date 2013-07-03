@@ -110,11 +110,13 @@ h5 {
 .subtitle {
 		position: relative;
 		right: 20px;
+		color: #D35B30;
 }
 
 .move {
 		position: relative;
 		right: 90px;
+		color: #D35B30;
 }
 
 /*Margins*/
