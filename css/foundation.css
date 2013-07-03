@@ -3020,7 +3020,7 @@ form.custom {
     background: #D35B30;
     float: left;
     margin-right: 6px;
-    border: solid 2px #504E5B;
+    border: solid 2px #f1f1e2;
     -webkit-border-radius: 1000px;
     border-radius: 1000px; }
     .orbit-bullets li.active {
