@@ -277,20 +277,27 @@ nav ul li a:hover {
 
 .profile {
 		   position: relative;
-		   top: 0;
-		   right: 75px;
+		   bottom: 20px;
+		   margin: auto;
+		   text-align: center;
 }
 
 .story {
             text-align: left;
 			margin-top: 0px;
 			padding: 40px;
-			margin-bottom: 300px;
-			width: 400px;
-			
-		
-			
+			margin-bottom: 100px;
+			width: 40em;
+			margin: auto;
+	
 }
+
+
+blockquote  {
+
+	color: #D35B30;
+}
+
 
 
 
@@ -395,13 +402,6 @@ nav ul li a:hover {
 
 
 /*circles*/
-
-.insidequotes {
-
-			position: relative;
-			color: #f1f1e2;
-			
-}
 
 .insidequotes2 {
 
