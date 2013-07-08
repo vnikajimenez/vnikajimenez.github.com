@@ -521,7 +521,7 @@ blockquote  {
 
 }*/
 
-.social .findme {
+.findme {
 
 			 font-size:  1.1176em; 
 			 line-height:  1.3em;
@@ -536,8 +536,8 @@ blockquote  {
 
 .social {
 
-			margin-top: 30px;
-			position: relative;
+/*			margin-top: 30px;
+*/			position: relative;
            
 }
 
