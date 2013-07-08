@@ -131,7 +131,7 @@ h5 {
 
 .subtitle {
 		position: relative;
-		right: 60px;
+		right: 30px;
 		color: #D35B30;
 }
 
@@ -503,7 +503,7 @@ blockquote  {
 			background-color:#D35B30;
 			width: 100%;
 			height: 200px;
-			bottom: 100px
+			/*bottom: 100px;*/
 }
 
 
