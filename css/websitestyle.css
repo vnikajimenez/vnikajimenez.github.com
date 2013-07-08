@@ -294,8 +294,13 @@ nav ul li a:hover {
 
 
 blockquote  {
-
-	color: #D35B30;
+	     color: #D35B30;
+		font-size:  1.4706em; /* equiv 25px */
+		 line-height:  1.3em;
+		 font-family: "museo",serif;
+		 font-weight: 100;
+		 font-style:normal;
+		 margin:  2.04em 0  1.02em 0;
 }
 
 
