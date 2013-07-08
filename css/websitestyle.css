@@ -137,10 +137,16 @@ h5 {
 
 .move {
 		position: relative;
-		right: 100px;
+		right: 2400px;
 		color: #D35B30;
 }
 
+
+.sobremi {
+
+	position: relative;
+	right: 50px;
+}
 /*Margins*/
 
 
