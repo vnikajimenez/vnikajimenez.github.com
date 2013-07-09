@@ -137,7 +137,7 @@ h5 {
 
 .move {
 		position: relative;
-		right: 60px;
+		right: 110px;
 		color: #D35B30;
 }
 
@@ -538,12 +538,12 @@ blockquote  {
 
 
 
-.social {
+/*.social {
            position: relative;
            left: 40px;
 			bottom: 38px;
 			
-}
+}*/
 
 
 
