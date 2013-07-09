@@ -136,9 +136,26 @@ h5 {
 }
 
 .move {
+
 		position: relative;
-		right: 110px;
-		color: #D35B30;
+		right: 100px;
+	     color: #D35B30;
+}
+
+
+
+.esteban {
+	    font-size: 1.063em;
+	    line-height: 1.750em;
+	     margin: 1.5em 0;
+	     font-family: "museo",serif;
+		 font-weight: 100;
+		 font-style:normal;
+		 color: #D35B30;
+		 position: relative;
+		 left: 30px;
+		 bottom: 15px;
+
 }
 
 
