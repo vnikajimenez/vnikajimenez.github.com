@@ -549,9 +549,9 @@ blockquote  {
 }
 
 .findme {    position: relative;
-			float: right;
-			right: 400px;
-			top: 40px;
+			 float: right;
+			 right: 400px;
+			top: 60px;
 			 font-size:  1.1176em; 
 			 line-height:  1.3em;
 			 font-family: "museo",serif;
