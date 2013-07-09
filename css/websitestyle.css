@@ -515,12 +515,13 @@ blockquote  {
 
 
 
-/*.copyright {
+.copyright {
    
+		   position: relative;
 		   font-size:0.625em;
 		   color: #f1f1e2;
 
-}*/
+}
 
 .findme {    position: relative;
 			float: right;
@@ -539,9 +540,11 @@ blockquote  {
 
 .social {
            position: relative;
-			bottom: 20px;
+           left: 40px;
+			bottom: 38px;
 			
 }
+
 
 
 
