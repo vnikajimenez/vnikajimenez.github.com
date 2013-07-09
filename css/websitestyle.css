@@ -276,7 +276,7 @@ nav ul li a:hover {
 		    margin: auto;
 		    position: relative;
 			width: 1000px;
-			height: 1300px;
+			/*height: 1300px;*/
 		    background-color:#f1f1e2;
 
 }
@@ -485,7 +485,7 @@ blockquote  {
 		    position: relative;
 		    z-index: 7;
 			background-color:#f1f1e2;
-			height: 790px;
+			/*height: 790px;*/
 			width: 1000px;
 }
 
@@ -529,8 +529,8 @@ blockquote  {
 
 .findme {    position: relative;
 			float: right;
-			right: 410px;
-			top: 30px;
+			right: 400px;
+			top: 40px;
 			 font-size:  1.1176em; 
 			 line-height:  1.3em;
 			 font-family: "museo",serif;
