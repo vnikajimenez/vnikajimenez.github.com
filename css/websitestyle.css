@@ -517,9 +517,9 @@ blockquote  {
 
 	   position: relative;
 	   top:0px;
-	   bottom: 300px;
+	   bottom: 0px;
 	   left: 90px;
-	   padding-bottom: 50px;
+	   padding-bottom: 20px;
 }
 
 
@@ -530,13 +530,16 @@ blockquote  {
 			 font-weight: 100;
 			 color: #f1f1e2;
 			 font-style:normal;
+			 position: relative;
+			 right: 7px;
+			 bottom: 15px;
 }
 
 
 
 .copyright {
 
-           bottom: 40px;
+           bottom: 55px;
 		   position: relative;
 		   font-size:0.625em;
 		   color: #f1f1e2;
@@ -545,17 +548,12 @@ blockquote  {
 }
 
 
-.sigue  {
-
-         
-         position: relative;
-         bottom: 30px;
 
 
 
 
 
-}
+
 
 
 
