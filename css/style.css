@@ -1,0 +1,342 @@
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+
+/*typography*/
+
+h1 {
+		color:#D35B30;
+	    font-size:  3em;
+		font-weight:900;
+		font-family: "museo-slab",serif;
+		letter-spacing:0.08em;
+
+}
+
+
+
+
+html {
+
+	    font-size: 62.5%;
+}
+
+body {
+	    font-size: 1.7em;
+	    line-height: 1.5em;
+	    font-family: "museo-sans",sans-serif;
+	    font-weight: 300;
+
+     }
+
+
+p {
+	 font-size: 1.063em;
+	 line-height: 1.750em;
+	 margin: 1.5em 0;
+	 font-family: "museo-sans",sans-serif;
+     font-weight: 300;
+     word-spacing:0.25em;
+     text-indent:0;
+     color: #f1f1e2;
+
+   }
+
+
+h2 {    
+		font-size:  1.7059em; /* equiv 29px */
+		color: #f1f1e2;
+		line-height: 1.7586em;
+		font-family: "museo",serif;
+		font-weight:500;
+
+	}
+
+h3 {
+
+    font-family: "museo-sans",sans-serif;
+    font-size:  1.4706em;
+    font-weight:300;
+    word-spacing:-0.125em;
+    margin: 0;
+	
+}
+
+nav ul li a, {
+
+		font-size:  1.7059em; /* equiv 29px */
+		color: #f1f1e2;
+		font-family: "museo-sans",sans-serif;
+		line-height: 1.7586em;
+		word-spacing:0.25em;
+}
+
+
+h4 {
+		color: #D35B30;
+	    font-size:  1.3529em; /* equiv 23px */
+	    font-family: "museo-sans",sans-serif;
+	    font-weight: 300;
+ 
+}
+
+h5 {
+		font-family: "museo-sans",sans-serif;
+		font-weight:100;
+		font-style: italic;
+	    font-size:  1.2353em; /* equiv 21px */
+	    line-height:  1.2143em;
+  }
+
+
+h6 {
+
+
+
+        font-family: "museo-sans",sans-serif;
+        color: #f1f1e2;
+		font-weight:100;
+	    font-size:  17px;
+	    line-height: 28.5px;
+
+
+
+
+}
+
+
+/*background
+*/
+
+
+
+
+.wrapper  {
+
+
+			width: 1600px;
+			min-height: 100%;
+
+
+
+}
+
+
+
+.intro  {        width: 800px;
+                 position:static;
+			     float: right;
+			     background-color:#504E5B;
+                 min-height:2700px; 
+                 margin-left: auto;
+                 margin-right: auto;
+
+
+
+      }
+
+
+.side  {
+
+				background-color: #f1f1e2;
+				width: 800px;
+				min-height:  2700px;
+				position:absolute;
+
+
+}
+
+
+
+
+.photos  {
+		           position: relative;
+		           top: 100px;
+		           margin-right: auto;
+		           margin-left: auto;
+		           background-color: #f1f1e2;
+		           width: 600px;
+
+
+}
+
+
+
+
+
+.descrip  {
+               
+                text-align: left;
+                /*position: fixed;*/
+                position: relative;
+                top: 40px;
+                width: 400px;
+                margin: 0 auto;
+                /*margin-right: auto;
+                margin-left: auto;*/
+
+
+
+
+}
+
+
+
+
+
+
+
+.des    { 
+
+				top: 60px;
+				width: 150px;
+				height: 150px;
+				border-radius:200px;
+				border: 5px solid #D35B30;
+				margin-left: auto;
+			    margin-right: auto;
+				position: relative;
+				text-align: center;
+				z-index: 5;
+
+
+}
+
+
+
+
+
+.titulo    {    
+
+
+                position: relative;
+	            top: 60px;
+	            margin-bottom: 20px;
+                margin: 0 auto;
+			    width: 400px;
+			    text-align: center;
+			    
+
+}
+
+
+
+
+.tags {
+
+			    position: relative;
+			    top: 40px;
+				width: 400px;
+				margin: 0 auto;
+				text-align: center;
+}
+
+
+
+/*images
+
+
+*/
+.first     {
+
+
+				text-align: center;
+	
+           }
+
+
+.img         {
+
+               padding-bottom: 100px;
+
+}
+
+
+ .photos ul li  {
+
+
+		  	     display: inline;
+		  	     text-decoration: none;
+		  	     text-align: center;
+
+
+}
+
+
+
+
+.work           {
+               
+                color: #f1f1e2;
+		        position: relative;
+			    margin: auto;
+			    letter-spacing: 0.08em;
+			    top: 45px;
+
+
+
+}
+
+a {
+  
+                
+                text-decoration: none;
+
+
+}
+
+
+ .des img:hover {
+
+       
+       opacity: 0.9;
+
+
+
+}
+
+.photos img {
+
+
+	padding-bottom: 50px;
+}
+
+
+/*css hover effect
+*/
+
+
+ul#scale li#photo1 a:hover img {
+
+				-webkit-transform: scale (1.25);
+			    -moz-transform: scale (1.25);
+			    -0-transform: scale (1..25);
+			    transform:scale(1.25);
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

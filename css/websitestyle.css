@@ -131,6 +131,7 @@ h5 {
 
 
 .subtitle {
+	
 	    right: 10px;
 		position: relative;
 		color: #D35B30;
@@ -153,6 +154,7 @@ h5 {
 
 
 .esteban {
+
 	    font-size: 1.063em;
 	    line-height: 1.750em;
 	     margin: 1.5em 0;
@@ -165,6 +167,9 @@ h5 {
 		 bottom: 15px;
 
 }
+
+
+
 
 
 /*Margins*/
@@ -362,7 +367,6 @@ blockquote  {
 			-o-transition: all 0.8s ease;
 	
 }
-
 .social li  a:hover img {
 
 		       transform:rotate(360deg);
@@ -374,46 +378,6 @@ blockquote  {
 
 
 
-.social {
-
-		 	animation: bobble 5s infinite 2s;
-		 	-webkit-animation: bobble 5s infinite 2s;
-		 	-moz-animation: bobble 5s infinite 2s;
-		 	-ms-animation: bobble 5s infinite 2s;
-		 	-o-animation: bobble 5s infinite 2s;
-		  
-
-}
-
-
-@keyframes bobble {
-		    0% {
-		        transform: translate3d(40px, 20px, 0px);
-		        animation-timing-function: ease-in;
-		    }
-		    50% {
-		        transform: translate3d(40px, 30px, 0px);
-		        animation-timing-function: ease-out;
-		    }
-		    100% {
-		        transform: translate3d(40px, 20px, 0px);
-		    }
-}
-
-
-@-webkit-keyframes bobble {
-		    0% {
-		        transform: translate3d(40px, 20px, 0px);
-		        animation-timing-function: ease-in;
-		    }
-		    50% {
-		        transform: translate3d(40px, 30px, 0px);
-		        animation-timing-function: ease-out;
-		    }
-		    100% {
-		        transform: translate3d(40px, 20px, 0px);
-		    }
-}
 
 
 
@@ -446,7 +410,7 @@ blockquote  {
 
 
 
-.thankyou {
+/*.thankyou {
 
 			width: 150px;
 			height: 150px;
@@ -456,7 +420,7 @@ blockquote  {
 			position: relative;
 			bottom: 90px;
 			left: 675px;
-}
+}*/
 
 
 
@@ -480,12 +444,46 @@ blockquote  {
 
 .img {
 			text-align: center;
-			margin: auto;
+			margin: 0 auto;
 			position: relative;
-			top: 70px;
-			left: 145px;
-			width: 700px;
-			height: 550px;
+			width: 800px;
+			height: 300px;
+			top: 50px;
+}
+
+
+
+
+.image  {
+            border:  5px solid #D35B30;
+            height: 220px;
+			width: 220px;
+			border-radius: 260px;
+			text-align: center;
+			position: relative;
+			margin: 0;
+			
+		   
+
+
+}
+
+
+ .logos {
+
+			position: relative;
+			margin:  auto;
+			top: 30px;
+}
+
+
+
+.logos:hover {
+
+			   opacity: 0.8;
+
+
+
 }
 
 
