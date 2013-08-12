@@ -26,22 +26,22 @@ html {
 }
 
 body {
-	  font-size: 1.7em;
-    line-height: 1.5em;
-    font-family: "museo-sans",sans-serif;
-    font-weight: 300;
+	    font-size: 1.7em;
+        line-height: 1.5em;
+        font-family: "museo-sans",sans-serif;
+        font-weight: 300;
 }
 
 
 p {
-	 font-size: 1.063em;
-	 line-height: 1.750em;
-	 margin: 1.5em 0;
-	 font-family: "museo-sans",sans-serif;
-   font-weight: 300;
-   word-spacing:0.25em;
-   text-indent:0;
-   //color: #f1f1e2;
+		 font-size: 1.063em;
+		 line-height: 1.750em;
+		 margin: 1.5em 0;
+		 font-family: "museo-sans",sans-serif;
+	     font-weight: 300;
+	     word-spacing:0.25em;
+	     text-indent:0;
+	     color: #0000;
 }
 
 
@@ -54,14 +54,15 @@ h2 {
 }
 
 h3 {
-    font-family: "museo-sans",sans-serif;
-    font-size:  1.4706em;
-    font-weight:300;
-    word-spacing:-0.125em;
-    margin: 0;
+	    font-family: "museo-sans",sans-serif;
+	    font-size:  1.4706em;
+	    font-weight:300;
+	    word-spacing:-0.125em;
+	    margin: 0;
 }
 
 nav ul li a, {
+
 		font-size:  1.7059em; /* equiv 29px */
 		color: #f1f1e2;
 		font-family: "museo-sans",sans-serif;
@@ -71,26 +72,26 @@ nav ul li a, {
 
 
 h4 {
-		color: #D35B30;
-	  font-size:  1.3529em; /* equiv 23px */
-	  font-family: "museo-sans",sans-serif;
-	  font-weight: 300;
+		  color: #D35B30;
+		  font-size:  1.3529em; /* equiv 23px */
+		  font-family: "museo-sans",sans-serif;
+		  font-weight: 300;
 }
 
 h5 {
-		font-family: "museo-sans",sans-serif;
-		font-weight:100;
-		font-style: italic;
-    font-size:  1.2353em; /* equiv 21px */
-    line-height:  1.2143em;
+			font-family: "museo-sans",sans-serif;
+			font-weight:100;
+			font-style: italic;
+	        font-size:  1.2353em; /* equiv 21px */
+	       line-height:  1.2143em;
 }
 
 
-h6 {
-    font-family: "museo-sans",sans-serif;
-		font-weight:100;
-    font-size:  17px;
-    line-height: 28.5px;
+h6  {
+         font-family: "museo-sans",sans-serif;
+		 font-weight:100;
+         font-size:  17px;
+        line-height: 28.5px;
 }
 
 
@@ -103,16 +104,16 @@ h6 {
 .wrapper  {
 
 
-      min-width: 1000px;
-			min-height: 100%;
-      background-color:#504E5B;
-      width: 100%;
+	      min-width: 1000px;
+		  min-height: 100%;
+	      background-color:#504E5B;
+	      width: 100%;
 }
 
 
 
 .intro  {        
-           width: 50%;
+                  width: 50%;
                  position:static;
 			     float: right;
 			     background-color:#504E5B;
@@ -126,11 +127,11 @@ h6 {
 
 
 .side  {
-        min-width: 700px;
+		        min-width: 700px;
 				background-color: #f1f1e2;
 				width: 900px;
-        margin: auto;
-        //overflow: auto;
+		        margin: auto;
+		        //overflow: auto;
 }
 
 
@@ -139,7 +140,7 @@ h6 {
 .photos  {
 		           margin-right: auto;
 		           margin-left: auto;
-               margin-top: 100px;
+                    margin-top: 100px;
 		           background-color: #f1f1e2;
 }
 
@@ -150,19 +151,27 @@ h6 {
 .descrip  {
                
                 text-align: left;
-                /*position: fixed;*/
                 position: relative;
-                top: 40px;
-                width: 400px;
+                width: 500px;
                 margin: 0 auto;
-                /*margin-right: auto;
-                margin-left: auto;*/
+               
 
 
 
 
 }
 
+
+.descrip h4 {
+               
+                text-align: center;
+                margin: 0;
+              
+
+
+
+
+}
 
 
 
@@ -189,11 +198,12 @@ h6 {
 
 
 
+
 .titulo    {
-  margin-bottom: 20px;
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 140px;
+			  margin-bottom: 20px;
+			  margin: 0 auto;
+			  text-align: center;
+			  margin-top: 140px;
 }
 
 
@@ -203,7 +213,7 @@ h6 {
 
 			    position: relative;
 			    top: 10px;
-				width: 400px;
+				width: 500px;
 				margin: 0 auto;
 				text-align: center;
 }
