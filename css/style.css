@@ -41,7 +41,7 @@ p {
    font-weight: 300;
    word-spacing:0.25em;
    text-indent:0;
-   color: #f1f1e2;
+   //color: #f1f1e2;
 }
 
 
@@ -104,16 +104,16 @@ h6 {
 .wrapper  {
 
 
-			width: 1600px;
+      min-width: 1000px;
 			min-height: 100%;
-
-
-
+      background-color:#504E5B;
+      width: 100%;
 }
 
 
 
-.intro  {        width: 800px;
+.intro  {        
+           width: 50%;
                  position:static;
 			     float: right;
 			     background-color:#504E5B;
@@ -127,13 +127,11 @@ h6 {
 
 
 .side  {
-
+        min-width: 700px;
 				background-color: #f1f1e2;
-				width: 800px;
-				min-height:  2700px;
-				position:absolute;
-
-
+				width: 900px;
+        margin: auto;
+        overflow: auto;
 }
 
 
@@ -145,9 +143,7 @@ h6 {
 		           margin-right: auto;
 		           margin-left: auto;
 		           background-color: #f1f1e2;
-		           width: 600px;
-
-
+		          // width: 600px;
 }
 
 
@@ -196,17 +192,11 @@ h6 {
 
 
 
-.titulo    {    
-
-
-                position: relative;
-	            top: 60px;
-	            margin-bottom: 20px;
-                margin: 0 auto;
-			    width: 400px;
-			    text-align: center;
-			    
-
+.titulo    {
+  margin-bottom: 20px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
 }
 
 
@@ -219,6 +209,17 @@ h6 {
 				width: 400px;
 				margin: 0 auto;
 				text-align: center;
+}
+
+.titulo h1 {
+  //font-size: 2em;
+}
+
+@media (min-width: 1400px) {
+  h1 {
+    font-size: 3em;
+  }
+
 }
 
 
@@ -248,7 +249,6 @@ h6 {
 		  	     display: inline;
 		  	     text-decoration: none;
 		  	     text-align: center;
-
 
 }
 
@@ -295,6 +295,11 @@ a {
 /*css hover effect
 */
 
+ul#scale {
+  margin: auto;
+  width: 600px;
+  padding: 0px;
+}
 
 ul#scale li#photo1 a:hover img {
 
