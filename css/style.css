@@ -88,7 +88,6 @@ h5 {
 
 h6 {
     font-family: "museo-sans",sans-serif;
-    color: #f1f1e2;
 		font-weight:100;
     font-size:  17px;
     line-height: 28.5px;
@@ -196,7 +195,7 @@ h6 {
   margin-bottom: 20px;
   margin: 0 auto;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 140px;
 }
 
 
@@ -205,7 +204,7 @@ h6 {
 .tags {
 
 			    position: relative;
-			    top: 40px;
+			    top: 10px;
 				width: 400px;
 				margin: 0 auto;
 				text-align: center;
