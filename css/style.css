@@ -130,19 +130,17 @@ h6 {
 				background-color: #f1f1e2;
 				width: 900px;
         margin: auto;
-        overflow: auto;
+        //overflow: auto;
 }
 
 
 
 
 .photos  {
-		           position: relative;
-		           top: 100px;
 		           margin-right: auto;
 		           margin-left: auto;
+               margin-top: 100px;
 		           background-color: #f1f1e2;
-		          // width: 600px;
 }
 
 
