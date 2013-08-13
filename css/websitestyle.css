@@ -131,16 +131,17 @@ h5 {
 
 
 .subtitle {
-	
-	    right: 10px;
+	    top: 30px;
+	    left: 20px;
 		position: relative;
 		color: #D35B30;
 }
 
 .subuno {
 	    color: #D35B30;
-	    right: 28px;
-		position: relative;*/
+	    top: 30px;
+	    left: 20px;
+		position: relative;
 		color: #D35B30;
 }
 
