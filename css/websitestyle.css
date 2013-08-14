@@ -358,6 +358,7 @@ blockquote  {
 			float: right;
 			top: 40px;
 			right: 20px;
+			padding: 10px;
 			
 }
 .social li a img {
@@ -383,7 +384,7 @@ blockquote  {
 
 
 
-.quota {
+/*.quota {
 			width: 250px;
 			height: 250px;
 			border-radius: 240px;
@@ -394,7 +395,7 @@ blockquote  {
 			left: 675px;
 			padding: 10px;
  
-}
+}*/
 
 
 /*circles*/
@@ -411,17 +412,7 @@ blockquote  {
 
 
 
-/*.thankyou {
 
-			width: 150px;
-			height: 150px;
-			border-radius: 240px;
-			text-align: center;
-			background-color:#504E5B;
-			position: relative;
-			bottom: 90px;
-			left: 675px;
-}*/
 
 
 
@@ -516,9 +507,8 @@ blockquote  {
 
 	   position: relative;
 	   top:0px;
-	   bottom: 0px;
-	   left: 90px;
-	   padding-bottom: 20px;
+	   left: 70px;
+	   padding-bottom: 50px;
 }
 
 
@@ -538,11 +528,11 @@ blockquote  {
 
 .copyright {
 
-           bottom: 55px;
+           bottom: 50px;
 		   position: relative;
 		   font-size:0.625em;
 		   color: #f1f1e2;
-		   right: 100px;
+		   left: 25px;
 
 }
 
