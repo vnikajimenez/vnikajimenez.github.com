@@ -80,7 +80,7 @@ h3 {
 	
 }
 
-nav ul li a,.follow {
+nav ul li a,.logos {
 
 		font-size:  1.7059em; /* equiv 29px */
 		color: #f1f1e2;
@@ -464,15 +464,16 @@ blockquote  {
  .logos {
 
 			position: relative;
-			margin:  auto;
-			top: 30px;
+			margin:  0 auto;
+			top:80px;
+			color:#504E5B;
 }
 
 
 
 .logos:hover {
 
-			   opacity: 0.8;
+			   color:#D35B30;
 
 
 
@@ -505,24 +506,14 @@ blockquote  {
 
 .social {
 
-	   position: relative;
-	   top:0px;
-	   left: 70px;
-	   padding-bottom: 50px;
+		   position: relative;
+		   top:0px;
+		   left: 70px;
+		   padding-bottom: 50px;
 }
 
 
-.follow {    
-			 font-size:  1.1176em; 
-			 line-height:  1.3em;
-			 font-family: "museo",serif;
-			 font-weight: 100;
-			 color: #f1f1e2;
-			 font-style:normal;
-			 position: relative;
-			 right: 7px;
-			 bottom: 15px;
-}
+
 
 
 
