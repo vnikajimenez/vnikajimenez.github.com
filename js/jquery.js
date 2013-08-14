@@ -1,9 +1,9 @@
-$("#hover1").hover(changeImage, revertImage);
+// $("#hover1").hover(changeImage, revertImage);
 
-function changeImage() {
-	$(".front1").slideUp();
-}
+// function changeImage() {
+// 	$(".front1").slideUp();
+// }
 
-function revertImage() {
- 	$(".front1").slideDown();
- }
+// function revertImage() {
+//  	$(".front1").slideDown();
+//  }
