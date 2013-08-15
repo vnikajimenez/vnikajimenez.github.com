@@ -57,6 +57,7 @@ p {
      font-weight: 300;
      word-spacing:0.25em;
      text-indent:0;
+     color:#33323A;
 
    }
 
@@ -72,11 +73,12 @@ h2 {
 
 h3 {
 
-    font-family: "museo-sans",sans-serif;
-    font-size:  1.4706em;
-    font-weight:300;
-    word-spacing:-0.125em;
-    margin: 0;
+	    font-family: "museo-sans",sans-serif;
+	    font-size:  1.4706em;
+	    font-weight:300;
+	    word-spacing:-0.125em;
+	    margin: 0;
+	    color:#33323A;
 	
 }
 
@@ -91,7 +93,7 @@ nav ul li a,.logos {
 
 
 h4 {
-		color: #D35B30;
+		color:#D35B30;
 	    font-size:  1.3529em; /* equiv 23px */
 	    font-family: "museo-sans",sans-serif;
 	    font-weight: 300;
@@ -104,6 +106,8 @@ h5 {
 		font-style: italic;
 	    font-size:  1.2353em; /* equiv 21px */
 	    line-height:  1.2143em;
+	     color:#33323A;
+	
   }
 
 .insidequotes { 
