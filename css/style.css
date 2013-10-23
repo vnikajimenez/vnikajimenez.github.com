@@ -34,7 +34,7 @@ body {
 
 
 p {
-		 font-size: 1.063em;
+		 font-size: 1.043em;
 		 line-height: 1.750em;
 		 margin: 1.5em 0;
 		 font-family: "museo-sans",sans-serif;
@@ -193,9 +193,10 @@ h6  {
 .des    { 
 
 				top: 60px;
-				width: 150px;
-				height: 150px;
-				border-radius:200px;
+				width: 75px;
+				height: 75px;
+				right: 375px;
+				border-radius:80px;
 				border: 5px solid #D35B30;
 				margin-left: auto;
 			    margin-right: auto;
@@ -280,7 +281,9 @@ h6  {
 		        position: relative;
 			    margin: auto;
 			    letter-spacing: 0.08em;
-			    top: 45px;
+			    top: 8px;
+			    right: 3px;
+			    bottom: 3px;
 
 
 
