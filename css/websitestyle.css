@@ -452,7 +452,7 @@ blockquote  {
 
 
 .image  {
-            border:  5px solid #D35B30;
+            border:  2px solid #D35B30;
             height: 220px;
 			width: 220px;
 			border-radius: 260px;
@@ -467,7 +467,7 @@ blockquote  {
 
 
  .logos {
-
+            font-size:  1.7059em; /* equiv 29px */
 			position: relative;
 			margin:  0 auto;
 			top:80px;
