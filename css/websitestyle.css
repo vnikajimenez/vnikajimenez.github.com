@@ -435,8 +435,8 @@ blockquote  {
 			z-index: 7;
 			top: 0;
 		    width:1000px;
-			height: 900px;
-			background-color:#f1f1e2;
+/*			height: 900px;
+*/			background-color:#f1f1e2;
 }
 
 .img {
