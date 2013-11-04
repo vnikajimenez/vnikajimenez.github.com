@@ -186,16 +186,16 @@ li, p, li ul {
 	         min-height: 70% }
 
 
-@media (min-width : 320px)and (max-width : 480px) and (orientation : portrait) {
-	
-			.background  {
+						@media (min-width : 320px)and (max-width : 480px){
+							
+									.background  {
 
-				background-image: url("../images/backgroundres.jpg");
-				width: 200px;
-				
+										background-image: url("../images/backgroundres.jpg");
+										width: 200px;
+										
 
-        }
-}
+						        }
+						}
 
 
 
@@ -230,29 +230,28 @@ li, p, li ul {
 
 }
 
-@media (min-width: 320px) and (max-width: 480px) and (orientation : portrait){							
-	.tape  {
-		left: 0px;
-		width: 450px;
-    }
-}
+						/*most phones*/
 
 
+						@media (min-width: 320px) and (max-width: 480px){							
+							.tape  {
+								left: 0px;
+								width: 450px;
+						    }
+						}
+
+						/*iphone5 phones*/
 
 
-@media (max-width: 580px) and (orientation : portrait){							
-	.tape  {
-		left: 0px;
-		width: 450px;
-    }
-}
+						@media (max-width: 580px){							
+							.tape  {
+								left: 0px;
+								width: 450px;
+						    }
+						}
+             
 
-@media (max-width: 580px) and (orientation : landscape) {							
-	.tape  {
-		left: 0px;
-		width: 450px;
-    }
-}
+						
 
 
 
@@ -268,6 +267,7 @@ li, p, li ul {
 			overflow: hidden;
 			z-index: 6;
 }
+                             /*most phones*/
 
 
 							@media (min-width : 320px) and (max-width : 480px) {
@@ -282,7 +282,16 @@ li, p, li ul {
 							}
 
 
+                             /*iphone5 phones*/
 
+
+								@media (max-width: 580px) {							
+									.mask  {
+										     background-image: url('../images/maskcircles2.png');
+											width: 100%;
+											height: 200px;
+								    }
+								}
 
 
 
@@ -314,17 +323,30 @@ li, p, li ul {
 }
 
 
-@media (min-width : 320px)and (max-width : 480px) {
-								
-										.titulo, .designare {
-                                           margin: auto;
-                                           left:2%;
-                                            width: 300px;
- 											bottom: 135px;
-											font-size: 1.3em;
+			@media (min-width : 320px)and (max-width : 480px) {
 											
-							        }
-							}
+													.titulo, .designare {
+			                                           margin: auto;
+			                                           left:2%;
+			                                            width: 300px;
+			 											bottom: 135px;
+														font-size: 1.3em;
+														
+										        }
+										}
+            /*iphone5 phones*/
+
+
+								@media (max-width: 580px) {							
+									.titulo,.designare  {
+										                margin: auto;
+			                                           left:2%;
+			                                            width: 300px;
+			 											bottom: 135px;
+														font-size: 1.3em;
+										     
+								    }
+								}
 
 
 
@@ -380,13 +402,13 @@ nav ul li a:hover {
 
 }
 
-@media (min-width: 320px) and (max-width: 480px) {							
-			.aboutme {
-				margin:0;
-				left: 0px;
-				width: 100%;
-		    }
-		}
+						@media (min-width: 320px) and (max-width: 480px) {							
+									.aboutme {
+										margin:0;
+										left: 0px;
+										width: 100%;
+								    }
+								}
 
 
 
@@ -413,13 +435,13 @@ nav ul li a:hover {
 }
 
 
-		@media (min-width: 320px) and (max-width: 480px) {							
-			.story {
-				width: 28em;
-				padding-bottom: 10px;
+							@media (min-width: 320px) and (max-width: 480px) {							
+								.story {
+									width: 28em;
+									padding-bottom: 10px;
 
-		    }
-		}
+							    }
+							}
 
 
 
@@ -465,12 +487,12 @@ blockquote  {
 }
 
 
-@media (min-width: 320px) and (max-width: 480px) {							
-			.social ul li {
-				right: 40px;
-				
-		    }
-		}
+						@media (min-width: 320px) and (max-width: 480px) {							
+									.social ul li {
+										right: 40px;
+										
+								    }
+								}
 
 
 
@@ -535,16 +557,17 @@ blockquote  {
 		    height: 800px;
 			background-color:#f1f1e2;
 }
+                                /*most mobiles*/
 
 
-		@media (min-width: 320px) and (max-width: 480px) {							
-			.trabajo {
-				margin:0;
-				left: 0px;
-				width: 100%;
-		        height: 500px;
-		    }
-		}
+								@media (min-width: 320px) and (max-width: 480px) {							
+									.trabajo {
+										margin:0;
+										left: 0px;
+										width: 100%;
+								        height: 500px;
+								    }
+								}
 
 
 .image  {
@@ -564,20 +587,20 @@ blockquote  {
 
 
 
-@media (min-width: 320px) and (max-width: 480px) {							
-			.image{
-				
-		    border: 2px solid #D35B30;
-            height:100px;
-			width: 100px;
-			border-radius:180px;
-			font-size: 1em;
-			top:0;
-/*			margin:auto;
-*/			margin-bottom: 20px;
-			
-		    }
-		}
+					@media (min-width: 320px) and (max-width: 480px) {							
+								.image{
+									
+							    border: 2px solid #D35B30;
+					            height:115px;
+								width: 115px;
+								border-radius:180px;
+/*								font-size: 1em;
+*/								top:0;
+					/*			margin:auto;
+					*/			margin-bottom: 20px;
+								
+							    }
+							}
 
 
 
@@ -594,7 +617,7 @@ blockquote  {
 @media (min-width: 320px) and (max-width: 480px) {							
 			.img {
 				
-		    width: 350px;
+		    width: 435px;
 		    height: 100px;
 			
 		    }
@@ -615,8 +638,9 @@ blockquote  {
 @media (min-width: 320px) and (max-width: 480px) {							
 			.logos{
 				
-		    font-size:  .8em; /* equiv 29px */
-		    top: 35px;
+		    font-size:  1.043em; /* equiv 29px */
+		    top: 45px;
+		    text-align: center;
 			
 		    }
 		}
