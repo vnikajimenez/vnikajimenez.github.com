@@ -13,12 +13,22 @@
 
 h1 {
 		color:#f1f1e2;
-	    font-size:  3em;
+	    font-size:  2.8em;
 		font-weight:900;
 		font-family: "museo-slab",serif;
 		
 
 }
+
+
+                               /*most mobiles*/
+
+
+								@media (min-width: 320px) and (max-width: 480px) {							
+									h1{
+										font-size: 2em;
+								    }
+								}
 
 
 
@@ -32,6 +42,16 @@ h1 {
 
 
 }
+
+
+                                   /*most mobiles*/
+
+
+								@media (min-width: 320px) and (max-width: 480px) {							
+									.designare {
+										font-size: 2em;
+								    }
+								}
 
 
 
@@ -58,7 +78,7 @@ p {
      word-spacing:0.25em;
      text-indent:0;
      padding-bottom: 20px;
-     color:#33323A;
+	 color:rgb(70, 69, 86);
 
    }
 
@@ -67,19 +87,19 @@ h2 {
 		font-size:  1.7059em; /* equiv 29px */
 		color: #f1f1e2;
 		line-height: 1.7586em;
-		font-family: "museo",serif;
-		font-weight:500;
+		font-family: "museo-sans",sans-serif;
+		font-weight:100;
 
 	}
 
 h3 {
 
-	    font-family: "museo-sans",sans-serif;
+	    font-family: "museo",serif;
+		 font-weight: 100;
 	    font-size:  1.4706em;
-	    font-weight:300;
 	    word-spacing:-0.125em;
 	    margin: 0;
-	    color:#33323A;
+	    color:#D35B30;
 	
 }
 
@@ -94,39 +114,38 @@ nav ul li a,.logos {
 
 
 h4 {
-		color:#D35B30;
+		color:rgb(70, 69, 86);
 	    font-size:  1.3529em; /* equiv 23px */
 	    font-family: "museo-sans",sans-serif;
 	    font-weight: 300;
  
 }
 
-h5 {
+h5,.resume {
 		font-family: "museo-sans",sans-serif;
 		font-weight:100;
-		font-style: italic;
+		font-style:normal;
+		text-decoration: underline;
 	    font-size:  1.2353em; /* equiv 21px */
 	    line-height:  1.2143em;
-	     color:#33323A;
-	
+	     color:#D35B30;
   }
+.resume:hover {
+
+	color:rgb(70, 69, 86);
+
+
+}
 
 
 
-
-.subtitle {
+.subtitle, .subuno {
 	    top: 30px;
 	    left: 20px;
 		position: relative;
 		color: #D35B30;
 }
 
-.subuno {
-	    top: 30px;
-	    left: 20px;
-		position: relative;
-		color: #D35B30;
-}
 
 .move {
 
@@ -325,12 +344,11 @@ li, p, li ul {
 
 			@media (min-width : 320px)and (max-width : 480px) {
 											
-													.titulo, .designare {
+													.titulo {
 			                                           margin: auto;
 			                                           left:2%;
 			                                            width: 300px;
 			 											bottom: 135px;
-														font-size: 1.3em;
 														
 										        }
 										}
@@ -571,7 +589,7 @@ blockquote  {
 
 
 .image  {
-            border:  2px solid #D35B30;
+            border:  1.5px solid #D35B30;
             height: 220px;
 			width: 220px;
 			border-radius: 260px;
@@ -587,10 +605,10 @@ blockquote  {
 
 
 
+
 					@media (min-width: 320px) and (max-width: 480px) {							
 								.image{
 									
-							    border: 2px solid #D35B30;
 					            height:115px;
 								width: 115px;
 								border-radius:180px;
@@ -601,6 +619,11 @@ blockquote  {
 								
 							    }
 							}
+
+
+
+
+
 
 
 
@@ -631,7 +654,7 @@ blockquote  {
 			position: relative;
 			margin:  0 auto;
 		    top:80px;
-			color:#464556;
+			color:#D35B30;
 }
 
 
@@ -661,7 +684,7 @@ blockquote  {
 
 .logos:hover {
 
-			   color:#D35B30;
+			   color:rgb(70, 69, 86);
 
 
 
