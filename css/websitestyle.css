@@ -186,7 +186,7 @@ li, p, li ul {
 	         min-height: 70% }
 
 
-@media (min-width : 320px)and (max-width : 480px) {
+@media (min-width : 320px)and (max-width : 480px) and (orientation : portrait) {
 	
 			.background  {
 
@@ -230,8 +230,17 @@ li, p, li ul {
 
 }
 
+@media (min-width: 320px) and (max-width: 480px) and (orientation : portrait){							
+	.tape  {
+		left: 0px;
+		width: 450px;
+    }
+}
 
-@media (min-width: 320px) and (max-width: 480px) {							
+
+
+
+@media (min-width: 320px) and (max-width: 580px) and (orientation : portrait){							
 	.tape  {
 		left: 0px;
 		width: 450px;
@@ -253,7 +262,7 @@ li, p, li ul {
 }
 
 
-							@media (min-width : 320px) and (max-width : 640px) {
+							@media (min-width : 320px) and (max-width : 480px) {
 								
 										.mask {
 
@@ -297,7 +306,7 @@ li, p, li ul {
 }
 
 
-@media (min-width : 320px)and (max-width : 568px) {
+@media (min-width : 320px)and (max-width : 480px) {
 								
 										.titulo, .designare {
                                            margin: auto;
