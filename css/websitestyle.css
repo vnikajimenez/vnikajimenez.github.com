@@ -262,12 +262,15 @@ li, p, li ul {
 						/*iphone5 phones*/
 
 
-						@media (max-width: 580px){							
-							.tape  {
-								left: 0px;
-								width: 450px;
-						    }
-						}
+						@media  (min-device-width : 320px)and (max-width: 568px) {
+								        .tape  {
+													left: 0px;
+													width: 450px;
+											                      }						
+									
+										     
+								    
+								}
              
 
 						
@@ -304,11 +307,14 @@ li, p, li ul {
                              /*iphone5 phones*/
 
 
-								@media (max-width: 580px) {							
-									.mask  {
-										     background-image: url('../images/maskcircles2.png');
+								@media  (min-device-width : 320px)and (max-width: 568px) {
+								        .mask {
+
+											background-image: url('../images/maskcircles2.png');
 											width: 100%;
-											height: 200px;
+											height: 200px;							
+									
+										     
 								    }
 								}
 
@@ -355,7 +361,7 @@ li, p, li ul {
             /*iphone5 phones*/
 
 
-								@media (max-width: 580px) {							
+								@media  (min-device-width : 320px)and (max-width: 568px) {							
 									.titulo,.designare  {
 										                margin: auto;
 			                                           left:2%;
@@ -460,7 +466,17 @@ nav ul li a:hover {
 
 							    }
 							}
+                              
 
+                              /*iphone5 phones*/
+
+
+						@media  (min-device-width : 320px)and (max-width: 568px) {
+								        .story {
+													width: 28em;
+									              padding-bottom: 10px;
+											 }						
+								}
 
 
 
