@@ -240,12 +240,20 @@ li, p, li ul {
 
 
 
-@media (min-width: 320px) and (max-width: 580px) and (orientation : portrait){							
+@media (max-width: 580px) and (orientation : portrait){							
 	.tape  {
 		left: 0px;
 		width: 450px;
     }
 }
+
+@media (max-width: 580px) and (orientation : landscape) {							
+	.tape  {
+		left: 0px;
+		width: 450px;
+    }
+}
+
 
 
 .mask {    
