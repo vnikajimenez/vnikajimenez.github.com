@@ -242,7 +242,7 @@ li, p, li ul {
 }
 
 
-@media (min-width: 320px) and (max-width: 640px) {							
+@media (min-width: 320px) and (max-width: 568px) {							
 	.tape  {
 		left: 0px;
 		width: 450px;
@@ -372,7 +372,7 @@ nav ul li a:hover {
 
 }
 
-@media (min-width: 320px) and (max-width: 640px) {							
+@media (min-width: 320px) and (max-width: 568px) {							
 			.aboutme {
 				margin:0;
 				left: 0px;
@@ -405,7 +405,7 @@ nav ul li a:hover {
 }
 
 
-		@media (min-width: 320px) and (max-width: 640px) {							
+		@media (min-width: 320px) and (max-width: 568px) {							
 			.story {
 				width: 28em;
 				padding-bottom: 10px;
@@ -455,6 +455,18 @@ blockquote  {
 */			padding: 10px;
 			
 }
+
+
+@media (min-width: 320px) and (max-width: 568px) {							
+			.social ul li {
+				right: 40px;
+				
+		    }
+		}
+
+
+
+
 .social li a img {
 
 			transition: all 0.8s ease;
@@ -517,7 +529,7 @@ blockquote  {
 }
 
 
-		@media (min-width: 320px) and (max-width: 640px) {							
+		@media (min-width: 320px) and (max-width: 568px) {							
 			.trabajo {
 				margin:0;
 				left: 0px;
@@ -544,7 +556,7 @@ blockquote  {
 
 
 
-@media (min-width: 320px) and (max-width: 640px) {							
+@media (min-width: 320px) and (max-width: 568px) {							
 			.image{
 				
 		    border: 2px solid #D35B30;
@@ -571,7 +583,7 @@ blockquote  {
 			top: 50px;
 }
 
-@media (min-width: 320px) and (max-width: 640px) {							
+@media (min-width: 320px) and (max-width: 568px) {							
 			.img {
 				
 		    width: 350px;
@@ -592,7 +604,7 @@ blockquote  {
 }
 
 
-@media (min-width: 320px) and (max-width: 640px) {							
+@media (min-width: 320px) and (max-width: 568px) {							
 			.logos{
 				
 		    font-size:  .8em; /* equiv 29px */
@@ -602,7 +614,7 @@ blockquote  {
 		}
 
 
-@media (min-width: 320px) and (max-width: 640px) {							
+@media (min-width: 320px) and (max-width: 568px) {							
 			.nom {
 				
 		    position: relative;
@@ -646,7 +658,7 @@ blockquote  {
 }
 
 
-@media (min-width: 320px) and (max-width: 640px) {							
+@media (min-width: 320px) and (max-width: 568px) {							
 			.contact {
 
 				margin:0;
@@ -667,7 +679,7 @@ blockquote  {
       padding-bottom: 50px;
 }
 
-@media (min-width: 320px) and (max-width: 640px) {							
+@media (min-width: 320px) and (max-width: 568px) {							
 			.social {
 				   
                    padding-bottom: 0px;	
@@ -690,7 +702,7 @@ blockquote  {
 
 }
 
-@media (min-width: 320px) and (max-width: 640px) {							
+@media (min-width: 320px) and (max-width: 568px) {							
 			.copyright {
 				 display: none;
 				
