@@ -186,7 +186,7 @@ li, p, li ul {
 	         min-height: 70% }
 
 
-@media (min-width : 320px)and (max-width : 640px) {
+@media (min-width : 320px)and (max-width : 480px) {
 	
 			.background  {
 
