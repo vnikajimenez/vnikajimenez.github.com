@@ -27,6 +27,8 @@ h1 {
 									h1{
 										font-size: 2em;
 								    }
+								}
+
 
 
 
@@ -96,7 +98,7 @@ h5 {
 			font-weight:100;
 	        font-size:  1.2353em; /* equiv 21px */
 	        line-height:  1.2143em;
-	        color:#D35B30;
+	        color:#33323A;
 }
 
 
@@ -197,11 +199,9 @@ h6  {
 
                            @media (min-width: 320px) and (max-width: 568px){							
 										.first {
-											background-image: url('../images/nomlogores.png');
+											background-image: url('../images/nomlogorest.png');
 											width: 400px;
-	                                        height: 133px;
-	                                        margin-bottom: 50px;
-	                                      
+	                                        height: 300px;
 									    }
 									}
 
