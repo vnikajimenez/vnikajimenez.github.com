@@ -24,7 +24,7 @@ h1 {
                                /*most mobiles*/
 
 
-								@media (min-width: 320px) and (max-width: 480px) {							
+								@media (min-width: 320px) and (max-width: 568px) {							
 									h1{
 										font-size: 2em;
 								    }
@@ -47,7 +47,7 @@ h1 {
                                    /*most mobiles*/
 
 
-								@media (min-width: 320px) and (max-width: 480px) {							
+								@media (min-width: 320px) and (max-width: 568px) {							
 									.designare {
 										font-size: 2em;
 								    }
@@ -252,7 +252,7 @@ li, p, li ul {
 						/*most phones*/
 
 
-						@media (min-width: 320px) and (max-width: 480px){							
+						@media (min-width: 320px) and (max-width: 568px){							
 							.tape  {
 								left: 0px;
 								width: 450px;
@@ -262,7 +262,7 @@ li, p, li ul {
 						/*iphone5 phones*/
 
 
-						@media  (min-device-width : 320px)and (max-width: 568px) {
+/*						@media  (min-device-width : 320px)and (max-width: 568px) {
 								        .tape  {
 													left: 0px;
 													width: 450px;
@@ -270,7 +270,7 @@ li, p, li ul {
 									
 										     
 								    
-								}
+								}*/
              
 
 						
@@ -292,7 +292,7 @@ li, p, li ul {
                              /*most phones*/
 
 
-							@media (min-width : 320px) and (max-width : 480px) {
+							@media (min-width : 320px) and (max-width : 568px) {
 								
 										.mask {
 
@@ -304,10 +304,10 @@ li, p, li ul {
 							}
 
 
-                             /*iphone5 phones*/
+                             /*/*iphone5 phones*/
 
 
-								@media  (min-device-width : 320px)and (max-width: 568px) {
+								/*@media  (min-device-width : 320px)and (max-width: 568px) {
 								        .mask {
 
 											background-image: url('../images/maskcircles2.png');
@@ -316,7 +316,7 @@ li, p, li ul {
 									
 										     
 								    }
-								}
+								}*/
 
 
 
@@ -348,7 +348,7 @@ li, p, li ul {
 }
 
 
-			@media (min-width : 320px)and (max-width : 480px) {
+			@media (min-width : 320px)and (max-width : 568px) {
 											
 													.titulo {
 			                                           margin: auto;
@@ -360,7 +360,7 @@ li, p, li ul {
 										}
             /*iphone5 phones*/
 
-
+/*
 								@media  (min-device-width : 320px)and (max-width: 568px) {							
 									.titulo,.designare  {
 										                margin: auto;
@@ -370,7 +370,7 @@ li, p, li ul {
 														font-size: 1.3em;
 										     
 								    }
-								}
+								}*/
 
 
 
@@ -426,7 +426,7 @@ nav ul li a:hover {
 
 }
 
-						@media (min-width: 320px) and (max-width: 480px) {							
+						@media (min-width: 320px) and (max-width: 568px) {							
 									.aboutme {
 										margin:0;
 										left: 0px;
@@ -459,7 +459,7 @@ nav ul li a:hover {
 }
 
 
-							@media (min-width: 320px) and (max-width: 480px) {							
+							@media (min-width: 320px) and (max-width: 568px) {							
 								.story {
 									width: 28em;
 									padding-bottom: 10px;
@@ -471,13 +471,13 @@ nav ul li a:hover {
                               /*iphone5 phones*/
 
 
-						@media  (min-device-width : 320px)and (max-width: 568px) {
+						/*@media  (min-device-width : 320px)and (max-width: 568px) {
 								        .story {
 													width: 28em;
 									              padding-bottom: 10px;
 											 }						
 								}
-
+*/
 
 
 
@@ -521,7 +521,7 @@ blockquote  {
 }
 
 
-						@media (min-width: 320px) and (max-width: 480px) {							
+						@media (min-width: 320px) and (max-width: 568px) {							
 									.social ul li {
 										right: 40px;
 										
@@ -594,7 +594,7 @@ blockquote  {
                                 /*most mobiles*/
 
 
-								@media (min-width: 320px) and (max-width: 480px) {							
+								@media (min-width: 320px) and (max-width: 568px) {							
 									.trabajo {
 										margin:0;
 										left: 0px;
@@ -622,7 +622,7 @@ blockquote  {
 
 
 
-					@media (min-width: 320px) and (max-width: 480px) {							
+					@media (min-width: 320px) and (max-width: 568px) {							
 								.image{
 									
 					            height:115px;
@@ -653,14 +653,14 @@ blockquote  {
 			top: 50px;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {							
-			.img {
-				
-		    width: 435px;
-		    height: 100px;
-			
-		    }
-		}
+							@media (min-width: 320px) and (max-width: 568px) {							
+										.img {
+											
+									    width: 435px;
+									    height: 100px;
+										
+									    }
+									}
 
 
 
@@ -674,7 +674,7 @@ blockquote  {
 }
 
 
-@media (min-width: 320px) and (max-width: 480px) {							
+@media (min-width: 320px) and (max-width: 568px) {							
 			.logos{
 				
 		    font-size:  1.043em; /* equiv 29px */
@@ -685,7 +685,7 @@ blockquote  {
 		}
 
 
-@media (min-width: 320px) and (max-width: 480px) {							
+@media (min-width: 320px) and (max-width: 568px) {							
 			.nom {
 				
 		    position: relative;
@@ -729,7 +729,7 @@ blockquote  {
 }
 
 
-@media (min-width: 320px) and (max-width: 480px) {							
+@media (min-width: 320px) and (max-width: 568px) {							
 			.contact {
 
 				margin:0;
@@ -750,7 +750,7 @@ blockquote  {
       padding-bottom: 50px;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {							
+@media (min-width: 320px) and (max-width: 568px) {							
 			.social {
 				   
                    padding-bottom: 0px;	
@@ -773,7 +773,7 @@ blockquote  {
 
 }
 
-@media (min-width: 320px) and (max-width: 480px) {							
+@media (min-width: 320px) and (max-width: 568px) {							
 			.copyright {
 				 display: none;
 				

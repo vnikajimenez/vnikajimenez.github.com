@@ -15,9 +15,18 @@ h1 {
         font-size:  3em;
 		font-weight:900;
 		font-family: "museo-slab",serif;
+
 		
 }
 
+
+           /*most mobiles*/
+
+
+								@media (min-width: 320px) and (max-width: 568px) {							
+									h1{
+										font-size: 2em;
+								    }
 
 
 
@@ -34,15 +43,18 @@ body {
 
 
 p {
-		 font-size: 1.043em;
-		 line-height: 1.750em;
-		 margin: 1.5em 0;
-		 font-family: "museo-sans",sans-serif;
-	     font-weight: 300;
-	     word-spacing:0.25em;
-	     text-indent:0;
-	     color:#33323A;
-}
+	 font-size: 1.043em;
+	 line-height: 1.750em;
+	 margin: 1.5em 0;
+	 font-family: "museo-sans",sans-serif;
+     font-weight: 300;
+     word-spacing:0.25em;
+     text-indent:0;
+     padding-bottom: 20px;
+	 color:rgb(70, 69, 86);
+
+   }
+
 
 
 h2 {    
@@ -82,10 +94,9 @@ h4 {
 h5 {
 			font-family: "museo-sans",sans-serif;
 			font-weight:100;
-			font-style: italic;
 	        font-size:  1.2353em; /* equiv 21px */
 	        line-height:  1.2143em;
-	        color:#33323A;
+	        color:#D35B30;
 }
 
 
@@ -109,11 +120,18 @@ h6  {
 .wrapper  {
 
 
-	      min-width: 1000px;
-		  min-height: 100%;
+/*	      min-width: 1000px;
+*/		  min-height: 100%;
 	      background-color:#504E5B;
 	      width: 100%;
 }
+                       @media (min-width: 320px) and (max-width: 568px){							
+										.wrapper  {
+											width: 480px;
+									    }
+									}
+
+
 
 
 
@@ -132,12 +150,22 @@ h6  {
 
 
 .side  {
-		        min-width: 700px;
-				background-color: #f1f1e2;
+/*		        min-width: 700px;
+*/				background-color: #f1f1e2;
 				width: 900px;
 		        margin: auto;
-		        //overflow: auto;
+		        overflow: auto;
 }
+
+
+			/*most phones*/
+
+
+									@media (min-width: 320px) and (max-width: 568px){							
+										.side  {
+											width: 450px;
+									    }
+									}
 
 
 
@@ -149,6 +177,107 @@ h6  {
 		           background-color: #f1f1e2;
 		           text-align: center;
 }
+
+
+/*images for  600 x 450*/
+
+
+
+.first {
+
+	          background-image: url('../images/NOMlogo.png');
+	          background-repeat: no-repeat;
+	          width: 600px;
+	          height: 352px;
+	          margin: 0 auto;
+}
+
+
+
+
+                           @media (min-width: 320px) and (max-width: 568px){							
+										.first {
+											background-image: url('../images/nomlogores.png');
+											width: 400px;
+	                                        height: 133px;
+	                                        margin-bottom: 50px;
+	                                      
+									    }
+									}
+
+
+.second {
+
+	          background-image: url('../images/homepage.jpg');
+	          background-repeat: no-repeat;
+	           margin: auto;
+
+	          width: 600px;
+	          height: 450px;
+	          padding-bottom: 100px;
+}
+
+
+                          @media (min-width: 320px) and (max-width: 568px){							
+										.second {
+											background-image: url('../images/homepageres.jpg');
+											width: 400px;
+	                                        height: 300px;
+									    }
+									}
+
+
+
+
+
+
+
+.third {
+
+	          background-image: url('../images/nomdrink.jpg');
+	          background-repeat: no-repeat;
+	          margin: auto;
+
+	          width: 600px;
+	          height: 450px;
+	          padding-bottom: 100px;
+
+}
+
+
+                           
+                          @media (min-width: 320px) and (max-width: 568px){							
+										.third {
+											background-image: url('../images/nomdrinkres.jpg');
+											width: 400px;
+	                                        height: 300px;
+									    }
+									}
+
+
+.fourth {
+
+	          background-image: url('../images/nomeat.jpg');
+	          background-repeat: no-repeat;
+	          margin: auto;
+
+	           width: 600px;
+	          height: 450px;
+	          padding-bottom: 100px;
+
+}
+
+
+
+                       @media (min-width: 320px) and (max-width: 568px){							
+										.fourth{
+											background-image: url('../images/nomeatres.jpg');
+											width: 400px;
+	                                        height: 300px;
+									    }
+									}
+
+
 
 
 #gemelas {
@@ -166,12 +295,20 @@ h6  {
                 position: relative;
                 width: 500px;
                 margin: 0 auto;
-               
 
-
-
-
+		             
 }
+
+
+				 @media (min-width: 320px) and (max-width: 480px){							
+																.descrip {
+																	width: 360px;
+															    }
+															}
+				               
+
+
+
 
 
 .descrip h4 {
@@ -193,18 +330,25 @@ h6  {
 .des    { 
 
 				top: 60px;
-				width: 60px;
-				height: 60px;
-				right: 375px;
-				border-radius:70px;
+				width: 44px;
+				height: 44px;
+				right: 300px;
 				margin-left: auto;
 			    margin-right: auto;
 				position: relative;
 				text-align: center;
-				z-index: 5;
+				z-index: 7;
 
 
 }
+
+
+ @media (min-width: 320px) and (max-width: 480px){							
+																.des {
+																	right: 150px;
+															    }
+															}
+				               
 
 
 
@@ -230,16 +374,14 @@ h6  {
 				text-align: center;
 }
 
-.titulo h1 {
-  //font-size: 2em;
-}
 
-@media (min-width: 1400px) {
-  h1 {
-    font-size: 3em;
-  }
+                   @media (min-width: 320px) and (max-width: 480px){							
+																.tags{
+																	width: 360px;
+															    }
+															}
+							
 
-}
 
 
 
