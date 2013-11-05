@@ -202,7 +202,12 @@ h6  {
 									}
 
 
-/*images for  600 x 450*/
+
+/*firstimages*/
+
+
+/*nom
+*/
 
 
 
@@ -217,6 +222,8 @@ h6  {
 }
 
 
+/*nom resposive
+*/
 
 
                            @media (min-width: 320px) and (max-width: 480px){							
@@ -230,6 +237,45 @@ h6  {
 									    }
 									}
 
+/*iimagesportrait*/
+
+/*whisk*/
+
+.firstp {
+
+	          background-image: url('../images/landingwhisk.jpg');
+	          background-repeat: no-repeat;
+	          width: 850px;
+	          height: 1000px;
+	          margin: 0 auto;
+	          position:relative;
+}
+
+
+                                     /*whiskresponsive*/
+
+		                               
+		                           @media (min-width: 320px) and (max-width: 480px){							
+												.firstp {
+													background-image: url('../images/landingwhiskres.jpg');
+													width: 350px;
+			                                        height: 412px;
+			                                        bottom: 10px;
+			                                        right: 35px;
+			                                        
+											    }
+											}
+
+
+
+
+
+/*second image
+*/
+
+
+					/*nom
+					*/
 
 .second {
 
@@ -241,7 +287,9 @@ h6  {
 	          height: 450px;
 	          padding-bottom: 100px;
 }
-
+                          
+                          /*nomresponsive
+*/
 
                           @media (min-width: 320px) and (max-width: 480px){							
 										.second {
@@ -250,9 +298,32 @@ h6  {
 	                                        height: 225px;
 									    }
 									}
+/*whisk*/
+
+
+				.secondp {    background-image: url('../images/landscapelanding.jpg');
+					          background-repeat: no-repeat;
+					          margin: auto;
+					          width: 850px;
+					          height: 1000px;
+					          padding-bottom: 100px;
+				}
 
 
 
+				               /*whiskresponsive*/
+
+		                               
+		                           @media (min-width: 320px) and (max-width: 480px){							
+												.secondp {
+													background-image: url('../images/lanscapelandingres.jpg');
+													width: 350px;
+			                                        height: 412px;
+			                                        bottom: 10px;
+			                                        right: 45px;
+			                                        
+											    }
+											}
 
 
 
@@ -302,32 +373,7 @@ h6  {
 									}
 
 
-/*iimagesportrait*/
 
-
-.firstp {
-
-	          background-image: url('../images/landingwhisk.jpg');
-	          background-repeat: no-repeat;
-	          width: 850px;
-	          height: 1000px;
-	          margin: 0 auto;
-	          position:relative;
-}
-
-
-
-                               
-                           @media (min-width: 320px) and (max-width: 480px){							
-										.firstp {
-											background-image: url('../images/landingwhiskres.jpg');
-											width: 350px;
-	                                        height: 412px;
-	                                        bottom: 10px;
-	                                        margin-right: auto;
-	                                        margin-left: auto;
-									    }
-									}
 
 
 
