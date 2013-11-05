@@ -24,7 +24,7 @@ h1 {
                                /*most mobiles*/
 
 
-								@media (min-width: 320px) and (max-width: 568px) {							
+								@media (min-width: 320px) and (max-width: 480px) {							
 									h1{
 										font-size: 2em;
 								    }
@@ -47,7 +47,7 @@ h1 {
                                    /*most mobiles*/
 
 
-								@media (min-width: 320px) and (max-width: 568px) {							
+								@media (min-width: 320px) and (max-width: 480px) {							
 									.designare {
 										font-size: 2em;
 								    }
@@ -252,17 +252,17 @@ li, p, li ul {
 						/*most phones*/
 
 
-						@media (min-width: 320px) and (max-width: 568px){							
+						@media (min-width: 320px) and (max-width: 480px){							
 							.tape  {
 								left: 0px;
-								width: 450px;
+								width: 320px;
 						    }
 						}
 
 						/*iphone5 phones*/
 
 
-/*						@media  (min-device-width : 320px)and (max-width: 568px) {
+/*						@media  (min-device-width : 320px)and (max-width: 480px) {
 								        .tape  {
 													left: 0px;
 													width: 450px;
@@ -307,7 +307,7 @@ li, p, li ul {
                              /*/*iphone5 phones*/
 
 
-								/*@media  (min-device-width : 320px)and (max-width: 568px) {
+								/*@media  (min-device-width : 320px)and (max-width: 480px) {
 								        .mask {
 
 											background-image: url('../images/maskcircles2.png');
@@ -361,7 +361,7 @@ li, p, li ul {
             /*iphone5 phones*/
 
 /*
-								@media  (min-device-width : 320px)and (max-width: 568px) {							
+								@media  (min-device-width : 320px)and (max-width: 480px) {							
 									.titulo,.designare  {
 										                margin: auto;
 			                                           left:2%;
@@ -426,7 +426,7 @@ nav ul li a:hover {
 
 }
 
-						@media (min-width: 320px) and (max-width: 568px) {							
+						@media (min-width: 320px) and (max-width: 480px) {							
 									.aboutme {
 										margin:0;
 										left: 0px;
@@ -444,10 +444,23 @@ nav ul li a:hover {
 
 .profile {
 		   position: relative;
-		   bottom: 20px;
+		   bottom: 10px;
 		   margin: auto;
 		   text-align: center;
+		   z-index: 7;
+		   width: 500px;
+		   background-repeat: no-repeat;
 }
+
+                  @media (min-width: 320px) and (max-width: 480px) {							
+									.profile{
+										
+										display: none;
+								    }
+								}
+
+
+
 
 .story {
             text-align: left;
@@ -459,25 +472,16 @@ nav ul li a:hover {
 }
 
 
-							@media (min-width: 320px) and (max-width: 568px) {							
+							@media (min-width: 320px) and (max-width: 480px) {							
 								.story {
-									width: 28em;
+									width: 20em;
 									padding-bottom: 10px;
 
 							    }
 							}
                               
 
-                              /*iphone5 phones*/
-
-
-						/*@media  (min-device-width : 320px)and (max-width: 568px) {
-								        .story {
-													width: 28em;
-									              padding-bottom: 10px;
-											 }						
-								}
-*/
+                              
 
 
 
@@ -502,7 +506,19 @@ blockquote  {
 		    margin: auto;
 			position: relative;
 		    text-align: center;
+		    top:10px;
 }
+
+                         @media (min-width: 320px) and (max-width: 480px) {							
+								.veronica {
+									top: 30px;
+									padding-bottom: 10px;
+
+							    }
+							}
+                              
+
+
 
 
 /*social media animations*/
@@ -521,9 +537,10 @@ blockquote  {
 }
 
 
-						@media (min-width: 320px) and (max-width: 568px) {							
+						@media (min-width: 320px) and (max-width: 480px) {							
 									.social ul li {
-										right: 40px;
+										right: 10px;
+										padding: 2px;
 										
 								    }
 								}
@@ -594,12 +611,12 @@ blockquote  {
                                 /*most mobiles*/
 
 
-								@media (min-width: 320px) and (max-width: 568px) {							
+								@media (min-width: 320px) and (max-width: 480px) {							
 									.trabajo {
 										margin:0;
 										left: 0px;
 										width: 100%;
-								        height: 500px;
+								        height: 400px;
 								    }
 								}
 
@@ -622,12 +639,12 @@ blockquote  {
 
 
 
-					@media (min-width: 320px) and (max-width: 568px) {							
+					@media (min-width: 320px) and (max-width: 480px) {							
 								.image{
 									
-					            height:115px;
-								width: 115px;
-								border-radius:180px;
+					            height:90px;
+								width: 90px;
+								border-radius:100px;
 /*								font-size: 1em;
 */								top:0;
 					/*			margin:auto;
@@ -653,10 +670,10 @@ blockquote  {
 			top: 50px;
 }
 
-							@media (min-width: 320px) and (max-width: 568px) {							
+							@media (min-width: 320px) and (max-width: 480px) {							
 										.img {
 											
-									    width: 435px;
+									    width: 300px;
 									    height: 100px;
 										
 									    }
@@ -671,30 +688,48 @@ blockquote  {
 			margin:  0 auto;
 		    top:80px;
 			color:#D35B30;
+			text-align: center;
 }
 
-
-@media (min-width: 320px) and (max-width: 568px) {							
+/* phone */
+@media (min-width: 320px) and (max-width: 480px) {							
 			.logos{
 				
-		    font-size:  1.043em; /* equiv 29px */
-		    top: 45px;
+		    font-size:  .8em; /* equiv 29px */
+		    top: 35px;
 		    text-align: center;
 			
 		    }
 		}
 
-
-@media (min-width: 320px) and (max-width: 568px) {							
-			.nom {
+@media (min-width: 320px) and (max-width: 480px) {							
+			.logomiddle{
 				
 		    position: relative;
-		    left: 10px;
+		    right:  10px;
 			
 		    }
 		}
 
 
+
+@media (min-width: 320px) and (max-width: 480px) {							
+			.nom {
+				
+		    position: relative;
+		    left: 2px;
+			
+		    }
+		}
+
+@media (min-width: 320px) and (max-width: 480px) {							
+			.illus {
+				
+		    position: relative;
+		    right: 8px;
+			
+		    }
+		}
 
 
 
@@ -729,7 +764,7 @@ blockquote  {
 }
 
 
-@media (min-width: 320px) and (max-width: 568px) {							
+@media (min-width: 320px) and (max-width: 480px) {							
 			.contact {
 
 				margin:0;
@@ -750,7 +785,7 @@ blockquote  {
       padding-bottom: 50px;
 }
 
-@media (min-width: 320px) and (max-width: 568px) {							
+@media (min-width: 320px) and (max-width: 480px) {							
 			.social {
 				   
                    padding-bottom: 0px;	
@@ -773,7 +808,7 @@ blockquote  {
 
 }
 
-@media (min-width: 320px) and (max-width: 568px) {							
+@media (min-width: 320px) and (max-width: 480px) {							
 			.copyright {
 				 display: none;
 				
