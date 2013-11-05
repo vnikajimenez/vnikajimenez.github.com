@@ -23,7 +23,7 @@ h1 {
            /*most mobiles*/
 
 
-								@media (min-width: 320px) and (max-width: 568px) {							
+								@media (min-width: 320px) and (max-width: 480px) {							
 									h1{
 										font-size: 2em;
 								    }
@@ -59,7 +59,7 @@ p {
 
 
 
-	@media (min-width: 320px) and (max-width: 568px) {							
+	@media (min-width: 320px) and (max-width: 480px) {							
 									p{
 										font-size: 1em;
 								    }
@@ -135,9 +135,9 @@ h6  {
 	      background-color:#504E5B;
 	      width: 100%;
 }
-                       @media (min-width: 320px) and (max-width: 568px){							
+                       @media (min-width: 320px) and (max-width: 480px){							
 										.wrapper  {
-											width: 400px;
+											width: 350px;
 									    }
 									}
 
@@ -171,10 +171,11 @@ h6  {
 			/*most phones*/
 
 
-									@media (min-width: 320px) and (max-width: 568px){							
+									@media (min-width: 320px) and (max-width: 480px){							
 										.side  {
-											width: 400px;
-											text-align: center;
+											width: 100%;
+											
+
 
 									    }
 									}
@@ -193,7 +194,7 @@ h6  {
 
 
 
-@media (min-width: 320px) and (max-width: 568px){							
+@media (min-width: 320px) and (max-width: 480px){							
 										.photos {
 											
 											width: 300px;
@@ -218,7 +219,7 @@ h6  {
 
 
 
-                           @media (min-width: 320px) and (max-width: 568px){							
+                           @media (min-width: 320px) and (max-width: 480px){							
 										.first {
 											background-image: url('../images/nomlogores.png');
 											width: 250px;
@@ -242,7 +243,7 @@ h6  {
 }
 
 
-                          @media (min-width: 320px) and (max-width: 568px){							
+                          @media (min-width: 320px) and (max-width: 480px){							
 										.second {
 											background-image: url('../images/homepageres.jpg');
 											width: 300px;
@@ -269,7 +270,7 @@ h6  {
 
 
                            
-                          @media (min-width: 320px) and (max-width: 568px){							
+                          @media (min-width: 320px) and (max-width: 480px){							
 										.third {
 											background-image: url('../images/nomdrinkres.jpg');
 											width: 300px;
@@ -292,13 +293,50 @@ h6  {
 
 
 
-                       @media (min-width: 320px) and (max-width: 568px){							
+                       @media (min-width: 320px) and (max-width: 480px){							
 										.fourth{
 											background-image: url('../images/nomeatres.jpg');
 											width: 300px;
 	                                        height: 225px;
 									    }
 									}
+
+
+/*iimagesportrait*/
+
+
+.firstp {
+
+	          background-image: url('../images/landingwhisk.jpg');
+	          background-repeat: no-repeat;
+	          width: 850px;
+	          height: 1000px;
+	          margin: 0 auto;
+	          position:relative;
+}
+
+
+
+                               
+                           @media (min-width: 320px) and (max-width: 480px){							
+										.firstp {
+											background-image: url('../images/landingwhiskres.jpg');
+											width: 350px;
+	                                        height: 412px;
+	                                        bottom: 10px;
+	                                        margin-right: auto;
+	                                        margin-left: auto;
+									    }
+									}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -369,7 +407,7 @@ h6  {
  @media (min-width: 320px) and (max-width: 480px){							
 																.des {
 
-																	right: 90px;
+																	right: 135px;
 																
                                                            
 

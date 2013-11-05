@@ -26,7 +26,7 @@ h1 {
 
 								@media (min-width: 320px) and (max-width: 480px) {							
 									h1{
-										font-size: 2em;
+										font-size: 1.7em;
 								    }
 								}
 
@@ -49,7 +49,7 @@ h1 {
 
 								@media (min-width: 320px) and (max-width: 480px) {							
 									.designare {
-										font-size: 2em;
+										font-size: 1.7em;
 								    }
 								}
 
@@ -141,10 +141,20 @@ h5,.resume {
 
 .subtitle, .subuno {
 	    top: 30px;
-	    left: 20px;
+         left: 20px;
 		position: relative;
 		color: #D35B30;
 }
+
+
+
+                           @media (min-width: 320px) and (max-width: 480px) {							
+									.subtitle, .subuno {
+										position: relative;
+										left: 0;
+										top: 10;
+								    }
+								}
 
 
 .move {
@@ -353,7 +363,7 @@ li, p, li ul {
 													.titulo {
 			                                           margin: auto;
 			                                           left:2%;
-			                                            width: 300px;
+			                                            width: 350px;
 			 											bottom: 135px;
 														
 										        }
@@ -511,8 +521,8 @@ blockquote  {
 
                          @media (min-width: 320px) and (max-width: 480px) {							
 								.veronica {
-									top: 30px;
-									padding-bottom: 10px;
+									top: 40px;
+									padding-bottom: 25px;
 
 							    }
 							}
@@ -637,6 +647,11 @@ blockquote  {
 }
 
 
+.image:hover {
+
+
+	background-color: white;
+}
 
 
 					@media (min-width: 320px) and (max-width: 480px) {							
@@ -713,14 +728,14 @@ blockquote  {
 
 
 
-@media (min-width: 320px) and (max-width: 480px) {							
+/*@media (min-width: 320px) and (max-width: 480px) {							
 			.nom {
 				
 		    position: relative;
-		    left: 2px;
+		    left: 1px;
 			
 		    }
-		}
+		}*/
 
 @media (min-width: 320px) and (max-width: 480px) {							
 			.illus {
@@ -733,13 +748,13 @@ blockquote  {
 
 
 
-.logos:hover {
+/*.logos:hover {
 
 			   color:rgb(70, 69, 86);
 
 
 
-}
+}*/
 
 
 
