@@ -497,10 +497,12 @@ h6  {
 
 .des    { 
 
-				top: 10px;
-				width: 44px;
-				height: 44px;
-				right: 300px;
+				top: 20px;
+				width: 60px;
+				height: 60px;
+				border:  1.5px solid #D35B30;
+				border-radius: 80px;
+				right: 350px;
 				margin-left: auto;
 			    margin-right: auto;
 				position: relative;
@@ -508,6 +510,13 @@ h6  {
 				z-index: 7;
 
 
+}
+
+
+.des:hover {
+
+
+	background-color: white;
 }
 
 
