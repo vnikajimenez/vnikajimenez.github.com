@@ -728,14 +728,6 @@ blockquote  {
 
 
 
-/*@media (min-width: 320px) and (max-width: 480px) {							
-			.nom {
-				
-		    position: relative;
-		    left: 1px;
-			
-		    }
-		}*/
 
 @media (min-width: 320px) and (max-width: 480px) {							
 			.illus {
