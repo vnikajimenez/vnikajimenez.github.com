@@ -228,7 +228,7 @@ h6  {
 */
 
 
-                           @media (min-width: 320px) and (max-width: 480px){							
+                          /* @media (min-width: 320px) and (max-width: 480px){							
 										.first {
 											background-image: url('../images/nomlogores.png');
 											width: 250px;
@@ -237,7 +237,7 @@ h6  {
 	                                        margin-right: auto;
 	                                        margin-left: auto;
 									    }
-									}
+									}*/
 
 /*iimagesportrait*/
 
@@ -255,8 +255,8 @@ h6  {
 
 
                                      /*whiskresponsive*/
-
-		                               
+/**/
+		                        /*       
 		                           @media (min-width: 320px) and (max-width: 480px){							
 												.firstp {
 													background-image: url('../images/landingwhiskres.jpg');
@@ -265,7 +265,7 @@ h6  {
 			                                        bottom: 10px;
 			                                        
 											    }
-											}
+											}*/
 
 
 
@@ -291,14 +291,14 @@ h6  {
                           
                           /*nomresponsive
 */
-
+/*
                           @media (min-width: 320px) and (max-width: 480px){							
 										.second {
 											background-image: url('../images/homepageres.jpg');
 											width: 300px;
 	                                        height: 225px;
 									    }
-									}
+									}*/
 /*whisk*/
 
 
@@ -315,7 +315,7 @@ h6  {
 				               /*whiskresponsive*/
 
 		                               
-		                           @media (min-width: 320px) and (max-width: 480px){							
+		                         /*  @media (min-width: 320px) and (max-width: 480px){							
 												.secondp {
 													background-image: url('../images/whisklandscapelandingres.jpg');
 													width: 350px;
@@ -324,7 +324,7 @@ h6  {
 			                                        
 			                                        
 											    }
-											}
+											}*/
 
 
 /*nom*/
@@ -343,13 +343,13 @@ h6  {
 
 
                            
-                          @media (min-width: 320px) and (max-width: 480px){							
+                         /* @media (min-width: 320px) and (max-width: 480px){							
 										.third {
 											background-image: url('../images/nomdrinkres.jpg');
 											width: 300px;
 	                                        height: 225px;
 									    }
-									}
+									}*/
 
 
 /*whisk*/
@@ -368,7 +368,7 @@ h6  {
 				               /*whiskresponsive*/
 
 		                               
-		                           @media (min-width: 320px) and (max-width: 480px){							
+		                          /* @media (min-width: 320px) and (max-width: 480px){							
 												.thirdp {
 													background-image: url('../images/homefeedres.jpg');
 													width: 350px;
@@ -377,7 +377,7 @@ h6  {
 			                                        
 			                                        
 											    }
-											}
+											}*/
 
 
 
@@ -399,13 +399,13 @@ h6  {
 
 
 
-                       @media (min-width: 320px) and (max-width: 480px){							
+                       /*@media (min-width: 320px) and (max-width: 480px){							
 										.fourth{
 											background-image: url('../images/nomeatres.jpg');
 											width: 300px;
 	                                        height: 225px;
 									    }
-									}
+									}*/
 
 
 /*whisk*/
@@ -425,7 +425,7 @@ h6  {
 
 				               /*whiskresponsive*/
 
-		                               
+		                          /*     
 		                           @media (min-width: 320px) and (max-width: 480px){							
 												.fourthp {
 													background-image: url('../images/enterrecipyres.jpg');
@@ -435,7 +435,7 @@ h6  {
 			                                        
 			                                        
 											    }
-											}
+											}*/
 
 
 
