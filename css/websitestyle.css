@@ -149,7 +149,7 @@ h5,.resume {
 
 
 
-                           @media only screen and (min-device-width : 320px) and (max-device-width : 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px)and (-webkit-min-device-pixel-ratio: 2) {							
+                           @media (min-device-width: 320px) and (max-device-width: 480px) {							
 									.subtitle, .subuno {
 										position: relative;
 										left: 0;
@@ -215,7 +215,7 @@ li, p, li ul {
 		    opacity: 0.5;
 	         min-height: 70% }
 
-									@media only screen and (min-device-width : 320px) and (max-device-width : 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px)and (-webkit-min-device-pixel-ratio: 2){
+									@media (min-device-width: 320px) and (max-device-width: 480px){
 							
 									.background  {
 
@@ -262,7 +262,7 @@ li, p, li ul {
 						/*most phones*/
 
 
-						@media only screen and (min-device-width : 320px) and (max-device-width : 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px)and (-webkit-min-device-pixel-ratio: 2){							
+						@media (min-device-width: 320px) and (max-device-width: 480px){							
 							.tape  {
 								left: 0px;
 								width: 320px;
@@ -302,7 +302,7 @@ li, p, li ul {
                              /*most phones*/
 
 
-							@media only screen and (min-device-width : 320px) and (max-device-width : 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px)and (-webkit-min-device-pixel-ratio: 2) {
+							@media (min-device-width: 320px) and (max-device-width: 480px) {
 								
 										.mask {
 
@@ -359,7 +359,7 @@ li, p, li ul {
 	        right: 5%;*/
 }
 
-									@media only screen and (min-device-width : 320px) and (max-device-width : 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px)and (-webkit-min-device-pixel-ratio: 2) {
+									@media (min-device-width: 320px) and (max-device-width: 480px) {
 											
 													.titulo {
 
@@ -388,7 +388,7 @@ li, p, li ul {
 
 }
 
-                @media only screen and (min-device-width : 320px) and (max-device-width : 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px)and (-webkit-min-device-pixel-ratio: 2) {
+                @media (min-device-width: 320px) and (max-device-width: 480px) {
 											
 													.navigation {
 														font-size:  .8em; /* equiv 29px */
@@ -412,7 +412,7 @@ nav ul li {
 }
 
 
-                  @media only screen and (min-device-width : 320px) and (max-device-width : 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px)and (-webkit-min-device-pixel-ratio: 2) {
+                  @media (min-device-width: 320px) and (max-device-width: 480px) {
 											
 													nav ul li {
 														padding: 10px;
@@ -449,7 +449,7 @@ nav ul li a:hover {
 
 }
 
-						@media only screen and (min-device-width : 320px) and (max-device-width : 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px)and (-webkit-min-device-pixel-ratio: 2) {							
+						@media (min-device-width: 320px) and (max-device-width: 480px) {							
 									.aboutme {
 										margin:0;
 										left: 0px;
@@ -475,7 +475,7 @@ nav ul li a:hover {
 		   background-repeat: no-repeat;
 }
 
-                  @media only screen and (min-device-width : 320px) and (max-device-width : 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px)and (-webkit-min-device-pixel-ratio: 2) {							
+                  @media (min-device-width: 320px) and (max-device-width: 480px) {							
 									.profile{
 										
 										display: none;
@@ -495,7 +495,7 @@ nav ul li a:hover {
 }
 
 
-							@media only screen and (min-device-width : 320px) and (max-device-width : 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px)and (-webkit-min-device-pixel-ratio: 2) {							
+							@media (min-device-width: 320px) and (max-device-width: 480px) {							
 								.story {
 									width: 20em;
 									padding-bottom: 10px;
@@ -532,7 +532,7 @@ blockquote  {
 		    top:10px;
 }
 
-                         @media only screen and (min-device-width : 320px) and (max-device-width : 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px)and (-webkit-min-device-pixel-ratio: 2){							
+                         @media (min-device-width: 320px) and (max-device-width: 480px){							
 								.veronica {
 									top: 40px;
 									padding-bottom: 25px;
@@ -560,7 +560,7 @@ blockquote  {
 }
 
 
-						@media only screen and (min-device-width : 320px) and (max-device-width : 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px)and (-webkit-min-device-pixel-ratio: 2) {							
+						@media (min-device-width: 320px) and (max-device-width: 480px) {							
 									.social ul li {
 										right: 10px;
 										padding: 2px;
@@ -634,7 +634,7 @@ blockquote  {
                                 /*most mobiles*/
 
 
-								@media only screen and (min-device-width : 320px) and (max-device-width : 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px)and (-webkit-min-device-pixel-ratio: 2) {							
+								@media (min-device-width: 320px) and (max-device-width: 480px) {							
 									.trabajo {
 										margin:0;
 										left: 0px;
@@ -667,7 +667,7 @@ blockquote  {
 }
 
 
-					@media only screen and (min-device-width : 320px) and (max-device-width : 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px)and (-webkit-min-device-pixel-ratio: 2) {							
+					@media (min-device-width: 320px) and (max-device-width: 480px) {							
 								.image{
 									
 					            height:90px;
@@ -698,7 +698,7 @@ blockquote  {
 			top: 50px;
 }
 
-							@media only screen and (min-device-width : 320px) and (max-device-width : 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px)and (-webkit-min-device-pixel-ratio: 2) {							
+							@media (min-device-width: 320px) and (max-device-width: 480px) {							
 										.img {
 											
 									    width: 300px;
@@ -720,7 +720,7 @@ blockquote  {
 }
 
 						/* phone */
-						@media only screen and (min-device-width : 320px) and (max-device-width : 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px)and (-webkit-min-device-pixel-ratio: 2) {							
+						@media (min-device-width: 320px) and (max-device-width: 480px) {							
 									.logos{
 										
 								    font-size:  .8em; /* equiv 29px */
@@ -729,7 +729,7 @@ blockquote  {
 									
 								    }
 								}
-						@media only screen and (min-device-width : 320px) and (max-device-width : 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px)and (-webkit-min-device-pixel-ratio: 2) {							
+						@media (min-device-width: 320px) and (max-device-width: 480px) {							
 									.logomiddle{
 										
 								    position: relative;
@@ -741,7 +741,7 @@ blockquote  {
 
 
 
-						@media only screen and (min-device-width : 320px) and (max-device-width : 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px)and (-webkit-min-device-pixel-ratio: 2)) {							
+						@media (min-device-width: 320px) and (max-device-width: 480px)) {							
 									.illus {
 										
 								    position: relative;
@@ -775,7 +775,7 @@ blockquote  {
 }
 
 
-							@media only screen and (min-device-width : 320px) and (max-device-width : 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px)and (-webkit-min-device-pixel-ratio: 2) {							
+							@media (min-device-width: 320px) and (max-device-width: 480px) {							
 										.contact {
 
 											margin:0;
@@ -796,7 +796,7 @@ blockquote  {
       padding-bottom: 50px;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px)and (-webkit-min-device-pixel-ratio: 2) {							
+@media (min-device-width: 320px) and (max-device-width: 480px) {							
 			.social {
 				   
                    padding-bottom: 0px;	
@@ -819,7 +819,7 @@ blockquote  {
 
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px)and (-webkit-min-device-pixel-ratio: 2) {							
+@media (min-device-width: 320px) and (max-device-width: 480px) {							
 			.copyright {
 				 display: none;
 				
