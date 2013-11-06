@@ -108,6 +108,7 @@ nav ul li a,.logos {
 		font-size:  1.7059em; /* equiv 29px */
 		color: #f1f1e2;
 		font-family: "museo-sans",sans-serif;
+		font-weight: 300;
 		line-height: 1.7586em;
 		word-spacing:0.25em;
 }
@@ -302,7 +303,7 @@ li, p, li ul {
                              /*most phones*/
 
 
-							@media (min-width : 320px) and (max-width : 568px) {
+							@media (min-width : 320px) and (max-width : 480px) {
 								
 										.mask {
 
@@ -350,38 +351,27 @@ li, p, li ul {
 
 		    text-align: center;
 			bottom: 600px;
+			width: 400px;
 		    position: relative;
 		    z-index: 8;
 		    width: 600px;
-		    left: 20%;
-		    right: 5%
+		    margin: auto;
+		   /* left: 20%;
+	        right: 5%;*/
 }
 
 
-			@media (min-width : 320px)and (max-width : 568px) {
+			@media (min-width : 320px)and (max-width : 480px) {
 											
 													.titulo {
-			                                           margin: auto;
-			                                           left:2%;
+
+														right: 15px;
 			                                            width: 350px;
-			 											bottom: 135px;
+			 											bottom: 100px;
 														
 										        }
 										}
-            /*iphone5 phones*/
-
-/*
-								@media  (min-device-width : 320px)and (max-width: 480px) {							
-									.titulo,.designare  {
-										                margin: auto;
-			                                           left:2%;
-			                                            width: 300px;
-			 											bottom: 135px;
-														font-size: 1.3em;
-										     
-								    }
-								}*/
-
+           
 
 
 
@@ -400,14 +390,39 @@ li, p, li ul {
 
 }
 
+                @media (min-width : 320px)and (max-width : 480px) {
+											
+													.navigation {
+														font-size:  .8em; /* equiv 29px */
+														right: 15px;
+			                                            width: 350px;
+			 											bottom: 5px;
 
-.navigation { @extend .hide-for-small; }
+										        }
+										}
+
+
+
+
+
+
 
 nav ul li {
 
 			display: inline-block;
 			padding: 20px;
 }
+
+
+                  @media (min-width : 320px)and (max-width : 480px) {
+											
+													nav ul li {
+														padding: 10px;
+														
+										        }
+										}
+
+
 
 nav ul li a {
 
@@ -706,47 +721,39 @@ blockquote  {
 			text-align: center;
 }
 
-/* phone */
-@media (min-width: 320px) and (max-width: 480px) {							
-			.logos{
-				
-		    font-size:  .8em; /* equiv 29px */
-		    top: 35px;
-		    text-align: center;
-			
-		    }
-		}
+						/* phone */
+						@media (min-width: 320px) and (max-width: 480px) {							
+									.logos{
+										
+								    font-size:  .8em; /* equiv 29px */
+								    top: 35px;
+								    text-align: center;
+									
+								    }
+								}
 
-@media (min-width: 320px) and (max-width: 480px) {							
-			.logomiddle{
-				
-		    position: relative;
-		    right:  10px;
-			
-		    }
-		}
-
-
-
-
-@media (min-width: 320px) and (max-width: 480px) {							
-			.illus {
-				
-		    position: relative;
-		    right: 8px;
-			
-		    }
-		}
+						@media (min-width: 320px) and (max-width: 480px) {							
+									.logomiddle{
+										
+								    position: relative;
+								    right:  10px;
+									
+								    }
+								}
 
 
 
-/*.logos:hover {
 
-			   color:rgb(70, 69, 86);
+						@media (min-width: 320px) and (max-width: 480px) {							
+									.illus {
+										
+								    position: relative;
+								    right: 8px;
+									
+								    }
+								}
 
 
-
-}*/
 
 
 
