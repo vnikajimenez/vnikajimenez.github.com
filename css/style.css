@@ -24,7 +24,7 @@ h1 {
 
 								@media (min-device-width: 320px) and (max-device-width: 480px) {							
 									h1 {
-										font-size: 1.7em;
+										font-size: 3.2em;
 								    }
 								}
 
@@ -237,7 +237,7 @@ h6  {
 
 				@media (min-device-width: 320px) and (max-device-width: 480px){							
 																.descrip {
-																	width: 90%;
+																	width: 70%;
 
 															    }
 															}
