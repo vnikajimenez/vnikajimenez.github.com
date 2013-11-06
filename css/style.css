@@ -20,14 +20,13 @@ h1 {
 }
 
 
-           /*most mobiles*/
 
-/*
-								@media (min-width: 320px) and (max-width: 480px) {							
-									h1{
-										font-size: 4em;
+
+								@media (min-device-width: 320px) and (max-device-width: 480px) {							
+									h1 {
+										font-size: 1.7em;
 								    }
-								}*/
+								}
 
 
 
@@ -121,11 +120,6 @@ h6  {
 }
 
 
-@media (min-device-width: 320px) and (max-device-width: 480px)) {							
-									h6{
-										font-size: 2.5em;
-								    }
-								}
 
 
 
@@ -270,12 +264,12 @@ h6  {
 
 .des    { 
 
-				top: 30px;
+				top: 50px;
 				width: 60px;
 				height: 60px;
 				border:  1.5px solid #D35B30;
 				border-radius: 80px;
-				right: 250px;
+				right: 350px;
 				margin-left: auto;
 			    margin-right: auto;
 				position: relative;
@@ -296,7 +290,12 @@ h6  {
  @media (min-device-width: 320px) and (max-device-width: 480px){							
 																.des {
 
-																	right: 150px;
+
+																	width: 90px;
+				                                                    height: 90px;
+				                                                    border-radius: 100px;
+                                                                    
+																	
 																
                                                            
 
