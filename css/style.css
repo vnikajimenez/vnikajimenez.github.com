@@ -177,16 +177,16 @@ h6  {
 			/*most phones*/
 
 
-									@media (min-device-width: 320px) and (max-device-width: 480px){							
+									/*@media (min-device-width: 320px) and (max-device-width: 480px){							
 										.side  {
 
 											left: 0px;
-								             width: 100%;
+								             width: 90%;
 											
 
 
 									    }
-									}
+									}*/
 
 
 
