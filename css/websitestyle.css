@@ -656,14 +656,8 @@ blockquote  {
 			border-radius: 260px;
 			text-align: center;
 			position: relative;
-			/*margin: 0 auto;
-			margin-bottom: 100px;*/
-			
 		   
-
-
 }
-
 
 .image:hover {
 
@@ -675,9 +669,9 @@ blockquote  {
 					@media (min-device-width: 320px) and (max-device-width: 480px) {							
 								.image{
 									
-					            height:70px;
-								width: 70px;
-								border-radius:80px;
+					            height:80px;
+								width: 80px;
+								border-radius:90px;
 /*								font-size: 1em;
 */								top:0;
 					/*			margin:auto;
@@ -706,7 +700,7 @@ blockquote  {
 							@media (min-device-width: 320px) and (max-device-width: 480px) {							
 										.img {
 											
-									    width: 500px;
+									    width: 80%;
 									   height: 100px;
 										
 									    }
