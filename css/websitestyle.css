@@ -675,9 +675,9 @@ blockquote  {
 					@media (min-device-width: 320px) and (max-device-width: 480px) {							
 								.image{
 									
-					            height:90px;
-								width: 90px;
-								border-radius:100px;
+					            height:80px;
+								width: 80px;
+								border-radius:90px;
 /*								font-size: 1em;
 */								top:0;
 					/*			margin:auto;
@@ -706,7 +706,7 @@ blockquote  {
 							@media (min-device-width: 320px) and (max-device-width: 480px) {							
 										.img {
 											
-									    width: 90%;
+									    width: 500px;
 									   height: 100px;
 										
 									    }
