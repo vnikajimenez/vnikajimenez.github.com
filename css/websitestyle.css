@@ -265,7 +265,7 @@ li, p, li ul {
 						@media (min-device-width: 320px) and (max-device-width: 480px){							
 							.tape  {
 								left: 0px;
-								width: 320px;
+								width: 80%;
 						    }
 						}
 
