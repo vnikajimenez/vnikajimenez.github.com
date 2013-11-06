@@ -61,7 +61,7 @@ p {
 
 	@media (min-width: 320px) and (max-width: 480px) {							
 									p{
-										font-size: 1em;
+										font-size: 2em;
 								    }
 								}
 
@@ -471,6 +471,7 @@ h6  {
 				 @media (min-width: 320px) and (max-width: 480px){							
 																.descrip {
 																	width: 90%;
+
 															    }
 															}
 				               
@@ -497,7 +498,7 @@ h6  {
 
 .des    { 
 
-				top: 10px;
+				top: 30px;
 				width: 60px;
 				height: 60px;
 				border:  1.5px solid #D35B30;
