@@ -700,7 +700,7 @@ blockquote  {
 							@media (min-device-width: 320px) and (max-device-width: 480px) {							
 										.img {
 											
-									    width: 60%;
+									   width: 80%;
 									   height: 100px;
 										
 									    }
@@ -723,7 +723,7 @@ blockquote  {
 									.logos{
 										
 								    font-size:  .8em; /* equiv 29px */
-								    top: 35px;
+								    top: 25px;
 								    text-align: center;
 									
 								    }
