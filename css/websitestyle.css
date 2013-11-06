@@ -207,9 +207,9 @@ li, p, li ul {
 		    position: fixed;
 	        height:100%;
             margin: 0 auto;
-            left: 5%;
-            right: 5%;
-	        width: 30%;
+            left: 2%;
+            right: 2%;
+	        width: 35%;
 	        }
 
 									@media (min-device-width: 320px) and (max-device-width: 480px){
@@ -693,14 +693,14 @@ blockquote  {
 			margin: 0 auto;
 			position: relative;
 			width: 800px;
-		height: 300px;
-		top: 50px;
+		    height: 300px;
+		     top: 50px;
 }
 
 							@media (min-device-width: 320px) and (max-device-width: 480px) {							
 										.img {
 											
-									    width: 80%;
+									    width: 60%;
 									   height: 100px;
 										
 									    }
