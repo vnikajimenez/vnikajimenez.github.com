@@ -24,7 +24,7 @@ h1 {
                                /*most mobiles*/
 
 
-	@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape){							
+	@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){							
 		h1{
 			font-size: 1.7em;
 	    }
@@ -47,7 +47,7 @@ h1 {
                                    /*most mobiles*/
 
 
-								@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
+								@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 									.designare {
 										font-size: 1.7em;
 								    }
@@ -149,7 +149,7 @@ h5,.resume {
 
 
 
-                         @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
+                         @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 									.subtitle, .subuno {
 										position: relative;
 										left: 0;
@@ -211,7 +211,7 @@ li, p, li ul {
             right: 2%;
 	        width: 35%;
 	        }
-@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape){
+@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){
 							
 									.background  {
 
@@ -243,7 +243,7 @@ li, p, li ul {
 			background-color:rgb(80, 78, 91);
 }
 
-           @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape){							
+           @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){							
 							.wrapper  {
 								width: 100%;
 						    }
@@ -267,7 +267,7 @@ li, p, li ul {
 						/*most phones*/
 
 
-						@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape){							
+						@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){							
 							.tape  {
 								left: 0px;
 								width: 100%;
@@ -307,7 +307,7 @@ li, p, li ul {
                              /*most phones*/
 
 
-							@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {
+							@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {
 								
 										.mask {
 
@@ -363,7 +363,7 @@ li, p, li ul {
 		   
 }
 
-									@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {
+									@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {
 											
 													.titulo {
 
@@ -392,7 +392,7 @@ li, p, li ul {
 
 }
 
-              @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {
+              @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {
 											
 													.navigation {
 														font-size:  .8em; /* equiv 29px */
@@ -416,7 +416,7 @@ nav ul li {
 }
 
 
-           @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {
+           @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {
 											
 													nav ul li {
 														padding: 10px;
@@ -453,7 +453,7 @@ nav ul li a:hover {
 
 }
 
-						@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
+						@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 									.aboutme {
 										margin:0;
 										left: 0px;
@@ -479,7 +479,7 @@ nav ul li a:hover {
 		   background-repeat: no-repeat;
 }
 
-               @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
+               @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 									.profile{
 										
 										display: none;
@@ -499,7 +499,7 @@ nav ul li a:hover {
 }
 
 
-			@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
+			@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 				.story {
 					width: 100%;
 					padding-bottom: 10px;
@@ -536,7 +536,7 @@ blockquote  {
 		    top:10px;
 }
 
-         @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
+         @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 				.veronica {
 					top: 40px;
 					padding-bottom: 25px;
@@ -564,7 +564,7 @@ blockquote  {
 }
 
 
-		@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
+		@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 					.social ul li {
 						right: 10px;
 						padding: 2px;
@@ -638,7 +638,7 @@ blockquote  {
                                 /*most mobiles*/
 
 
-				@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
+				@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 					.trabajo {
 						margin:0;
 						left: 0px;
@@ -666,7 +666,7 @@ blockquote  {
 }
 
 
-					@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
+					@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 								.image{
 									
 					            height:80px;
@@ -697,7 +697,7 @@ blockquote  {
 		    top: 100px;
 }
 
-							@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
+							@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 										.img {
 											
 									   width: 80%;
@@ -719,7 +719,7 @@ blockquote  {
 }
 
 						/* phone */
-						@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
+						@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 									.logos{
 										
 								    font-size:  .8em; /* equiv 29px */
@@ -729,7 +729,7 @@ blockquote  {
 								    }
 								}
 
-						@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
+						@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 									.logomiddle{
 										
 								    position: relative;
@@ -741,7 +741,7 @@ blockquote  {
 
 
 
-						@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) and (orientation : portrait) {							
+						@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) and (orientation : portrait) {							
 									.illus {
 										
 								    position: relative;
@@ -775,7 +775,7 @@ blockquote  {
 }
 
 
-@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
+@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 			.contact {
 
 				margin:0;
@@ -796,7 +796,7 @@ blockquote  {
       padding-bottom: 50px;
 }
 
-@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
+@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 			.social {
 				   
                    padding-bottom: 0px;	
@@ -820,7 +820,7 @@ blockquote  {
 
 }
 
-@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
+@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 			.copyright {
 				 display: none;
 				
