@@ -655,6 +655,7 @@ blockquote  {
 			border-radius: 260px;
 			text-align: center;
 			position: relative;
+			margin-right: 15px;
 
 		   
 }
@@ -692,7 +693,7 @@ blockquote  {
             text-align: center;
 			margin: 0 auto;
 			position: relative;
-			width: 800px;
+			width: 860px;
 		    height: 300px;
 		    top: 100px;
 }
