@@ -22,7 +22,7 @@ h1 {
 
 
 
-								@media (min-device-width: 320px) and (max-device-width: 480px) {							
+								@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
 									h1 {
 										font-size: 3.2em;
 								    }
@@ -58,7 +58,7 @@ p {
 
 
 
-	@media (min-device-width: 320px) and (max-device-width: 480px)) {							
+	@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape)) {							
 									p{
 										font-size: 2em;
 								    }
@@ -139,7 +139,7 @@ h6  {
 	      background-color:#504E5B;
 	      width: 100%;
 }
-                      @media (min-device-width: 320px) and (max-device-width: 480px){							
+                      @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape){							
 										.wrapper  {
 											width: 100%;
 									    }
@@ -177,7 +177,7 @@ h6  {
 			/*most phones*/
 
 
-									@media (min-device-width: 320px) and (max-device-width: 480px){							
+									@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape){							
 										.side  {
 
 											left: 0px;
@@ -202,7 +202,7 @@ h6  {
 
 
 
-@media (min-device-width: 320px) and (max-device-width: 480px){							
+@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape){							
 										.photos {
 											
 											width: 90%;
@@ -235,7 +235,7 @@ h6  {
 }
 
 
-				@media (min-device-width: 320px) and (max-device-width: 480px){							
+				@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape){							
 																.descrip {
 																	width: 70%;
 
@@ -288,7 +288,7 @@ h6  {
 }
 
 
- @media (min-device-width: 320px) and (max-device-width: 480px){							
+ @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape){							
 																.des {
 
 														-webkit-transform: scale (1.25);
@@ -329,7 +329,7 @@ h6  {
 }
 
 
-                 @media (min-device-width: 320px) and (max-device-width: 480px){							
+                 @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape){							
 																.tags{
 																	 width: 90%;
 															    }
