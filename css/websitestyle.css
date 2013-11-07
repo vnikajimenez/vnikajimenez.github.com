@@ -211,8 +211,7 @@ li, p, li ul {
             right: 2%;
 	        width: 35%;
 	        }
-
-									@media (min-device-width: 320px) and (max-device-width: 480px){
+@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape){
 							
 									.background  {
 
@@ -244,7 +243,7 @@ li, p, li ul {
 			background-color:rgb(80, 78, 91);
 }
 
-           @media (min-device-width: 320px) and (max-device-width: 480px){							
+           @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape){							
 							.wrapper  {
 								width: 100%;
 						    }
@@ -268,7 +267,7 @@ li, p, li ul {
 						/*most phones*/
 
 
-						@media (min-device-width: 320px) and (max-device-width: 480px){							
+						@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape){							
 							.tape  {
 								left: 0px;
 								width: 100%;
@@ -308,7 +307,7 @@ li, p, li ul {
                              /*most phones*/
 
 
-							@media (min-device-width: 320px) and (max-device-width: 480px) {
+							@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {
 								
 										.mask {
 
@@ -364,7 +363,7 @@ li, p, li ul {
 		   
 }
 
-									@media (min-device-width: 320px) and (max-device-width: 480px) {
+									@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {
 											
 													.titulo {
 
@@ -393,7 +392,7 @@ li, p, li ul {
 
 }
 
-                @media (min-device-width: 320px) and (max-device-width: 480px) {
+              @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {
 											
 													.navigation {
 														font-size:  .8em; /* equiv 29px */
@@ -417,7 +416,7 @@ nav ul li {
 }
 
 
-                  @media (min-device-width: 320px) and (max-device-width: 480px) {
+           @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {
 											
 													nav ul li {
 														padding: 10px;
@@ -454,7 +453,7 @@ nav ul li a:hover {
 
 }
 
-						@media (min-device-width: 320px) and (max-device-width: 480px) {							
+						@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
 									.aboutme {
 										margin:0;
 										left: 0px;
@@ -480,7 +479,7 @@ nav ul li a:hover {
 		   background-repeat: no-repeat;
 }
 
-                  @media (min-device-width: 320px) and (max-device-width: 480px) {							
+               @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
 									.profile{
 										
 										display: none;
@@ -500,13 +499,13 @@ nav ul li a:hover {
 }
 
 
-							@media (min-device-width: 320px) and (max-device-width: 480px) {							
-								.story {
-									width: 100%;
-									padding-bottom: 10px;
+			@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
+				.story {
+					width: 100%;
+					padding-bottom: 10px;
 
-							    }
-							}
+			    }
+			}
                               
 
                               
@@ -537,13 +536,13 @@ blockquote  {
 		    top:10px;
 }
 
-                         @media (min-device-width: 320px) and (max-device-width: 480px) {							
-								.veronica {
-									top: 40px;
-									padding-bottom: 25px;
+         @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
+				.veronica {
+					top: 40px;
+					padding-bottom: 25px;
 
-							    }
-							}
+			    }
+			}
                               
 
 
@@ -565,13 +564,13 @@ blockquote  {
 }
 
 
-						@media (min-device-width: 320px) and (max-device-width: 480px) {							
-									.social ul li {
-										right: 10px;
-										padding: 2px;
-										
-								    }
-								}
+		@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
+					.social ul li {
+						right: 10px;
+						padding: 2px;
+						
+				    }
+				}
 
 
 
@@ -633,29 +632,30 @@ blockquote  {
 			z-index: 7;
 			top: 0;
 		    width:1000px;
-		    height: 800px;
+		    height: 500px;
 			background-color:#f1f1e2;
 }
                                 /*most mobiles*/
 
 
-								@media (min-device-width: 320px) and (max-device-width: 480px) {							
-									.trabajo {
-										margin:0;
-										left: 0px;
-										width: 100%;
-								        height: 400px;
-								    }
-								}
+				@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
+					.trabajo {
+						margin:0;
+						left: 0px;
+						width: 100%;
+				        height: 400px;
+				    }
+				}
 
 
 .image  {
             border:  1.5px solid #D35B30;
-            height: 220px;
-			width: 220px;
+            height: 200px;
+			width: 200px;
 			border-radius: 260px;
 			text-align: center;
 			position: relative;
+
 		   
 }
 
@@ -666,7 +666,7 @@ blockquote  {
 }
 
 
-					@media (min-device-width: 320px) and (max-device-width: 480px) {							
+					@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
 								.image{
 									
 					            height:80px;
@@ -687,17 +687,17 @@ blockquote  {
 
 
 
-.img   {
+.roundconta  {
 
             text-align: center;
 			margin: 0 auto;
 			position: relative;
 			width: 800px;
 		    height: 300px;
-		     top: 50px;
+		    top: 100px;
 }
 
-							@media (min-device-width: 320px) and (max-device-width: 480px) {							
+							@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
 										.img {
 											
 									   width: 80%;
@@ -719,7 +719,7 @@ blockquote  {
 }
 
 						/* phone */
-						@media (min-device-width: 320px) and (max-device-width: 480px) {							
+						@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
 									.logos{
 										
 								    font-size:  .8em; /* equiv 29px */
@@ -729,7 +729,7 @@ blockquote  {
 								    }
 								}
 
-						@media (min-device-width: 320px) and (max-device-width: 480px) {							
+						@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
 									.logomiddle{
 										
 								    position: relative;
@@ -741,7 +741,7 @@ blockquote  {
 
 
 
-						@media (min-device-width: 320px) and (max-device-width: 480px) and (orientation : portrait) {							
+						@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) and (orientation : portrait) {							
 									.illus {
 										
 								    position: relative;
@@ -775,7 +775,7 @@ blockquote  {
 }
 
 
-@media (min-device-width: 320px) and (max-device-width: 480px) {							
+@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
 			.contact {
 
 				margin:0;
@@ -796,7 +796,7 @@ blockquote  {
       padding-bottom: 50px;
 }
 
-@media (min-device-width: 320px) and (max-device-width: 480px) {							
+@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
 			.social {
 				   
                    padding-bottom: 0px;	
@@ -820,7 +820,7 @@ blockquote  {
 
 }
 
-@media (min-device-width: 320px) and (max-device-width: 480px) {							
+@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
 			.copyright {
 				 display: none;
 				
