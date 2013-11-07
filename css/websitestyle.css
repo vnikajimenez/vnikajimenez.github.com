@@ -24,11 +24,11 @@ h1 {
                                /*most mobiles*/
 
 
-								@media (min-device-width: 320px) and (max-device-width: 480px){							
-									h1{
-										font-size: 1.7em;
-								    }
-								}
+	@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape){							
+		h1{
+			font-size: 1.7em;
+	    }
+	}
 
 
 
@@ -47,7 +47,7 @@ h1 {
                                    /*most mobiles*/
 
 
-								@media (min-device-width: 320px) and (max-device-width: 480px) {							
+								@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
 									.designare {
 										font-size: 1.7em;
 								    }
@@ -149,7 +149,7 @@ h5,.resume {
 
 
 
-                           @media (min-device-width: 320px) and (max-device-width: 480px) {							
+                         @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait)and (orientation : landscape) {							
 									.subtitle, .subuno {
 										position: relative;
 										left: 0;
@@ -733,7 +733,7 @@ blockquote  {
 									.logomiddle{
 										
 								    position: relative;
-								    right:  10px;
+								    right:  20px;
 									
 								    }
 								}
@@ -741,7 +741,7 @@ blockquote  {
 
 
 
-						@media (min-device-width: 320px) and (max-device-width: 480px) {							
+						@media (min-device-width: 320px) and (max-device-width: 480px) and (orientation : portrait) {							
 									.illus {
 										
 								    position: relative;
