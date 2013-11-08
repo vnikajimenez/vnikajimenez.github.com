@@ -209,7 +209,7 @@ li, p, li ul {
             margin: 0 auto;
             left: 2%;
             right: 2%;
-	        width: 35%;
+	        width: 50%;
 	        }
 @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){
 							
