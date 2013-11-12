@@ -673,10 +673,10 @@ blockquote  {
 					            height:80px;
 								width: 80px;
 								border-radius:90px;
-/*								font-size: 1em;
-*/								top:0;
-					/*			margin:auto;
-					*/			margin-bottom: 20px;
+								font-size: .8em;
+								top:0;
+							    margin-right:0px;
+							    margin-bottom: 20px;
 								
 							    }
 							}
@@ -701,7 +701,7 @@ blockquote  {
 							@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 										.img {
 											
-									   width: 80%;
+									   width: 70%;
 									   height: 100px;
 										
 									    }
