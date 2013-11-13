@@ -670,8 +670,8 @@ blockquote  {
 					@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 								.image{
 									
-					            height:60px;
-								width: 60px;
+					            height:70px;
+								width: 70px;
 								border-radius:80px;
 								font-size: .8em;
 								top:0;
