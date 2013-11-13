@@ -724,7 +724,7 @@ blockquote  {
 									.logos{
 										
 								    font-size:  .8em; /* equiv 29px */
-								    top: 45px;
+								    top: 25px;
 								    text-align: center;
 									
 								    }
@@ -734,7 +734,7 @@ blockquote  {
 									.logomiddle{
 										
 								    position: relative;
-								    right:  20px;
+								    /*right:  20px;*/
 									
 								    }
 								}
@@ -746,7 +746,7 @@ blockquote  {
 									.illus {
 										
 								    position: relative;
-								    right: 2px;
+								    /*right: 2px;*/
 									
 								    }
 								}
