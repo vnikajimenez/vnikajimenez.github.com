@@ -670,9 +670,9 @@ blockquote  {
 					@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 								.image{
 									
-					            height:80px;
-								width: 80px;
-								border-radius:90px;
+					            height:60px;
+								width: 60px;
+								border-radius:80px;
 								font-size: .8em;
 								top:0;
 							    margin-right:0px;
@@ -724,7 +724,7 @@ blockquote  {
 									.logos{
 										
 								    font-size:  .8em; /* equiv 29px */
-								    top: 25px;
+								    top: 45px;
 								    text-align: center;
 									
 								    }
@@ -746,7 +746,7 @@ blockquote  {
 									.illus {
 										
 								    position: relative;
-								    right: 8px;
+								    right: 2px;
 									
 								    }
 								}
