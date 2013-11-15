@@ -94,7 +94,7 @@ nav ul li a, {
 }
 
 
-h4 {
+h4,.ui {
 		  color: #D35B30;
 		  font-size:  1.3529em; /* equiv 23px */
 		  font-family: "museo-sans",sans-serif;
@@ -121,7 +121,11 @@ h6  {
 }
 
 
+.ui {
 
+
+	text-decoration: underline;
+}
 
 
 
