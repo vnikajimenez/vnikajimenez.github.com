@@ -94,7 +94,7 @@ nav ul li a, {
 }
 
 
-h4,.ui {
+h4 {
 		  color: #D35B30;
 		  font-size:  1.3529em; /* equiv 23px */
 		  font-family: "museo-sans",sans-serif;
@@ -102,12 +102,12 @@ h4,.ui {
 		line-height: 1.7586em;
 }
 
-h5 {
+h5,.ui{
 			font-family: "museo-sans",sans-serif;
 			font-weight:100;
 	        font-size:  1.2353em; /* equiv 21px */
 	        line-height:  1.2143em;
-	        color:#33323A;
+	        color:#D35B30;
 }
 
 
@@ -121,11 +121,7 @@ h6  {
 }
 
 
-.ui {
 
-
-	text-decoration: underline;
-}
 
 
 
@@ -334,7 +330,7 @@ h6  {
 .tags {
 
 			    position: relative;
-			    top: 10px;
+			    bottom: 30px;
 				width: 40%;
 				margin: 0 auto;
 				text-align: center;
@@ -348,6 +344,16 @@ h6  {
 															}
 							
 
+.ui {
+
+
+	text-decoration: underline;
+	position: relative;
+	width: 40%;
+	margin: 0 auto;
+	text-align: center;
+	bottom: 20px;
+}
 
 
 
