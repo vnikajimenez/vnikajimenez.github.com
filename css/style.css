@@ -102,7 +102,7 @@ h4 {
 		line-height: 1.7586em;
 }
 
-h5,.ui{
+h5, a{
 			font-family: "museo-sans",sans-serif;
 			font-weight:100;
 	        font-size:  1.2353em; /* equiv 21px */
@@ -330,7 +330,7 @@ h6  {
 .tags {
 
 			    position: relative;
-			    bottom: 30px;
+			    bottom: 15px;
 				width: 40%;
 				margin: 0 auto;
 				text-align: center;
@@ -355,6 +355,13 @@ h6  {
 	bottom: 20px;
 }
 
+
+a:hover {
+
+	color:rgb(70, 69, 86);
+
+
+}
 
 
 /*images
