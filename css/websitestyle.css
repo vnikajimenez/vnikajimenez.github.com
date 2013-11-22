@@ -34,7 +34,7 @@ h1 {
 
 .designare {
 
-        color:#E26A1A;
+        color:#ba4b2d;
 	    font-size:  2.8em;
 		font-weight:900;
 		font-family: "museo-slab",serif;
@@ -375,18 +375,6 @@ li, p, li ul {
 										}
            
 
-
-.arrow {
-
-z-index: 9;
-margin: auto;
-position: relative;
-bottom: 350px;
-left: 475px;
-position: fixed;
-height: 100px;
-width: 50px;
-}
 
 
 
