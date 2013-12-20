@@ -23,13 +23,13 @@ h1 {
 
                                /*most mobiles*/
 
-
+/*
 	@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){							
 		h1{
 			font-size: 1.7em;
 	    }
 	}
-
+*/
 
 
 .designare {
@@ -47,11 +47,11 @@ h1 {
                                    /*most mobiles*/
 
 
-								@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
+							/*	@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 									.designare {
 										font-size: 1.7em;
 								    }
-								}
+								}*/
 
 
 
@@ -148,14 +148,14 @@ h5,.resume {
 }
 
 
-
+/*
                          @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 									.subtitle, .subuno {
 										position: relative;
 										left: 0;
 										top: 10;
 								    }
-								}
+								}*/
 
 
 .move {
