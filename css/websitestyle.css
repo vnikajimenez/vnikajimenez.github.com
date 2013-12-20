@@ -211,7 +211,7 @@ li, p, li ul {
             right: 2%;
 	        width: 35%;
 	        }
-@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){
+/*@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){
 							
 									.background  {
 
@@ -220,7 +220,7 @@ li, p, li ul {
 										
 
 						        }
-						}
+						}*/
 
 
 
@@ -243,11 +243,11 @@ li, p, li ul {
 			background-color:rgb(80, 78, 91);
 }
 
-           @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){							
+           /*@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){							
 							.wrapper  {
 								width: 100%;
 						    }
-						}
+						}*/
 
 
 
@@ -267,12 +267,12 @@ li, p, li ul {
 						/*most phones*/
 
 
-						@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){							
+						/*@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){							
 							.tape  {
 								left: 0px;
 								width: 100%;
 						    }
-						}
+						}*/
 
 						/*iphone5 phones*/
 
@@ -307,7 +307,7 @@ li, p, li ul {
                              /*most phones*/
 
 
-							@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {
+							/*@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {
 								
 										.mask {
 
@@ -316,7 +316,7 @@ li, p, li ul {
 											height: 200px;
 
 							        }
-							}
+							}*/
 
 
                              /*/*iphone5 phones*/
@@ -363,7 +363,7 @@ li, p, li ul {
 		   
 }
 
-									@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {
+									/*@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {
 											
 													.titulo {
 
@@ -372,7 +372,7 @@ li, p, li ul {
 			 											bottom: 100px;
 														
 										        }
-										}
+										}*/
            
 
 
@@ -393,17 +393,17 @@ li, p, li ul {
 
 }
 
-              @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {
+             /* @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {
 											
 													.navigation {
-														font-size:  .8em; /* equiv 29px */
+														font-size:  .8em;  equiv 29px 
 														right: 15px;
 			                                            width: 350px;
 			 											bottom: 10px;
 
 										        }
 										}
-
+*/
 
 
 
@@ -417,14 +417,14 @@ nav ul li {
 }
 
 
-           @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {
+          /* @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {
 											
 													nav ul li {
 														padding: 10px;
 														
 										        }
 										}
-
+*/
 
 
 nav ul li a {
@@ -453,7 +453,7 @@ nav ul li a:hover {
 		    background-color:#f1f1e2;
 
 }
-
+/*
 						@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 									.aboutme {
 										margin:0;
@@ -463,7 +463,7 @@ nav ul li a:hover {
 								}
 
 
-
+*/
 
 
 
@@ -480,13 +480,13 @@ nav ul li a:hover {
 		   background-repeat: no-repeat;
 }
 
-               @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
+              /* @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 									.profile{
 										
 										display: none;
 								    }
 								}
-
+*/
 
 
 
@@ -500,13 +500,13 @@ nav ul li a:hover {
 }
 
 
-			@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
+			/*@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 				.story {
 					width: 100%;
 					padding-bottom: 10px;
 
 			    }
-			}
+			}*/
                               
 
                               
@@ -537,13 +537,13 @@ blockquote  {
 		    top:10px;
 }
 
-         @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
+        /* @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 				.veronica {
 					top: 40px;
 					padding-bottom: 25px;
 
 			    }
-			}
+			}*/
                               
 
 
@@ -565,13 +565,13 @@ blockquote  {
 }
 
 
-		@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
+		/*@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 					.social ul li {
 						right: 10px;
 						padding: 2px;
 						
 				    }
-				}
+				}*/
 
 
 
@@ -639,14 +639,14 @@ blockquote  {
                                 /*most mobiles*/
 
 
-				@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
+				/*@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 					.trabajo {
 						margin:0;
 						left: 0px;
 						width: 100%;
 				        height: 400px;
 				    }
-				}
+				}*/
 
 
 .image  {
@@ -667,7 +667,7 @@ blockquote  {
 	background-color: white;
 }
 
-
+/*
 					@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 								.image{
 									
@@ -675,12 +675,11 @@ blockquote  {
 								width: 70px;
 								border-radius:80px;
 								font-size: .8em;
-							/*	top:0;*/
 							    margin-right:0px;
 							    margin-bottom: 20px;
 								
 							    }
-							}
+							}*/
 
 
 
@@ -692,21 +691,22 @@ blockquote  {
 .roundconta  {
 
             text-align: center;
-			margin: 0 auto;
+
+            left: 100px;
 			position: relative;
 			width: 860px;
 		    height: 300px;
 		    top: 100px;
 }
 
-							@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
+							/*@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 										.img {
 											
 									   width: 70%;
 									   height: 100px;
 										
 									    }
-									}
+									}*/
 
 
 
@@ -721,10 +721,10 @@ blockquote  {
 }
 
 						/* phone */
-						@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
+						/*@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 									.logos{
 										
-								    font-size:  .8em; /* equiv 29px */
+								    font-size:  .8em;
 								    top: 25px;
 								    text-align: center;
 									
@@ -735,7 +735,6 @@ blockquote  {
 									.logomiddle{
 										
 								    position: relative;
-								    /*right:  20px;*/
 									
 								    }
 								}
@@ -746,11 +745,9 @@ blockquote  {
 						@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) and (orientation : portrait) {							
 									.illus {
 										
-								    position: relative;
-								    /*right: 2px;*/
-									
+								    position: relative;									
 								    }
-								}
+								}*/
 
 
 
@@ -777,14 +774,14 @@ blockquote  {
 }
 
 
-@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
+/*@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 			.contact {
 
 				margin:0;
 				width:  100%;
 				height: 150px;
 		    }
-		}
+		}*/
 
 
 
@@ -798,14 +795,14 @@ blockquote  {
       padding-bottom: 50px;
 }
 
-@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
+/*@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 			.social {
 				   
                    padding-bottom: 0px;	
                    margin: auto;
 		
 		    }
-		}
+		}*/
 
 
 
@@ -822,7 +819,7 @@ blockquote  {
 
 }
 
-@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
+/*@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 			.copyright {
 				 display: none;
 				
@@ -830,7 +827,7 @@ blockquote  {
 		}
 
 
-
+*/
 
 
 
