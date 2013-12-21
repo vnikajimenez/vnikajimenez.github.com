@@ -3,7 +3,7 @@
 /*Index media queries*/
 
 
-@media (min-width:320) and (max-width: 568px) {
+@media only screen (min-width:320) and (max-width: 568px) {
 
 	.designare, .subtitle {
 		font-size: 1.3em;
@@ -164,13 +164,10 @@
 /*landingpage*/
 
 
-
-
-
 /*media queries for conent page*/
 
 
- @media (min-width: 320px) and (max-width: 568px){	
+ @media only screen (min-width: 320px) and (max-width: 568px) {	
 
 	p{
 		font-size: 1.5em;
@@ -223,7 +220,7 @@
 
 /*nom*/
 
- @media (min-width: 320px) and (max-width: 568px){	
+ @media only screen (min-width: 320px) and (max-width: 568px){	
 
 	.first {
 		background-image: url('../images/nomlogores.png');
