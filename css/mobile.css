@@ -1,9 +1,9 @@
 
 
-/*Index media queries*/
+/*Index media queries mobile*/
 
 
-@media only screen (min-width:320) and (max-width: 568px) {
+@media only screen (min-device-width:320) and (max-device-width: 568px) {
 
 	.designare, .subtitle {
 		font-size: 1.3em;
@@ -161,13 +161,69 @@
 
 }
 
+
+/*media queries for conent ipad*/
+
+
+@media only screen  and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+
+ .mask {
+
+		background-image: url('../images/maskcirclesipad.png');
+		width: 100%;
+}
+
+.tape {
+
+
+
+	width: 100%;
+}
+
+
+.titulo {
+
+								
+        width: 100%;
+		bottom: 100px;
+														
+	}
+
+.trabajo {
+
+	margin:0;
+	left: 0px;
+	width: 100%;
+    height: 500px;
+}
+
+
+.story {
+				
+	width: 100%;
+	padding-bottom: 10px;
+
+}
+
+
+
+
+
+}
+
+
+
+
+
+
 /*landingpage*/
 
 
-/*media queries for conent page*/
+/*media queries for conent page mobile*/
 
 
- @media only screen (min-width: 320px) and (max-width: 568px) {	
+ @media only screen (min-device-width: 320px) and (max-device-width: 568px) {	
 
 	p{
 		font-size: 1.5em;
@@ -220,7 +276,7 @@
 
 /*nom*/
 
- @media only screen (min-width: 320px) and (max-width: 568px){	
+ @media only screen (min-device-width: 320px) and (max-device-width: 568px){	
 
 	.first {
 		background-image: url('../images/nomlogores.png');
