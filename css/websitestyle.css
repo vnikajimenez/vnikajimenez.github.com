@@ -294,8 +294,7 @@ li, p, li ul {
 
 .mask {    
             
-             background-image: url('../images/maskcircleswork.png'
-);
+            background-image: url('../images/maskcircleswork.png');
 		    margin: auto;
 			background-position: center;
 			width: 100%;

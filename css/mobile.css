@@ -12,11 +12,7 @@
 
 
 
-
-
-
 /*landingpage*/
-
 
 
 
@@ -242,8 +238,92 @@
 
 
 
+/*media queries for conent page*/
+
+
+ @media (min-width: 320px) and (max-width: 480px){							
+									p{
+										font-size: 1.5em;
+								    }
+								}
+
+@media (min-width: 320px) and (max-width: 480px){							
+										.cwrapper, .side  {
+											width: 100%;
+									    }
+									}
 
 
 
 
+@media (min-width: 320px) and (max-width: 480px){							
+										.photos, .tags {
+											width: 90%;
+									    }
+									}
+
+
+
+@media (min-width: 320px) and (max-width: 480px){							
+										.descrip {
+											width: 80%;
+											
+									    }
+									}
+
+@media (min-width: 320px) and (max-width: 480px) {							
+																
+
+													 .des {
+
+													 	right: 130px;
+ 
+													
+													}
+												}
+
+
+
+/*responsive images*/
+
+
+
+/*nom*/
+
+ @media (min-width: 320px) and (max-width: 480px){							
+										.first {
+											background-image: url('../images/nomlogores.png');
+											width: 250px;
+	                                        height: 83px;
+	                                        bottom:  50px;
+	                                        margin-right: auto;
+	                                        margin-left: auto;
+
+}
+
+ @media (min-width: 320px) and (max-width: 480px){							
+										.second {
+
+											background-image: url('../images/homepageres.jpg');
+											width: 300px;
+	                                        height: 225px;
+									    }
+									}
+
+@media (min-width: 320px) and (max-width: 480px){							
+										.third {
+
+											background-image: url('../images/nomdrinkres.jpg');
+											width: 300px;
+	                                        height: 225px;
+									    }
+
+ @media (min-width: 320px) and (max-width: 480px){	
+
+										.fourth{
+
+											background-image: url('../images/nomeatres.jpg');
+											width: 300px;
+	                                        height: 225px;
+									    }
 

@@ -22,12 +22,12 @@ h1 {
 
 
 
-								@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
+								/*@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 									h1 {
 										font-size: 3.2em;
 								    }
 								}
-
+*/
 
 
 
@@ -58,11 +58,11 @@ p {
 
 
 
-	@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
+	/*@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {							
 									p{
 										font-size: 2em;
 								    }
-								}
+								}*/
 
 
 
@@ -134,16 +134,15 @@ h6  {
 .wrapper  {
 
 
-/*	      min-width: 1000px;
-*/		  min-height: 100%;
+    	  min-height: 100%;
 	      background-color:#504E5B;
 	      width: 100%;
 }
-                      @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){							
-										.wrapper  {
+                      /*@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){							
+										.cwrapper  {
 											width: 100%;
 									    }
-									}
+									}*/
 
 
 
@@ -177,7 +176,7 @@ h6  {
 			/*most phones*/
 
 
-									@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){							
+									/*@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){							
 										.side  {
 
 											
@@ -186,7 +185,7 @@ h6  {
 
 
 									    }
-									}
+									}*/
 
 
 
@@ -201,13 +200,108 @@ h6  {
 
 
 
+/*nom
+*/
 
-@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){							
+
+
+.first {
+
+	          background-image: url('../images/NOMlogo.png');
+	          background-repeat: no-repeat;
+	          width: 600px;
+	          height: 200px;
+	          margin: 0 auto;
+	          position:relative;
+}
+
+
+
+.second {
+
+	          background-image: url('../images/homepage.jpg');
+	          background-repeat: no-repeat;
+	           margin: auto;
+	          width: 600px;
+	          height: 450px;
+	          padding-bottom: 100px;
+}
+
+
+.third {
+
+	          background-image: url('../images/nomdrink.jpg');
+	          background-repeat: no-repeat;
+	          margin: auto;
+	          width: 600px;
+	          height: 450px;
+	          padding-bottom: 100px;
+
+}
+
+
+.fourth {
+
+	          background-image: url('../images/nomeat.jpg');
+	          background-repeat: no-repeat;
+	          margin: auto;
+
+	           width: 600px;
+	          height: 450px;
+	          padding-bottom: 100px;
+
+}
+
+
+/*Whisk*/
+
+
+
+.firstw {
+
+	          background-image: url('images/landingwhisk.jpg');
+	          background-repeat: no-repeat;
+	          width: 850px;
+	          height: 1000px;
+	          margin: 0 auto;
+	          position:relative;
+}
+
+.secondw {    background-image: url('images/whiskhomefeed.jpg');
+					          background-repeat: no-repeat;
+					          margin: auto;
+					          width: 850px;
+					          height: 1000px;
+					          padding-bottom: 100px;
+				}
+.thirdw {    background-image: url('../images/homefeed.jpg');
+					          background-repeat: no-repeat;
+					          margin: auto;
+					          width: 850px;
+					          height: 1000px;
+					          padding-bottom: 100px;
+				}
+
+.fourthw{    background-image: url('../images/enterrecipy.jpg');
+					          background-repeat: no-repeat;
+					          margin: auto;
+					          width: 850px;
+					          height: 1000px;
+					          padding-bottom: 100px;
+				}
+
+
+
+
+
+
+
+/*@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){							
 										.photos {
 											
 											width: 90%;
 									    }
-									}
+									}*/
 
 
 
@@ -235,13 +329,13 @@ h6  {
 }
 
 
-				@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){							
+				/*@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){							
 																.descrip {
 																	width: 70%;
 
 															    }
 															}
-				               
+				               */
 
 
 
@@ -296,7 +390,7 @@ h6  {
 }
 
 
- @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){							
+/* @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){							
 																.des {
 
 														-webkit-transform: scale (1.25);
@@ -306,7 +400,7 @@ h6  {
 
 													}
 												}
-
+*/
 
 
 
@@ -337,12 +431,12 @@ h6  {
 }
 
 
-                 @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){							
+                /* @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){							
 																.tags{
 																	 width: 90%;
 															    }
 															}
-							
+							*/
 
 .ui {
 
