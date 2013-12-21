@@ -1,286 +1,219 @@
 
 
-/*typography*/
+/*Index media queries*/
 
 
-@media (max-width: 320) and (max-width: 480px){
+@media (min-width:320) and (max-width: 568px) {
 
 	.designare, .subtitle {
 		font-size: 1.3em;
 	}
+
+	.background  {
+		background-image: url("../images/backgroundres.jpg");
+		width: 200px;
+    }
+
+    .wrapper  {
+				
+		width: 100%;
+	}
+
+	.tape     {
+
+		left: 0px;
+		width:100%;
+    }
+
+
+
+    .mask {
+
+		background-image: url('../images/maskcircles2.png');
+		width: 100%;
+		height: 250px;
+	}
+
+
+	.titulo {
+
+								
+        width: 100%;
+		bottom: 100px;
+														
+	}
+
+
+
+	.navigation {
+
+		font-size:  .8em; /* equiv 29px */
+		right: 15px;
+        width: 350px;
+		top: 30px;
+
+
+	}
+
+
+   .aboutme {
+
+	margin:0;
+	left: 0px;
+	width: 100%;
+
+	}
+
+
+.profile {
+										
+	display: none;
+
+	 }
+
+.veronica {
+
+	top: 40px;
+	padding-bottom: 25px;
+
+}
+
+ .story {
+				
+	width: 100%;
+	padding-bottom: 10px;
+
 }
 
 
+
+
+
+.trabajo {
+
+	margin:0;
+	left: 0px;
+	width: 100%;
+    height: 400px;
+}
+
+
+
+.image {
+				
+    height:90px;
+	width: 90px;
+	border-radius:100px;
+	font-size: .8em;
+    margin-bottom: 20px;
+
+			
+}
+
+
+.img {
+				
+    width: 80%;
+    height: 100px;
+	text-align: center;
+}
+
+
+.roundconta  {
+
+     left: 50px;
+
+
+}
+
+
+.logos{
+				
+    font-size:  1em; /* equiv 29px */
+    top: 35px;
+ }
+
+
+
+.contact {
+
+	margin:0;
+	width:  100%;
+	height: 150px;
+}
+
+
+.social {
+				     				   
+   padding-bottom: 0px;	
+   margin:  0 auto;
+   right: 30px;
+}
+
+
+.copyright {
+				
+			display: none;
+				
+				
+		    }
+
+
+}
 
 /*landingpage*/
 
 
 
 
-@media (min-width : 320px)and (max-width : 480px) {
-	
-			.background  {
-
-				background-image: url("../images/backgroundres.jpg");
-				width: 200px;
-				
-
-        }
-}
-
-
-@media (min-width: 320px) and (max-width: 480px){							
-							.wrapper  {
-								width: 100%;
-						    }
-						}
-
-
-@media (min-width: 320px) and (max-width: 480px) {							
-	.tape  {
-
-		left: 0px;
-		width:100%;
-    }
-}
-
-
-
-
-@media (min-width : 320px) and (max-width : 480px) {
-								
-										.mask {
-
-											background-image: url('../images/maskcircles2.png');
-											width: 100%;
-											height: 200px;
-
-							        }
-							}
-
-
-
-
-@media (min-width : 320px) and (max-width : 480px) { 
-
-                                      
-                          .titulo {
-
-								
-                                width: 100%;
-								bottom: 100px;
-														
-										        }
-
-						 }
-								
-
-
-@media (min-width : 320px) and (max-width : 480px) { 
-
-                                      
-                          .navigation {
-
-									font-size:  .8em; /* equiv 29px */
-									right: 15px;
-                                    width: 350px;
-									top: 30px;
-
-
-						 }
-
-
-
-
-@media (min-width: 320px) and (max-width: 480px) {							
-			
-			.aboutme {
-
-				margin:0;
-				left: 0px;
-				width: 100%;
-		    }
-		}
-
-@media (min-width: 320px) and (max-width: 480px) {
-
-
-
-            .profile{
-										
-					display: none;
-								    }
-
-
-
-}
-
-
-@media (min-width: 320px) and (max-width: 480px) {
-
-.veronica {
-					top: 40px;
-					padding-bottom: 25px;
-
-}
-
-
-@media (min-width: 320px) and (max-width: 480px) {							
-			.story {
-				
-				width: 100%;
-				padding-bottom: 10px;
-
-		    }
-		}
-
-
-
-
-
-@media (min-width: 320px) and (max-width: 480px) {							
-			.trabajo {
-						margin:0;
-						left: 0px;
-						width: 100%;
-				        height: 400px;
-				    }
-		}
-
-
-
-
-		@media (min-width: 320px) and (max-width: 480px) {							
-			.image{
-				
-		                        height:90px;
-								width: 90px;
-								border-radius:100px;
-								font-size: .8em;
-							    margin-bottom: 20px;
-
-			
-		    }
-		}
-
-
-
-@media (min-width: 320px) and (max-width: 480px) {							
-			.img {
-				
-		    width: 80%;
-		    height: 100px;
-			text-align: center;
-		    }
-		}
-
-
-@media (min-width: 320px) and (max-width: 480px){
-
-
-	.roundconta  {
-
-            left: 50px;
-}
-
-
-
-@media (min-width: 320px) and (max-width: 480px) {							
-			.logos{
-				
-		    font-size:  .8em; /* equiv 29px */
-		    top: 35px;
-			
-		    }
-		}
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 320px) and (max-width: 480px) {							
-			.contact {
-				margin:0;
-				width:  100%;
-				height: 150px;
-		    }
-		}
-
-
-
-
-@media (min-width: 320px) and (max-width: 480px) {							
-			.social {
-				     				   
-                   padding-bottom: 0px;	
-                   margin: auto;		
-		    }
-		}
-
-
-
-
-
-
-@media (min-width: 320px) and (max-width: 480px) {							
-			.copyright {
-				
-			display: none;
-				
-				
-		    }
-		}
-
-
 
 /*media queries for conent page*/
 
 
- @media (min-width: 320px) and (max-width: 480px){							
-									p{
-										font-size: 1.5em;
-								    }
-								}
+ @media (min-width: 320px) and (max-width: 568px){	
 
-@media (min-width: 320px) and (max-width: 480px){							
-										.cwrapper, .side  {
-											width: 100%;
-									    }
-									}
+	p{
+		font-size: 1.5em;
+    }
 
 
 
+	.cwrapper, .side  {
 
-@media (min-width: 320px) and (max-width: 480px){							
-										.photos, .tags {
-											width: 90%;
-									    }
-									}
+			width: 100%;
+	 }
 
 
+	 .photos, .tags {
 
-@media (min-width: 320px) and (max-width: 480px){							
-										.descrip {
-											width: 80%;
+		   width: 90%;
+	 }
+		
+    
+
+    .descrip {
+
+		width: 80%;
 											
-									    }
-									}
+	}
 
-@media (min-width: 320px) and (max-width: 480px) {							
-																
 
-													 .des {
+	 .des {
 
-													 	right: 130px;
+      right: 130px;
  
 													
-													}
-												}
+	}
+
+
+}
+
+
+
+
+
+
+
 
 
 
@@ -290,40 +223,41 @@
 
 /*nom*/
 
- @media (min-width: 320px) and (max-width: 480px){							
-										.first {
-											background-image: url('../images/nomlogores.png');
-											width: 250px;
-	                                        height: 83px;
-	                                        bottom:  50px;
-	                                        margin-right: auto;
-	                                        margin-left: auto;
+ @media (min-width: 320px) and (max-width: 568px){	
+
+	.first {
+		background-image: url('../images/nomlogores.png');
+		width: 250px;
+        height: 83px;
+        bottom:  50px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+	.second {
+
+		background-image: url('../images/homepageres.jpg');
+		width: 300px;
+        height: 225px;
+    }
+
+
+	.third {
+
+		background-image: url('../images/nomdrinkres.jpg');
+		width: 300px;
+        height: 225px;
+    }
+
+
+
+	.fourth{
+
+		background-image: url('../images/nomeatres.jpg');
+		width: 300px;
+        height: 225px;
+    }
 
 }
-
- @media (min-width: 320px) and (max-width: 480px){							
-										.second {
-
-											background-image: url('../images/homepageres.jpg');
-											width: 300px;
-	                                        height: 225px;
-									    }
-									}
-
-@media (min-width: 320px) and (max-width: 480px){							
-										.third {
-
-											background-image: url('../images/nomdrinkres.jpg');
-											width: 300px;
-	                                        height: 225px;
-									    }
-
- @media (min-width: 320px) and (max-width: 480px){	
-
-										.fourth{
-
-											background-image: url('../images/nomeatres.jpg');
-											width: 300px;
-	                                        height: 225px;
-									    }
 
