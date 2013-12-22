@@ -51,7 +51,6 @@ p {
      font-weight: 300;
      word-spacing:0.25em;
      text-indent:0;
-     padding-bottom: 20px;
 	 color:rgb(70, 69, 86);
 
    }
@@ -99,15 +98,15 @@ h4 {
 		  font-size:  1.3529em; /* equiv 23px */
 		  font-family: "museo-sans",sans-serif;
 		  font-weight: 300;
-		line-height: 1.7586em;
-}
+/*		line-height: 1.7586em;
+*/}
 
 h5, a{
 			font-family: "museo-sans",sans-serif;
 			font-weight:100;
 	        font-size:  1.2353em; /* equiv 21px */
-	        line-height:  1.2143em;
-	        color:#D35B30;
+/*	        line-height:  1.2143em;
+*/	        color:#D35B30;
 }
 
 
@@ -162,9 +161,7 @@ h6  {
       }
 
 
-.side  {
-/*		        min-width: 700px;
-*/				background-color: #f1f1e2;
+.side  {		background-color: #f1f1e2;
 				width: 900px;
 		        margin: auto;
                 overflow: auto;
@@ -292,23 +289,6 @@ h6  {
 
 
 
-
-
-
-
-/*@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){							
-										.photos {
-											
-											width: 90%;
-									    }
-									}*/
-
-
-
-
-
-
-
 #gemelas {
 
 
@@ -319,24 +299,23 @@ h6  {
 
 
 .descrip  {
-               
+                background-color: #f1f1e2;
                 text-align: left;
                 position: relative;
-                width: 500px;
+                width: 520px;
                 margin: 0 auto;
 
 		             
 }
 
 
-				/*@media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){							
-																.descrip {
-																	width: 70%;
-
-															    }
-															}
-				               */
-
+ .veronica {
+ 
+		    
+		    margin: auto;
+			position: relative;
+		    text-align: center;
+}
 
 
 
@@ -388,21 +367,6 @@ h6  {
 
 	background-color: white;
 }
-
-
-/* @media (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){							
-																.des {
-
-														-webkit-transform: scale (1.25);
-													    -moz-transform: scale (1.25);
-													    -0-transform: scale (1..25);
-													    transform:scale(1.25);
-
-													}
-												}
-*/
-
-
 
 
 

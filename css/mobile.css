@@ -74,9 +74,9 @@
 
 	.veronica {
 
-		top: 40px;
-		padding-bottom: 25px;
-		width: 100%;
+	top: 40px;		
+	width: 100%;
+	bottom: 100px;
 
 	}
 
@@ -172,8 +172,8 @@
 
 	.veronica {
 
-		top: 40px;
-		padding-bottom: 25px;
+		top: 0px;
+		padding-bottom: 20px;
 		width: 100%;
 
     }
@@ -275,7 +275,6 @@
 	 .photos {
 
 		   width: 95%;
-		   margin-top: 30px;
 	 }
 		
     h1{
@@ -288,7 +287,7 @@
 
 		width: 80%;
 		font-size: 1em;
-        bottom: 20px;
+        bottom: 30px;
 	}
 
 
@@ -302,15 +301,9 @@
 	}
 
 
-    .ui {
+    
 
-        
-       width: 100%;
-	
-													
-	}
-
-   .tittle{
+   .tittle {
 
      width: 80%;
      top: 10px;
@@ -318,6 +311,16 @@
 
 
    }
+
+   
+    .dropbox {
+
+     position: relative;
+     bottom: 20px;
+
+   }
+
+
 
 
 }
