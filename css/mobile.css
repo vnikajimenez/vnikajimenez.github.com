@@ -3,10 +3,10 @@
 /*Index media queries mobile*/
 
 
-@media only screen and (min-device-width:320px) and (max-device-width: 568px) {
+@media screen and (min-width:320px) and (max-width: 568px) {
 
 	.designare, .subtitle {
-		font-size: 1.3em;
+		font-size: 2em;
 	}
 
 	.background  {
@@ -32,6 +32,7 @@
 		background-image: url('../images/maskcircles2.png');
 		width: 100%;
 		height: 250px;
+		top: 40px;
 	}
 
 
@@ -39,7 +40,7 @@
 
 								
         width: 100%;
-		bottom: 40px;
+		bottom: 110px;
 														
 	}
 
@@ -50,8 +51,8 @@
 		font-size:  .8em; /* equiv 29px */
 		right: 15px;
         width: 350px;
-/*		top: px;
-*/
+        top:10px; 
+
 
 	}
 
@@ -81,8 +82,9 @@
 
  .story {
 				
-	width: 95%;
+	width: 100%;
 	padding-bottom: 10px;
+	font-size: 1em;
 
 }
 
@@ -121,8 +123,10 @@
 
 
 .roundconta  {
-
-     left: 30px;
+	left: 0px;
+    margin-left: 60px;
+    margin: right: 50px;
+     width: 80%;
 
 
 }
@@ -140,16 +144,15 @@
 
 	margin:0;
 	width:  100%;
-	/*height: 150px;*/
+	height: 150px;
 }
 
 
 .social {
 				     				   
-   padding-bottom: 0px;	
-   margin:  0 auto;
-   left: 10px;
-
+   padding-bottom: 0px;
+   right: 20px;	
+   width: 105%;
 }
 
 
@@ -161,12 +164,6 @@
 		    }
 
 
-p {
-
-	font-size:  .8em;
-}
-
-
 
 
 
@@ -176,7 +173,7 @@ p {
 /*media queries for conent ipad*/
 
 
-@media only screen  and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media screen (min-width : 768px) and (max-width : 1024px) {
 
 
  .mask {
@@ -234,13 +231,9 @@ p {
 /*media queries for conent page mobile*/
 
 
- @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {	
+ @media screen and (min-width: 320px) and (max-width: 568px) {	
 
-	p{
-		font-size: 1.5em;
-    }
-
-
+	
 
 	.cwrapper, .side  {
 
@@ -250,24 +243,38 @@ p {
 
 	 .photos, .tags {
 
-		   width: 90%;
+		   width: 95%;
 	 }
 		
-    
+    h1{
+
+    	font-size: 2em;
+     
+ }
 
     .descrip {
 
 		width: 80%;
-											
+		font-size: 1em;
+        bottom: 20px;
 	}
 
 
 	 .des {
 
-      right: 130px;
- 
+        right: 120px;
+
+		top: 20px;
+		
+
 													
 	}
+
+
+
+
+
+
 
 
 }
@@ -287,7 +294,7 @@ p {
 
 /*nom*/
 
- @media only screen  and (min-device-width: 320px) and (max-device-width: 568px){	
+ @media screen and (min-width: 320px) and (max-width: 568px){	
 
 	.first {
 		background-image: url('../images/nomlogores.png');
@@ -319,9 +326,50 @@ p {
 	.fourth{
 
 		background-image: url('../images/nomeatres.jpg');
-		width: 300px;
+	    width: 300px;
         height: 225px;
     }
+
+
+/*whisk*/
+
+
+	.firstw {
+            top: 0px;
+			background-image: url('../images/landingresfinal.jpg');
+			width: 353px;
+	        height: 415px;
+
+	}
+
+
+	.secondw {
+		background-image: url('../images/landscapelandingres.jpg');
+		width: 353px;
+        height: 415px;
+}
+
+
+    .thirdw {
+
+		background-image: url('../images/homefeedres.jpg');
+		width: 353px;
+        height: 415px;
+
+}
+
+
+.fourthw {
+
+		background-image: url('../images/followuserres.jpg');
+		width: 353px;
+        height: 415px;
+       
+
+}
+
+
+
 
 }
 
