@@ -32,7 +32,7 @@
 		background-image: url('../images/maskcircles2.png');
 		width: 100%;
 		height: 250px;
-		top: 40px;
+		top: 0px;
 	}
 
 
@@ -40,7 +40,7 @@
 
 								
         width: 100%;
-		bottom: 110px;
+		bottom: 140px;
 														
 	}
 
@@ -49,9 +49,9 @@
 	.navigation {
 
 		font-size:  .8em; /* equiv 29px */
-		right: 15px;
+		right: 10px;
         width: 350px;
-        top:10px; 
+        bottom:25px; 
 
 
 	}
@@ -66,108 +66,121 @@
 	}
 
 
-.profile {
-										
-	display: none;
+	.profile {
+											
+		display: none;
 
+		 }
+
+	.veronica {
+
+		top: 40px;
+		padding-bottom: 25px;
+		width: 100%;
+
+	}
+
+	 .story {
+					
+		width: 100%;
+		padding-bottom: 10px;
+		font-size: 1em;
+
+	}
+
+
+
+
+
+	.trabajo {
+
+		margin:0;
+		left: 0px;
+		width: 100%;
+	    height: 400px;
+	}
+
+
+
+	.image {
+					
+	    height:90px;
+		width: 90px;
+		border-radius:100px;
+		font-size: .8em;
+	    margin-bottom: 20px;
+	    margin-right: 5px;
+
+				
+	}
+
+
+	.img {
+					
+	    width: 80%;
+	    height: 100px;
+		text-align: center;
+	}
+
+
+	.roundconta  {
+		
+	    width: 90%;
+	    left: 20px;
+
+
+	}
+
+
+	.logos{
+					
+	    font-size:  1em; /* equiv 29px */
+	    top: 35px;
 	 }
 
-.veronica {
-
-	top: 40px;
-	padding-bottom: 25px;
-	width: 100%;
-
-}
-
- .story {
-				
-	width: 100%;
-	padding-bottom: 10px;
-	font-size: 1em;
-
-}
 
 
+	.contact {
+
+		margin:0;
+		width:  100%;
+		height: 130px;
+	}
 
 
-
-.trabajo {
-
-	margin:0;
-	left: 0px;
-	width: 100%;
-    height: 400px;
-}
+	.social {
+					     				   
+	   width: 100%;
+	   margin: 0 auto;
+	   right: 30px;
+	}
 
 
+	.copyright {
+					
+				display: none;
+					
+					
+			    }
 
-.image {
-				
-    height:90px;
-	width: 90px;
-	border-radius:100px;
-	font-size: .8em;
-    margin-bottom: 20px;
-
-			
-}
+	.social ul li {
 
 
-.img {
-				
-    width: 80%;
-    height: 100px;
-	text-align: center;
-}
+		padding: 3px;
+	}
 
 
-.roundconta  {
-	left: 0px;
-    margin-left: 60px;
-    margin: right: 50px;
-     width: 80%;
+	.veronica {
 
+		top: 40px;
+		padding-bottom: 25px;
+		width: 100%;
 
-}
-
-
-.logos{
-				
-    font-size:  1em; /* equiv 29px */
-    top: 35px;
- }
+    }
 
 
 
-.contact {
-
-	margin:0;
-	width:  100%;
-	height: 150px;
-}
-
-
-.social {
-				     				   
-   padding-bottom: 0px;
-   right: 20px;	
-   width: 105%;
-}
-
-
-.copyright {
-				
-			display: none;
-				
-				
-		    }
-
-
-
-
-
-}
+	}
 
 
 /*media queries for conent ipad*/
@@ -194,7 +207,7 @@
 
 								
         width: 100%;
-		bottom: 100px;
+		bottom: 120px;
 														
 	}
 
@@ -203,7 +216,7 @@
 	margin:0;
 	left: 0px;
 	width: 100%;
-    height: 500px;
+    height: 400px;
 }
 
 
@@ -213,6 +226,24 @@
 	padding-bottom: 10px;
 
 }
+
+
+
+.social {
+				     				   
+   width: 100%;
+   right: 80px;
+}
+
+
+
+.contact {
+
+	margin:0;
+	width:  100%;
+	height: 300px;
+}
+
 
 
 
@@ -241,9 +272,10 @@
 	 }
 
 
-	 .photos, .tags {
+	 .photos {
 
 		   width: 95%;
+		   margin-top: 30px;
 	 }
 		
     h1{
@@ -262,19 +294,30 @@
 
 	 .des {
 
-        right: 120px;
-
-		top: 20px;
+        right: 130px;
+        top: 20px;
 		
 
 													
 	}
 
 
+    .ui {
+
+        
+       width: 100%;
+	
+													
+	}
+
+   .tittle{
+
+     width: 80%;
+     top: 10px;
+     padding-bottom: 5px;
 
 
-
-
+   }
 
 
 }
@@ -338,7 +381,7 @@
             top: 0px;
 			background-image: url('../images/landingresfinal.jpg');
 			width: 353px;
-	        height: 415px;
+	        height: 353px;
 
 	}
 
@@ -346,7 +389,8 @@
 	.secondw {
 		background-image: url('../images/landscapelandingres.jpg');
 		width: 353px;
-        height: 415px;
+        height: 300px;
+        margin-top: 30px;
 }
 
 
@@ -354,7 +398,7 @@
 
 		background-image: url('../images/homefeedres.jpg');
 		width: 353px;
-        height: 415px;
+        height: 300px;
 
 }
 
@@ -363,7 +407,7 @@
 
 		background-image: url('../images/followuserres.jpg');
 		width: 353px;
-        height: 415px;
+        height: 300px;
        
 
 }
