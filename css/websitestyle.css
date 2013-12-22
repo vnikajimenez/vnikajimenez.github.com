@@ -524,6 +524,7 @@ blockquote  {
 		    z-index: 7;
 			background-color:#D35B30;
 			width: 1000px;
+			height: 500px;
 
 
 }
@@ -550,8 +551,7 @@ blockquote  {
 		   position: relative;
 		   font-size:0.625em;
 		   color: #f1f1e2;
-            right: 100px;
-
+float: right;
 		   z-index: 8;
 
 }
