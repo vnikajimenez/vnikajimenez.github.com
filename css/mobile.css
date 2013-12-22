@@ -3,7 +3,7 @@
 /*Index media queries mobile*/
 
 
-@media  (min-device-width:320) and (max-device-width: 568px) {
+@media screen (min-device-width:320) and (max-device-width: 568px) {
 
 	.designare, .subtitle {
 		font-size: 1.3em;
@@ -165,7 +165,7 @@
 /*media queries for conent ipad*/
 
 
-@media (min-device-width : 768px) and (max-device-width : 1024px) {
+@media screen (min-device-width : 768px) and (max-device-width : 1024px) {
 
 
  .mask {
@@ -223,7 +223,7 @@
 /*media queries for conent page mobile*/
 
 
- @media (min-device-width: 320px) and (max-device-width: 568px) {	
+ @media screen (min-device-width: 320px) and (max-device-width: 568px) {	
 
 	p{
 		font-size: 1.5em;
@@ -276,7 +276,7 @@
 
 /*nom*/
 
- @media (min-device-width: 320px) and (max-device-width: 568px){	
+ @media screen  (min-device-width: 320px) and (max-device-width: 568px){	
 
 	.first {
 		background-image: url('../images/nomlogores.png');
