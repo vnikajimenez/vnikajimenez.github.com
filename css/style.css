@@ -259,7 +259,7 @@ h6  {
 
 .firstw {
 
-	          background-image: url('images/landingwhisk.jpg');
+	          background-image: url('../images/landingwhisk.jpg');
 	          background-repeat: no-repeat;
 	          width: 850px;
 	          height: 1000px;
@@ -267,7 +267,7 @@ h6  {
 	          position:relative;
 }
 
-.secondw {    background-image: url('images/whiskhomefeed.jpg');
+.secondw {    background-image: url('../images/landscapelanding.jpg');
 					          background-repeat: no-repeat;
 					          margin: auto;
 					          width: 850px;
@@ -282,7 +282,7 @@ h6  {
 					          padding-bottom: 100px;
 				}
 
-.fourthw{    background-image: url('../images/enterrecipy.jpg');
+.fourthw{    background-image: url('../images/followuser.jpg');
 					          background-repeat: no-repeat;
 					          margin: auto;
 					          width: 850px;
