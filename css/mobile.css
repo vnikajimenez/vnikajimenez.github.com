@@ -39,7 +39,7 @@
 
 								
         width: 100%;
-		bottom: 70px;
+		bottom: 40px;
 														
 	}
 
@@ -50,8 +50,8 @@
 		font-size:  .8em; /* equiv 29px */
 		right: 15px;
         width: 350px;
-		top: 10px;
-
+/*		top: px;
+*/
 
 	}
 
@@ -148,7 +148,7 @@
 				     				   
    padding-bottom: 0px;	
    margin:  0 auto;
-   right: 50px;
+   left: 10px;
 
 }
 
