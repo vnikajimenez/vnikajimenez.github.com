@@ -74,9 +74,7 @@
 
 	.veronica {
 
-	top: 40px;		
 	width: 100%;
-	bottom: 100px;
 
 	}
 
@@ -108,7 +106,7 @@
 		width: 90px;
 		border-radius:100px;
 		font-size: .8em;
-	    margin-right: 20px;
+	    margin-right: 5px;
 
 				
 	}
@@ -171,8 +169,8 @@
 
 	.veronica {
 
-		top: 30px;
-		padding-bottom: 20px;
+		top: 10px;
+		padding-bottom: 10px;
 		width: 100%;
 
     }
@@ -286,7 +284,7 @@
 
 		width: 80%;
 		font-size: 1em;
-        bottom: 30px;
+        bottom: 10px;
 	}
 
 
