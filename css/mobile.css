@@ -51,7 +51,7 @@
 		font-size:  .8em; /* equiv 29px */
 		right: 10px;
         width: 350px;
-        bottom:25px; 
+        bottom:10px; 
 
 
 	}
@@ -108,8 +108,7 @@
 		width: 90px;
 		border-radius:100px;
 		font-size: .8em;
-	    margin-bottom: 20px;
-	    margin-right: 5px;
+	    margin-right: 20px;
 
 				
 	}
@@ -125,8 +124,8 @@
 
 	.roundconta  {
 		
-	    width: 90%;
-	    left: 20px;
+	    width: 95%;
+	    left: 10px;
 
 
 	}
@@ -172,7 +171,7 @@
 
 	.veronica {
 
-		top: 0px;
+		top: 30px;
 		padding-bottom: 20px;
 		width: 100%;
 
@@ -293,7 +292,7 @@
 
 	 .des {
 
-        right: 130px;
+        right: 110px;
         top: 20px;
 		
 
