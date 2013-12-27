@@ -183,7 +183,7 @@
 /*media queries for conent ipad*/
 
 
-@media screen (min-width : 568px) and (max-width : 1024px) {
+@media screen  and (min-width : 568px) and (max-width : 1024px) {
 
 
  .mask {
@@ -229,7 +229,7 @@
 .social {
 				     				   
    width: 100%;
-   right: 80px;
+   left: 30px;
 }
 
 
