@@ -6,7 +6,7 @@
 @media screen and (min-width:320px) and (max-width: 568px) {
 
 	.designare, .subtitle {
-		font-size: 2em;
+		font-size: 1.8em;
 	}
 
 	.background  {
@@ -23,6 +23,7 @@
 
 		left: 0px;
 		width:100%;
+
     }
 
 
@@ -40,7 +41,7 @@
 
 								
         width: 100%;
-		bottom: 140px;
+		bottom: 110px;
 														
 	}
 
@@ -49,9 +50,7 @@
 	.navigation {
 
 		font-size:  .8em; /* equiv 29px */
-		right: 10px;
-        width: 350px;
-        bottom:10px; 
+        bottom: 2px;
 
 
 	}
@@ -73,6 +72,7 @@
 		 }
 
 	.veronica {
+    
 
 	width: 100%;
 
@@ -124,6 +124,7 @@
 		
 	    width: 95%;
 	    left: 10px;
+	    height: 100px;
 
 
 	}
@@ -141,7 +142,7 @@
 
 		margin:0;
 		width:  100%;
-		height: 130px;
+		height: 100px;
 	}
 
 
@@ -169,8 +170,7 @@
 
 	.veronica {
 
-		top: 10px;
-		padding-bottom: 10px;
+		padding-top:50px;
 		width: 100%;
 
     }
@@ -183,7 +183,7 @@
 /*media queries for conent ipad*/
 
 
-@media screen (min-width : 768px) and (max-width : 1024px) {
+@media screen (min-width : 568px) and (max-width : 1024px) {
 
 
  .mask {
@@ -204,7 +204,7 @@
 
 								
         width: 100%;
-		bottom: 120px;
+		bottom: 100px;
 														
 	}
 
