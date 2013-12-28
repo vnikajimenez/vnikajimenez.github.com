@@ -71,13 +71,6 @@
 
 		 }
 
-	.veronica {
-    
-
-	width: 100%;
-
-	}
-
 	 .story {
 					
 		width: 100%;
@@ -132,7 +125,7 @@
 
 	.logos{
 					
-	    font-size:  1em; /* equiv 29px */
+	    font-size:  .8em; /* equiv 29px */
 	    top: 35px;
 	 }
 
@@ -149,7 +142,7 @@
 					     				   
 	   width: 100%;
 	   margin: 0 auto;
-	   right: 40px;
+	   right: 30px;
 	}
 
 
@@ -169,7 +162,7 @@
 
 	.veronica {
 
-		padding-top:50px;
+		padding-top:10px;
 		width: 100%;
 
     }
