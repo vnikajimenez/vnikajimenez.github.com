@@ -411,7 +411,52 @@
 
 }
 
+/*Micellaneus*/
 
+
+.firstI{
+            top: 0px;
+			background-image: url('../images/lanares.png');
+			width: 300px;
+	        height: 393px;
+
+	}
+
+
+	.secondI {
+		background-image: url('../images/sebastiensres.png');
+		width: 300px;
+        height: 272px;
+        margin-top: 30px;
+}
+
+
+    .thirdI {
+
+		background-image: url('../images/jellyfishres.png');
+		width: 300px;
+        height: 299px;
+
+}
+
+
+.fourthI{
+
+		background-image: url('../images/2014xmascardres.png');
+		width: 300px;
+        height: 388px;
+       
+
+}
+
+.fithI {
+
+		background-image: url('../images/bunnyres.png');
+		width: 300px;
+        height: 300px;
+       
+
+}
 
 
 }
