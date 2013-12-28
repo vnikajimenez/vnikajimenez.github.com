@@ -84,7 +84,7 @@ h3 {
 	
 }
 
-nav ul li a,.logos {
+nav ul li a {
 
 		font-size:  1.6em; /* equiv 29px */
 		color: #f1f1e2;
@@ -154,7 +154,15 @@ h5,.resume {
 
 }
 
+.roundconta .logos{
 
+
+ font-size:  1.6em;
+
+
+
+
+}
 
 
 
