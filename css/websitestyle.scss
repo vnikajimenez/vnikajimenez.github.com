@@ -32,6 +32,8 @@ $font-museosans:    "museo-sans",sans-serif;
 $fontcolor: #D35B30;
 $colorgray:rgb(80, 78, 91);
 
+// auto margins of divs//
+
 
 
 h1 {
@@ -130,7 +132,7 @@ h5,.resume {
 		text-decoration: underline;
 	    font-size:  1.2353em; /* equiv 21px */
 	    line-height:  1.2143em;
-	     color:$fontcolor;
+	    color:$fontcolor;
   }
 .resume:hover {
 
