@@ -115,8 +115,8 @@ li, p, li ul {
 
 /*landingpage*/
 .background {
-  background-image: url("../images/background1.jpg");
-  z-index: 6;
+/*  background-image: url("../images/background1.jpg");
+*/  z-index: 6;
   opacity: .4;
   display: block;
   position: fixed;
