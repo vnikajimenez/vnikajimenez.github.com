@@ -9,11 +9,11 @@
 		font-size: 1.8em;
 	}
 
-	.background  {
+	/*.background  {
 		background-image: url("../images/backgroundres.jpg");
 		width: 200px;
     }
-
+*/
     .wrapper  {
 				
 		width: 100%;
@@ -28,13 +28,13 @@
 
 
 
-    .mask {
+    /*.mask {
 
 		background-image: url('../images/maskcircles2.png');
 		width: 100%;
 		height: 200px;
 		top: 0px;
-	}
+	}*/
 
 
 	.titulo {
