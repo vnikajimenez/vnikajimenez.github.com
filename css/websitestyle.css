@@ -114,9 +114,9 @@ li, p, li ul {
   margin-bottom: 0; }
 
 /*landingpage*/
-.background {
+/*.background {
 /*  background-image: url("../images/background1.jpg");
-*/  z-index: 6;
+* z-index: 6;
   opacity: .4;
   display: block;
   position: fixed;
@@ -124,7 +124,7 @@ li, p, li ul {
   margin: 0 auto;
   left: 2%;
   right: 2%;
-  width: 35%; }
+  width: 35%; }*/
 
 .body {
   margin: 0;
@@ -147,7 +147,7 @@ li, p, li ul {
   position: relative;
   margin: auto; }
 
-.mask {
+/*.mask {
   background-image: url("../images/maskcircleswork.png");
   margin: auto;
   background-position: center;
@@ -155,7 +155,7 @@ li, p, li ul {
   height: 850px;
   position: relative;
   overflow: hidden;
-  z-index: 6; }
+  z-index: 6; }*/
 
 .intro {
   width: 100%;
@@ -166,11 +166,9 @@ li, p, li ul {
 
 .titulo {
   text-align: center;
-  bottom: 600px;
-  width: 400px;
   position: relative;
   z-index: 8;
-  width: 600px;
+  width: 100%;
   margin: auto; }
 
 /*navigation*/
