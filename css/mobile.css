@@ -179,11 +179,11 @@
 @media screen  and (min-width : 568px) and (max-width : 1024px) {
 
 
- .mask {
+ /*.mask {
 
 		background-image: url('../images/maskcirclesipad.png');
 		width: 100%;
-}
+}*/
 
 .tape {
 
