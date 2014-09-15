@@ -1,0 +1,127 @@
+
+@import 'variables';
+@import 'main';
+
+//STYLES FOR PORFOLIO
+
+//STYLES FOR PORFOLIO
+
+
+
+.wrapper {
+
+    @include wrapper;
+    background-color: $cloud;
+    background-size: cover;
+    text-align: right;
+    overflow: auto;
+
+}
+
+
+//HEADER
+
+
+.home {
+
+    width: 20%;
+    @include secondary;
+    margin-left: 50px;
+    color: $background;
+    top: 10px;
+    position: relative;
+         a {
+            text-decoration: none;
+         }
+
+         &:hover {
+
+            @include hover;
+         }
+
+}
+
+.title {
+
+    width: 85%;
+    text-align: right;
+
+    h1 {
+        @include titulo;
+        color: $background;
+        text-shadow: rgba(0,0,0,.03) 2px 2px,
+        rgba(0,0,0,.0285) 4px 4px,rgba(0,0,0,.0270) 6px 6px,
+        rgba(0,0,0,.0255) 8px 8px,rgba(0,0,0,.0240) 10px 10px,;
+        margin: 0;
+
+    }
+}
+
+
+
+//TEXT AREA
+
+.container-text {
+    overflow: auto;
+    margin-bottom: 30px;
+
+    .inside-text {
+        width: 50%;
+        float: right;
+        @include reading;
+
+    }
+}
+
+
+
+//PHOTOS
+
+.image_container {
+
+    width: 70%;
+    background-color: $background;
+    min-height: 400px;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+//ARROW
+
+.navigation-arrow {
+
+    background-color: $background;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    background: url("../images/iconsprite.png");
+    background-position: 11px;
+}
+
+
+.footer {
+    width: 70%;
+    margin: auto;
+
+    .footer-icons {
+
+        width: 50%;
+        height: 100px;
+        float: right;
+        position: relative;
+        bottom: 40%;
+    }
+
+    .footer-copyright {
+
+        width: 30%;
+        float: left;
+        top: 50%;
+    }
+}
+
+
+
+
