@@ -1,6 +1,6 @@
 .wrapper {
   width: 100%;
-  /*	min-height: 100%;
+  /*  min-height: 100%;
   */ }
   .wrapper .header {
     width: 100%;
@@ -13,10 +13,12 @@
 
 .header-wrap {
   width: 100%;
-  /*	min-height: 100%;
+  /*  min-height: 100%;
   */
-  background-color: #F64747;
-  height: 100vh; }
+  background-color: #f64747;
+  height: 100vh;
+  background-attachment: fixed;
+  position: relative; }
 
 .tittle-myname {
   position: relative;
@@ -35,7 +37,9 @@
     width: auto;
     text-align: left;
     top: 100px;
-    position: relative; }
+    position: relative;
+    text-shadow: rgba(0, 0, 0, 0.03) 2px 2px, rgba(0, 0, 0, 0.0285) 4px 4px, rgba(0, 0, 0, 0.027) 6px 6px, rgba(0, 0, 0, 0.0255) 8px 8px, rgba(0, 0, 0, 0.024) 10px 10px;
+    margin: 0; }
   .tittle-myname h2 {
     font-size: 36px;
     line-height: 1.8em;
@@ -99,7 +103,7 @@
   background: #ffecdb;
   height: 400px;
   width: 100%;
-  /*	min-height: 100%;
+  /*  min-height: 100%;
   */
   text-align: right; }
   .tittle-quote blockquote {
@@ -115,7 +119,7 @@
 
 .my-work {
   width: 100%;
-  /*	min-height: 100%;
+  /*  min-height: 100%;
   */
   background: #ffecdb;
   height: 100%; }
@@ -127,28 +131,60 @@
     display: inline-block;
     position: relative;
     color: #ffecdb;
-    text-align: center; }
-    .my-work .cover-hover:hover {
-      background-color: #f64747;
-      opacity: .9;
-      -webkit-transition: all .5s linear;
-      transition: all .5s linear;
-      -ms-transition: all .5s linear;
-      transition: all .5s linear; }
-    .my-work .cover-hover .middle-text {
-      position: relative;
-      top: 40%; }
+    text-align: center;
+    z-index: 4; }
+
+.overlay {
+  display: block;
+  position: absolute;
+  background-size: cover;
+  z-index: 20;
+  background-color: #f64747;
+  overflow: hidden;
+  width: 100%;
+  height: 250px;
+  top: 0;
+  left: 0; }
+  .overlay .hover-text {
+    position: relative;
+    top: 90px; }
+  .overlay .middle-text {
+    position: relative;
+    top: 80px; }
+  .overlay .line-separator {
+    position: relative;
+    width: 35%;
+    margin: auto;
+    height: 1px;
+    background-color: white;
+    top: 45px;
+    -webkit-transition: width 1s linear 2s;
+    transition: width 1s linear 2s; }
+
+.hidden {
+  display: none; }
 
 .cover-one {
-  background-color: #BDC3C7;
   width: 50%;
-  height: 250px; }
+  height: 250px;
+  z-index: 3;
+  opacity: 5;
+  background-image: url("../images/single.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -2px; }
 
 .cover-two {
-  background-color: #BFBFBF;
+  background-color: #bdc3c7;
   width: 25%;
   height: 250px;
-  margin-left: -6px; }
+  margin-left: -6px;
+  background-image: url("../images/pipelinecover.png");
+  opacity: 5;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .cover-three {
   background-color: #95A5A6;
@@ -159,19 +195,33 @@
 
 .cover-four {
   width: 100%;
-  height: 250px;
-  background-color: #ABB7B7; }
+  height: 252px;
+  background-image: url("../images/after-cover.png");
+  opacity: 5;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -5px -3px -3px; }
 
 .cover-five {
-  width: 25%;
+  width: 50%;
   height: 250px;
-  background-color: #BFBFBF; }
+  background-color: #95a5a6;
+  opacity: 5;
+  background-image: url("../images/whiskcover.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .cover-six {
-  width: 25%;
+  width: 50%;
   height: 250px;
   background-color: #ABB7B7;
-  margin-left: -8px; }
+  margin-left: -8px;
+  background-image: url("../images/acopiocover.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .cover-seven {
   width: 50%;
@@ -182,7 +232,7 @@
 
 .spacing-div {
   width: 100%;
-  /*	min-height: 100%;
+  /*  min-height: 100%;
   */
   height: 200px;
   background-color: #ffecdb; }
@@ -190,7 +240,7 @@
 .footer {
   background: #f64747;
   width: 100%;
-  /*	min-height: 100%;
+  /*  min-height: 100%;
   */
   height: 120px; }
   .footer .footer-icons {
