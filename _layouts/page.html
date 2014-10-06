@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<div class="wrapper">
+  <div class="title">
+    <div class="home">
+      <a href="index.html">HOME</a>
+    </div><!--end of home-->
+    <h1>{{ page.title }}</h1>
+    <div class="container-text">
+      {% if site.data.portfolio[page.title].prev %}
+      <a href="{{ site.data.portfolio[page.title].prev }}">
+        <div class="navigation-container">
+          <div class="navigation-arrow"></div>
+        </div>
+      </a><!--end of navigation-container-->
+      {% endif %}
+      {% if site.data.portfolio[page.title].next %}
+      <a href="{{ site.data.portfolio[page.title].next }}">
+        <div class="navigation-container-right">
+          <div class="navigation-arrow"></div>
+        </div>
+      </a><!--end of navigation-container-->
+      {% endif %}
+      <div class="inside-text">
+        <p>{{ page.text }}</p>
+      </div><!--inside text-->
+    </div><!--end of container text-->
+  </div><!--end of tittle-->
+  {{ content }}
+</div>

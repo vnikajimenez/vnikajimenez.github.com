@@ -1,3 +1,0 @@
-$("bigKitten").click(function() {
-	
-});

@@ -1,0 +1,243 @@
+
+@import 'variables';
+
+
+//MIXINS
+
+@mixin images {
+
+    width: 70%;
+    background-color: $background;
+    min-height: 400px;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+//STYLES FOR PORFOLIO
+
+
+.wrapper {
+
+    @include wrapper;
+    background-color: $cloud;
+    background-size: cover;
+    text-align: right;
+    overflow: auto;
+
+}
+
+
+//HEADER
+a {
+   text-decoration: none;
+}
+
+
+.home {
+
+    width: 20%;
+    @include secondary;
+    margin-left: 25px;
+    color: $background;
+    top: 10px;
+    position: relative;
+
+         &:hover {
+
+            @include hover;
+         }
+
+}
+
+.title {
+
+    width: 85%;
+    text-align: right;
+
+    h1 {
+        @include titulo;
+        color: $background;
+        text-shadow: rgba(0,0,0,.03) 2px 2px,
+        rgba(0,0,0,.0285) 4px 4px,rgba(0,0,0,.0270) 6px 6px,
+        rgba(0,0,0,.0255) 8px 8px,rgba(0,0,0,.0240) 10px 10px,;
+        margin: 0;
+
+    }
+}
+
+
+
+//TEXT AREA
+
+.container-text {
+    overflow: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+    .inside-text {
+        width: 50%;
+        float: right;
+        @include reading;
+
+    }
+}
+
+
+
+//IMAGES
+
+.image_container_flow {
+
+    @include images;
+    background-position: center center;
+    background-image: url("../images/flow-single.png");
+    filter: alpha(opacity=60);
+
+}
+
+.image_container_web {
+
+    background-position: center center;
+    @include images;
+    background-image: url("../images/single-web.png");
+
+}
+
+
+
+.image_container_mobile {
+
+    @include images;
+    background-image: url("../images/single-mobile.jpg");
+    background-position: center center;
+
+}
+
+
+
+//ARROW
+
+.navigation-container {
+
+    width: 50px;
+    height: 80px;
+    background: $background;
+    position: fixed;
+    text-align: center;
+    top: 40%;
+
+    .navigation-arrow {
+
+        background-color: $background;
+        width: 50px;
+        height: 50px;
+        background: url("../images/iconsprite.png");
+        background-position:  -75px  55px;
+        position: relative;
+        top: 17px;
+        left: 6px;
+
+     }
+}
+
+.navigation-container-right {
+
+    width: 50px;
+    height: 80px;
+    background: $background;
+    position: fixed;
+    right: 0px;
+    top: 40%;
+
+
+.navigation-arrow {
+
+        background-color: $background;
+        width: 50px;
+        height: 50px;
+        background: url("../images/iconsprite.png");
+        background-position:  -105px  55px;
+        position: relative;
+        top: 17px;
+        right: 6px;
+
+     }
+}
+
+
+.navigation-container:hover {
+    opacity: 2;
+}
+
+
+   .navigation-container-right:hover {
+
+    opacity: 2;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+//FOOTER
+
+.short-footer {
+    background: $background;
+    height: 120px;
+    width: 70%;
+    margin: auto;
+
+    .short-footer-icons {
+
+        width: 40%;
+        height: auto;
+        float: right;
+        position: relative;
+        bottom: 40%;
+    }
+
+    .short-footer-copyright {
+
+        width: 30%;
+        float: left;
+        margin-left: 50px;
+        top: 40%;
+        position: relative;
+        font-size: 12px;
+        color: lighten($background,20%);
+        font-weight: 100;
+        font-family: $font;
+    }
+
+
+}
+
+
+.short-footer-contact {
+    position: relative;
+    top: 80px;
+    text-align: left;
+    width: 70%;
+
+    li {
+
+        display: inline-block;
+        padding: 5px;
+
+        a {
+            @include secondary;
+            text-decoration: none;
+
+                &:hover {
+
+                    color: $cloud;
+                }
+        }
+
+    }
+}
