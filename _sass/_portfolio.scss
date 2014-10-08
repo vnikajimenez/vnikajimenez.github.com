@@ -8,12 +8,14 @@
 
     width: 70%;
     background-color: $background;
-    min-height: 400px;
+    min-height: 600px;
     margin: auto;
     margin-bottom: 50px;
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
+
 
 }
 
@@ -64,7 +66,7 @@ a {
         color: $background;
         text-shadow: rgba(0,0,0,.03) 2px 2px,
         rgba(0,0,0,.0285) 4px 4px,rgba(0,0,0,.0270) 6px 6px,
-        rgba(0,0,0,.0255) 8px 8px,rgba(0,0,0,.0240) 10px 10px,;
+        rgba(0,0,0,.0255) 8px 8px,rgba(0,0,0,.0240) 10px 10px;
         margin: 0;
 
     }
@@ -89,20 +91,15 @@ a {
 
 
 
-//IMAGES
+//SINGLE
 
 .image_container_flow {
 
     @include images;
-    background-position: center center;
     background-image: url("../images/flow-single.png");
-    filter: alpha(opacity=60);
-
 }
 
 .image_container_web {
-
-    background-position: center center;
     @include images;
     background-image: url("../images/single-web.png");
 
@@ -114,10 +111,94 @@ a {
 
     @include images;
     background-image: url("../images/single-mobile.jpg");
-    background-position: center center;
+}
+
+
+//AFTERCLOUD
+
+.aftercloud_logo {
+
+    @include images;
+    background-image: url("../images/aftercloud_logo.png");
+    height: 800px;
+
 
 }
 
+.aftercloud_landing {
+
+    @include images;
+    background-image: url("../images/landing.jpg");
+    height: 800px;
+
+
+}
+
+
+.aftercloud_signupone {
+
+    @include images;
+    background-image: url("../images/landing1.jpg");
+    height: 800px;
+}
+
+
+.aftercloud_signuptwo {
+
+    @include images;
+    background-image: url("../images/signup2.jpg");
+    height: 800px;
+
+
+}
+
+.aftercloud_signuptwo {
+
+    @include images;
+    background-image: url("../images/signup1.jpg");
+    height: 800px;
+
+
+}
+
+
+.aftercloud_signupthree {
+
+    @include images;
+    background-image: url("../images/signup2.jpg");
+    height: 800px;
+
+
+}
+
+
+.aftercloud_signupfour {
+
+    @include images;
+    background-image: url("../images/signup3.jpg");
+    height: 800px;
+
+
+}
+
+
+.aftercloud_signupfive {
+
+    @include images;
+    background-image: url("../images/signup4.jpg");
+    height: 800px;
+
+
+}
+
+.aftercloud_signupsix {
+
+    @include images;
+    background-image: url("../images/dashboard.png");
+    height: 900px;
+
+
+}
 
 
 //ARROW

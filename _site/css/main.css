@@ -340,39 +340,155 @@ a {
 .image_container_flow {
   width: 70%;
   background-color: #f64747;
-  min-height: 400px;
+  min-height: 600px;
   margin: auto;
   margin-bottom: 50px;
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url("../images/flow-single.png");
-  filter: alpha(opacity=60); }
+  background-image: url("../images/flow-single.png"); }
 
 .image_container_web {
-  background-position: center center;
   width: 70%;
   background-color: #f64747;
-  min-height: 400px;
+  min-height: 600px;
   margin: auto;
   margin-bottom: 50px;
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
   background-image: url("../images/single-web.png"); }
 
 .image_container_mobile {
   width: 70%;
   background-color: #f64747;
-  min-height: 400px;
+  min-height: 600px;
   margin: auto;
   margin-bottom: 50px;
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("../images/single-mobile.jpg");
-  background-position: center center; }
+  background-position: center center;
+  background-image: url("../images/single-mobile.jpg"); }
+
+.aftercloud_logo {
+  width: 70%;
+  background-color: #f64747;
+  min-height: 600px;
+  margin: auto;
+  margin-bottom: 50px;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../images/aftercloud_logo.png");
+  height: 800px; }
+
+.aftercloud_landing {
+  width: 70%;
+  background-color: #f64747;
+  min-height: 600px;
+  margin: auto;
+  margin-bottom: 50px;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../images/landing.jpg");
+  height: 800px; }
+
+.aftercloud_signupone {
+  width: 70%;
+  background-color: #f64747;
+  min-height: 600px;
+  margin: auto;
+  margin-bottom: 50px;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../images/landing1.jpg");
+  height: 800px; }
+
+.aftercloud_signuptwo {
+  width: 70%;
+  background-color: #f64747;
+  min-height: 600px;
+  margin: auto;
+  margin-bottom: 50px;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../images/signup2.jpg");
+  height: 800px; }
+
+.aftercloud_signuptwo {
+  width: 70%;
+  background-color: #f64747;
+  min-height: 600px;
+  margin: auto;
+  margin-bottom: 50px;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../images/signup1.jpg");
+  height: 800px; }
+
+.aftercloud_signupthree {
+  width: 70%;
+  background-color: #f64747;
+  min-height: 600px;
+  margin: auto;
+  margin-bottom: 50px;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../images/signup2.jpg");
+  height: 800px; }
+
+.aftercloud_signupfour {
+  width: 70%;
+  background-color: #f64747;
+  min-height: 600px;
+  margin: auto;
+  margin-bottom: 50px;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../images/signup3.jpg");
+  height: 800px; }
+
+.aftercloud_signupfive {
+  width: 70%;
+  background-color: #f64747;
+  min-height: 600px;
+  margin: auto;
+  margin-bottom: 50px;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../images/signup4.jpg");
+  height: 800px; }
+
+.aftercloud_signupsix {
+  width: 70%;
+  background-color: #f64747;
+  min-height: 600px;
+  margin: auto;
+  margin-bottom: 50px;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../images/dashboard.png");
+  height: 900px; }
 
 .navigation-container {
   width: 50px;

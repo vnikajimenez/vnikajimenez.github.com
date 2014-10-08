@@ -1,3 +1,4 @@
 {
-  "Single":{"prev":"single.html", "next":"single.html"}
+  "Single":{"prev":"aftercloud.html", "next":"aftercloud.html"},
+  "Aftercloud":{"prev":"single.html", "next":"single.html"}
 }
