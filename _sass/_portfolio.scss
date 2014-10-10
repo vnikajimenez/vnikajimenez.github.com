@@ -7,8 +7,6 @@
 @mixin images {
 
     width: 70%;
-    background-color: $background;
-    min-height: 600px;
     margin: auto;
     margin-bottom: 50px;
     text-align: center;
@@ -16,6 +14,12 @@
     background-repeat: no-repeat;
     background-position: center center;
 
+
+}
+
+img {
+    width: 100%;
+    background-repeat: no-repeat;
 
 }
 
@@ -90,114 +94,38 @@ a {
 }
 
 
+//LINK hover
 
-//SINGLE
 
-.image_container_flow {
+a{
 
-    @include images;
-    background-image: url("../images/flow-single.png");
+    font-size: 22px;
+    font-family: "Brandon Grotesque", Helvetica, sans-serif;
+    color: $background;
+    font-weight: 500;
+        
 }
 
-.image_container_web {
-    @include images;
-    background-image: url("../images/single-web.png");
+a:hover {
 
-}
-
-
-
-.image_container_mobile {
-
-    @include images;
-    background-image: url("../images/single-mobile.jpg");
-}
-
-
-//AFTERCLOUD
-
-.aftercloud_logo {
-
-    @include images;
-    background-image: url("../images/aftercloud_logo.png");
-    height: 800px;
-
-
-}
-
-.aftercloud_landing {
-
-    @include images;
-    background-image: url("../images/landing.jpg");
-    height: 800px;
-
+        opacity: .7;
 
 }
 
 
-.aftercloud_signupone {
 
+
+
+//IMAGES
+
+
+
+.portfolio-image {
     @include images;
-    background-image: url("../images/landing1.jpg");
-    height: 800px;
 }
 
-
-.aftercloud_signuptwo {
-
-    @include images;
-    background-image: url("../images/signup2.jpg");
-    height: 800px;
-
-
-}
-
-.aftercloud_signuptwo {
-
-    @include images;
-    background-image: url("../images/signup1.jpg");
-    height: 800px;
-
-
-}
-
-
-.aftercloud_signupthree {
-
-    @include images;
-    background-image: url("../images/signup2.jpg");
-    height: 800px;
-
-
-}
-
-
-.aftercloud_signupfour {
-
-    @include images;
-    background-image: url("../images/signup3.jpg");
-    height: 800px;
-
-
-}
-
-
-.aftercloud_signupfive {
-
-    @include images;
-    background-image: url("../images/signup4.jpg");
-    height: 800px;
-
-
-}
-
-.aftercloud_signupsix {
-
-    @include images;
-    background-image: url("../images/dashboard.png");
-    height: 900px;
-
-
+img {
+    width: 100%;
 }
 
 

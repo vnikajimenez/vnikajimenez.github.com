@@ -277,6 +277,10 @@
       .footer-contact li a:hover {
         color: #ffecdb; }
 
+img {
+  width: 100%;
+  background-repeat: no-repeat; }
+
 .wrapper {
   width: 100%;
   /*  min-height: 100%;
@@ -327,7 +331,7 @@ a {
   .container-text .inside-text {
     width: 50%;
     float: right;
-    font-size: 18px;
+    font-size: 1.250em;
     font-family: "Brandon Grotesque", Helvetica, sans-serif;
     font-weight: 300;
     line-height: 1.8em;
@@ -337,158 +341,26 @@ a {
     color: #2c3e50;
     word-break: keep-all; }
 
-.image_container_flow {
-  width: 70%;
-  background-color: #f64747;
-  min-height: 600px;
-  margin: auto;
-  margin-bottom: 50px;
-  text-align: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-image: url("../images/flow-single.png"); }
+a {
+  font-size: 22px;
+  font-family: "Brandon Grotesque", Helvetica, sans-serif;
+  color: #f64747;
+  font-weight: 500; }
 
-.image_container_web {
-  width: 70%;
-  background-color: #f64747;
-  min-height: 600px;
-  margin: auto;
-  margin-bottom: 50px;
-  text-align: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-image: url("../images/single-web.png"); }
+a:hover {
+  opacity: .7; }
 
-.image_container_mobile {
+.portfolio-image {
   width: 70%;
-  background-color: #f64747;
-  min-height: 600px;
   margin: auto;
   margin-bottom: 50px;
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
-  background-image: url("../images/single-mobile.jpg"); }
+  background-position: center center; }
 
-.aftercloud_logo {
-  width: 70%;
-  background-color: #f64747;
-  min-height: 600px;
-  margin: auto;
-  margin-bottom: 50px;
-  text-align: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-image: url("../images/aftercloud_logo.png");
-  height: 800px; }
-
-.aftercloud_landing {
-  width: 70%;
-  background-color: #f64747;
-  min-height: 600px;
-  margin: auto;
-  margin-bottom: 50px;
-  text-align: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-image: url("../images/landing.jpg");
-  height: 800px; }
-
-.aftercloud_signupone {
-  width: 70%;
-  background-color: #f64747;
-  min-height: 600px;
-  margin: auto;
-  margin-bottom: 50px;
-  text-align: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-image: url("../images/landing1.jpg");
-  height: 800px; }
-
-.aftercloud_signuptwo {
-  width: 70%;
-  background-color: #f64747;
-  min-height: 600px;
-  margin: auto;
-  margin-bottom: 50px;
-  text-align: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-image: url("../images/signup2.jpg");
-  height: 800px; }
-
-.aftercloud_signuptwo {
-  width: 70%;
-  background-color: #f64747;
-  min-height: 600px;
-  margin: auto;
-  margin-bottom: 50px;
-  text-align: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-image: url("../images/signup1.jpg");
-  height: 800px; }
-
-.aftercloud_signupthree {
-  width: 70%;
-  background-color: #f64747;
-  min-height: 600px;
-  margin: auto;
-  margin-bottom: 50px;
-  text-align: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-image: url("../images/signup2.jpg");
-  height: 800px; }
-
-.aftercloud_signupfour {
-  width: 70%;
-  background-color: #f64747;
-  min-height: 600px;
-  margin: auto;
-  margin-bottom: 50px;
-  text-align: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-image: url("../images/signup3.jpg");
-  height: 800px; }
-
-.aftercloud_signupfive {
-  width: 70%;
-  background-color: #f64747;
-  min-height: 600px;
-  margin: auto;
-  margin-bottom: 50px;
-  text-align: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-image: url("../images/signup4.jpg");
-  height: 800px; }
-
-.aftercloud_signupsix {
-  width: 70%;
-  background-color: #f64747;
-  min-height: 600px;
-  margin: auto;
-  margin-bottom: 50px;
-  text-align: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-image: url("../images/dashboard.png");
-  height: 900px; }
+img {
+  width: 100%; }
 
 .navigation-container {
   width: 50px;
