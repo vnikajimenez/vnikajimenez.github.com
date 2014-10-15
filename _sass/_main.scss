@@ -22,11 +22,12 @@
 
 
 .header-wrap {
+	
 	@include wrapper;
 	background-color: $background;
 	height: 100vh;
-		background-attachment: fixed;
-		position: relative;
+	background-attachment: fixed;
+	position: relative;
 
 }
 
@@ -43,13 +44,12 @@
 				h1 {
 
 					@include titulo;
-					width: auto;
 					text-align: left;
 					top: 100px;
 					position: relative;
 					text-shadow: rgba(0,0,0,.03) 2px 2px,
-						rgba(0,0,0,.0285) 4px 4px,rgba(0,0,0,.0270) 6px 6px,
-						rgba(0,0,0,.0255) 8px 8px,rgba(0,0,0,.0240) 10px 10px;
+					rgba(0,0,0,.0285) 4px 4px,rgba(0,0,0,.0270) 6px 6px,
+					rgba(0,0,0,.0255) 8px 8px,rgba(0,0,0,.0240) 10px 10px;
 					margin: 0;
 
 				}
@@ -88,6 +88,7 @@
 }
 
 .header-button {
+
 	-webkit-animation: slide 0.5s forwards;
     -webkit-animation-delay: .5s;
     animation: slide 0.5s forwards;
@@ -103,11 +104,12 @@
 	}
 
 .header-button:hover {
+
 	opacity: 2;
 	-webkit-transition: all .2s linear;
-		transition: all .2s linear;
-		-ms-transition: all .2s linear;
-		transition: all .2s linear;
+	transition: all .2s linear;
+	-ms-transition: all .2s linear;
+	transition: all .2s linear;
 }
 
 		.see-my-work {
@@ -121,15 +123,15 @@
 
 .flecha {
 
-		width: 50px;
-		height: 50px;
-		background: url("../images/iconsprite.png");
-		background-position: -11px  58px;
-		float: right;
-		top: 100px;
-		position: relative;
-		opacity: .4;
-  		-webkit-animation:bounce 1s infinite;
+	width: 50px;
+	height: 50px;
+	background: url("../images/iconsprite.png");
+	background-position: -11px  58px;
+	float: right;
+	top: 100px;
+	position: relative;
+	opacity: .4;
+  	-webkit-animation:bounce 1s infinite;
 
 
 		&:hover {
@@ -183,22 +185,21 @@
 					position: relative;
 					color: $background;
 					margin-right: 100px;
-					top: 40%;
-/*				    quotes: "\201C""\201D""\2018""\2019";
-*/	}
+					top: 20%;
+				    quotes: "\201C""\201D""\2018""\2019";
+
+				}
+blockquote:before { 
+  					color: $background;
+  					content: open-quote;
+  					font-size: 6em;
+  					position: relative;
+  					top: 115px;
+  					right: 590px;
+
+				}
 
 }
-
-/*blockquote:before {
-  color: $background;
-  content: open-quote;
-  font-size: 6em;
-  position: relative;
-  top: 123px;
-  right: 590px;
-}*/
-
-
 
 
 
@@ -232,31 +233,31 @@
 
 .overlay {
 
-				display: block;
-				position: absolute;
-				background-size: cover;
-				z-index: 20;
-				background-color: $background;
-				overflow: hidden;
-				width: 100%;
-				height: 250px;
-				top: 0;
-				left: 0;
+		display: block;
+		position: absolute;
+		background-size: cover;
+		z-index: 20;
+		background-color: $background;
+		overflow: hidden;
+		width: 100%;
+		height: 250px;
+		top: 0;
+		left: 0;
 
-				.hover-text {
+			.hover-text {
 
 						position: relative;
 						top: 90px;
 
-				}
+			}
 
-				.middle-text {
+			.middle-text {
 
 						position: relative;
 						top: 80px;
-				}
+			}
 
-				.line-separator {
+			.line-separator {
 						position: relative;
 						width: 5%;
 						margin: auto;
@@ -266,7 +267,7 @@
 						-webkit-transition: width 1s linear 2s;
 						transition: width 1s linear 2s;
 
-				}
+			}
 
 
 
@@ -279,14 +280,16 @@
 
 .cover-one {
 
-		width: 50%;
-		height: 250px;
-		z-index: 3;
-		background-image: url("../images/single.png");
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		float: right;
+	width: 50%;
+	height: 250px;
+	z-index: 3;
+	background-image: url("../images/single.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: right;
+	position: relative;
+	top: 35px;
 
 }
 
@@ -297,14 +300,16 @@
 
 .cover-two {
 
-		background-color: #bdc3c7;
-		width: 50%;
-		height: 250px;
-		background-image: url("../images/pipelinecover.png");
-		opacity: 5;
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
+	background-color: #bdc3c7;
+	width: 50%;
+	height: 250px;
+	background-image: url("../images/pipeline-logo.png");
+	opacity: 5;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	top: 35px;
 
 }
 
@@ -323,45 +328,48 @@
 
 .cover-four {
 
-		width: 100%;
-		height: 252px;
-		background-image: url("../images/after-cover.png");
-		opacity: 5;
-		background-position:left bottom;
-		background-repeat: no-repeat;
-		background-size: cover;
-		margin-top: -1.3%;
+	width: 100%;
+	height: 252px;
+	background-image: url("../images/after-cover.png");
+	opacity: 5;
+	background-position:left bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	top: 5px;
 
 }
 
 .cover-five  {
 
-		width: 50%;
-		height: 250px;
-		background-color:#95a5a6;
-		opacity: 5;
-		background-image: url("../images/whiskcover.png");
-		background-position:center center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		margin-top: -.4%;
-
+	width: 50%;
+	height: 250px;
+	background-color:#95a5a6;
+	opacity: 5;
+	background-image: url("../images/whiskcover.png");
+	background-position:center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	top: 1px;
+		
 
 
 }
 
 .cover-six  {
 
-		width: 50%;
-		height: 250px;
-		background-color:#ABB7B7;
-		float: right;
-		background-image: url("../images/acopiocover.png");
-		background-position:center center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		margin-top: -.4%;
-
+	width: 50%;
+	height: 250px;
+	background-color:#ABB7B7;
+	float: right;
+	background-image: url("../images/acopiocover.png");
+	background-position:center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	top: 1px;
+		
 
 }
 
@@ -371,10 +379,11 @@
 // FOOTER
 
 .spacing-div {
-@include wrapper;
-	height: 200px;
+
+	@include wrapper;
+	height: 300px;
 	background-color: $cloud;
-	margin-bottom: 100px;
+	margin-bottom: 200px;
 
 }
 
@@ -434,9 +443,11 @@
 }
 
 
-	.email {
-
-	 	background-position:  -105px  55px;	
+	/*.email {
+		image: url("../images/iconsprite.png");
+	 	background-position:  -105px  55px;
+	 	width: 30px;
+	 	height: 30px;	
 	 }
 
 
@@ -449,5 +460,5 @@
 
 	 	background-position:  -105px  55px;	
 	 }
-
+*/
 

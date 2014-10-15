@@ -34,7 +34,6 @@
     font-weight: 600;
     font-size: 100px;
     letter-spacing: -1px;
-    width: auto;
     text-align: left;
     top: 100px;
     position: relative;
@@ -143,18 +142,16 @@
     position: relative;
     color: #f64747;
     margin-right: 100px;
-    top: 40%;
-    /*				    quotes: "\201C""\201D""\2018""\2019";
-    */ }
+    top: 20%;
+    quotes: "\201C" "\201D" "\2018" "\2019"; }
+  .tittle-quote blockquote:before {
+    color: #f64747;
+    content: open-quote;
+    font-size: 6em;
+    position: relative;
+    top: 115px;
+    right: 590px; }
 
-/*blockquote:before {
-  color: $background;
-  content: open-quote;
-  font-size: 6em;
-  position: relative;
-  top: 123px;
-  right: 590px;
-}*/
 .my-work {
   width: 100%;
   /*  min-height: 100%;
@@ -209,17 +206,21 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  float: right; }
+  float: right;
+  position: relative;
+  top: 35px; }
 
 .cover-two {
   background-color: #bdc3c7;
   width: 50%;
   height: 250px;
-  background-image: url("../images/pipelinecover.png");
+  background-image: url("../images/pipeline-logo.png");
   opacity: 5;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  position: relative;
+  top: 35px; }
 
 /*.cover-three {
 
@@ -239,7 +240,8 @@
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: -1.3%; }
+  position: relative;
+  top: 5px; }
 
 .cover-five {
   width: 50%;
@@ -250,7 +252,8 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: -.4%; }
+  position: relative;
+  top: 1px; }
 
 .cover-six {
   width: 50%;
@@ -261,15 +264,16 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: -.4%; }
+  position: relative;
+  top: 1px; }
 
 .spacing-div {
   width: 100%;
   /*  min-height: 100%;
   */
-  height: 200px;
+  height: 300px;
   background-color: #ffecdb;
-  margin-bottom: 100px; }
+  margin-bottom: 200px; }
 
 .footer {
   background: #f64747;
@@ -310,15 +314,24 @@
       .footer-contact li a:hover {
         color: #ffecdb; }
 
-.email {
-  background-position: -105px  55px; }
+	/*.email {
+		image: url("../images/iconsprite.png");
+	 	background-position:  -105px  55px;
+	 	width: 30px;
+	 	height: 30px;	
+	 }
 
-.dribble {
-  background-position: -105px  55px; }
 
-.linkedin {
-  background-position: -105px  55px; }
+	 .dribble {
 
+	 	background-position:  -105px  55px;	
+	 }
+
+	 .linkedin {
+
+	 	background-position:  -105px  55px;	
+	 }
+*/
 img {
   width: 100%;
   background-repeat: no-repeat; }
