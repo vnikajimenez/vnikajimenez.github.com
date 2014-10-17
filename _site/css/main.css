@@ -78,11 +78,9 @@
 @-webkit-keyframes slide {
   100% {
     left: -80px; } }
-
 @keyframes slide {
   100% {
     left: -80px; } }
-
 .header-button:hover {
   opacity: 2;
   -webkit-transition: all .2s linear;
@@ -125,7 +123,6 @@
 
   100% {
     bottom: 0; } }
-
 .tittle-quote {
   background: #ffecdb;
   height: 400px;
@@ -149,8 +146,8 @@
     content: open-quote;
     font-size: 6em;
     position: relative;
-    top: 115px;
-    right: 590px; }
+    right: 680px;
+    top: 115px; }
 
 .my-work {
   width: 100%;
@@ -317,18 +314,18 @@
 		image: url("../images/iconsprite.png");
 	 	background-position:  -105px  55px;
 	 	width: 30px;
-	 	height: 30px;	
+	 	height: 30px;
 	 }
 
 
 	 .dribble {
 
-	 	background-position:  -105px  55px;	
+	 	background-position:  -105px  55px;
 	 }
 
 	 .linkedin {
 
-	 	background-position:  -105px  55px;	
+	 	background-position:  -105px  55px;
 	 }
 */
 img {
