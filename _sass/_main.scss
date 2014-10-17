@@ -22,7 +22,7 @@
 
 
 .header-wrap {
-	
+
 	@include wrapper;
 	background-color: $background;
 	height: 100vh;
@@ -351,7 +351,7 @@ blockquote:before {
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-	top: 1px;
+	top: 1.5px;
 		
 
 
@@ -368,7 +368,7 @@ blockquote:before {
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-	top: 1px;
+	top: 1.5px;
 		
 
 }
@@ -381,9 +381,8 @@ blockquote:before {
 .spacing-div {
 
 	@include wrapper;
-	height: 300px;
+	height: 200px;
 	background-color: $cloud;
-	margin-bottom: 200px;
 
 }
 
