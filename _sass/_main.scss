@@ -398,6 +398,10 @@
 		float: right;
 		position: relative;
 		bottom: 40%;
+
+		a {
+			color: lighten($background,20%);
+		}
 	}
 
 	.footer-copyright {

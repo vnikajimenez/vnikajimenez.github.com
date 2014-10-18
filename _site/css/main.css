@@ -283,6 +283,8 @@
     float: right;
     position: relative;
     bottom: 40%; }
+    .footer .footer-icons a {
+      color: #fba8a8; }
   .footer .footer-copyright {
     width: 30%;
     float: left;
