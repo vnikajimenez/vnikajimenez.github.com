@@ -6,7 +6,7 @@
     width: 100%;
     height: auto;
     color: #ffecdb;
-    font-family: "Brandon Grotesque", Helvetica, sans-serif;
+    font-family: "brandon-grotesque", Helvetica, sans-serif;
     font-weight: 600;
     font-size: 100px;
     letter-spacing: -1px; }
@@ -30,7 +30,7 @@
   top: 25%; }
   .tittle-myname h1 {
     color: #ffecdb;
-    font-family: "Brandon Grotesque", Helvetica, sans-serif;
+    font-family: "brandon-grotesque", Helvetica, sans-serif;
     font-weight: 600;
     font-size: 100px;
     letter-spacing: -1px;
@@ -42,7 +42,7 @@
   .tittle-myname h2 {
     font-size: 36px;
     line-height: 1.8em;
-    font-family: "Brandon Grotesque", Helvetica, sans-serif;
+    font-family: "brandon-grotesque", Helvetica, sans-serif;
     font-weight: 100;
     color: #ffecdb;
     letter-spacing: -.3px;
@@ -53,7 +53,7 @@
 
 .header-button {
   font-size: 17px;
-  font-family: "Brandon Grotesque", Helvetica, sans-serif;
+  font-family: "brandon-grotesque", Helvetica, sans-serif;
   color: white;
   font-weight: 300;
   width: 200px;
@@ -133,7 +133,7 @@
   .tittle-quote blockquote {
     font-size: 28px;
     line-height: 1.5em;
-    font-family: "Brandon Grotesque", Helvetica, sans-serif;
+    font-family: "brandon-grotesque", Helvetica, sans-serif;
     font-weight: 100;
     text-align: right;
     position: relative;
@@ -146,7 +146,7 @@
     content: open-quote;
     font-size: 6em;
     position: relative;
-    right: 680px;
+    right: 590px;
     top: 115px; }
 
 .my-work {
@@ -157,7 +157,7 @@
   .my-work .cover-hover {
     font-size: 28px;
     line-height: 1.5em;
-    font-family: "Brandon Grotesque", Helvetica, sans-serif;
+    font-family: "brandon-grotesque", Helvetica, sans-serif;
     font-weight: 100;
     display: inline-block;
     position: relative;
@@ -292,7 +292,7 @@
     font-size: 12px;
     color: #fba8a8;
     font-weight: thin;
-    font-family: "Brandon Grotesque", Helvetica, sans-serif;
+    font-family: "brandon-grotesque", Helvetica, sans-serif;
     left: 75px; }
 
 .footer-contact {
@@ -305,7 +305,7 @@
     padding: 20px; }
     .footer-contact li a {
       font-size: 17px;
-      font-family: "Brandon Grotesque", Helvetica, sans-serif;
+      font-family: "brandon-grotesque", Helvetica, sans-serif;
       color: white;
       font-weight: 300;
       text-decoration: none; }
@@ -349,7 +349,7 @@ a {
 .home {
   width: 100%;
   font-size: 17px;
-  font-family: "Brandon Grotesque", Helvetica, sans-serif;
+  font-family: "brandon-grotesque", Helvetica, sans-serif;
   color: white;
   font-weight: 300;
   margin-left: 17%;
@@ -371,7 +371,7 @@ a {
   display: block; }
   .title h1 {
     color: #ffecdb;
-    font-family: "Brandon Grotesque", Helvetica, sans-serif;
+    font-family: "brandon-grotesque", Helvetica, sans-serif;
     font-weight: 600;
     font-size: 100px;
     letter-spacing: -1px;
@@ -387,7 +387,7 @@ a {
     width: 50%;
     float: right;
     font-size: 1.250em;
-    font-family: "Brandon Grotesque", Helvetica, sans-serif;
+    font-family: "brandon-grotesque", Helvetica, sans-serif;
     font-weight: 300;
     line-height: 1.8em;
     letter-spacing: 0.01rem;
@@ -484,7 +484,7 @@ img {
     font-size: 12px;
     color: #fba8a8;
     font-weight: 100;
-    font-family: "Brandon Grotesque", Helvetica, sans-serif; }
+    font-family: "brandon-grotesque", Helvetica, sans-serif; }
 
 .short-footer-contact {
   position: relative;
@@ -496,7 +496,7 @@ img {
     padding: 5px; }
     .short-footer-contact li a {
       font-size: 17px;
-      font-family: "Brandon Grotesque", Helvetica, sans-serif;
+      font-family: "brandon-grotesque", Helvetica, sans-serif;
       color: white;
       font-weight: 300;
       text-decoration: none; }
