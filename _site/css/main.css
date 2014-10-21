@@ -7,7 +7,7 @@
     width: 100%;
     height: auto;
     color: #ffecdb;
-    font-family: "Brandon Grotesque", Helvetica, sans-serif;
+    font-family: "brandon-grotesque", Helvetica, sans-serif;
     font-weight: 600;
     font-size: 100px;
     letter-spacing: -1px; }
@@ -37,7 +37,7 @@
       padding-bottom: 0; } }
   .tittle-myname h1 {
     color: #ffecdb;
-    font-family: "Brandon Grotesque", Helvetica, sans-serif;
+    font-family: "brandon-grotesque", Helvetica, sans-serif;
     font-weight: 600;
     font-size: 100px;
     letter-spacing: -1px;
@@ -52,7 +52,7 @@
   .tittle-myname h2 {
     font-size: 36px;
     line-height: 1.8em;
-    font-family: "Brandon Grotesque", Helvetica, sans-serif;
+    font-family: "brandon-grotesque", Helvetica, sans-serif;
     font-weight: 100;
     color: #ffecdb;
     letter-spacing: -.3px;
@@ -66,7 +66,7 @@
 
 .header-button {
   font-size: 17px;
-  font-family: "Brandon Grotesque", Helvetica, sans-serif;
+  font-family: "brandon-grotesque", Helvetica, sans-serif;
   color: white;
   font-weight: 300;
   width: 200px;
@@ -97,10 +97,10 @@
 @-webkit-keyframes slide {
   100% {
     left: -80px; } }
-
 @keyframes slide {
   100% {
     left: -80px; } }
+<<<<<<< HEAD
 
 @media screen and (max-width: 720px) {
   @-webkit-keyframes slide {
@@ -110,6 +110,8 @@
   @keyframes slide {
     100% {
       left: -30px; } } }
+=======
+>>>>>>> FETCH_HEAD
 .header-button:hover {
   opacity: 2;
   -webkit-transition: all .2s linear;
@@ -155,7 +157,6 @@
 
   100% {
     bottom: 0; } }
-
 .tittle-quote {
   background: #ffecdb;
   width: 100%;
@@ -165,7 +166,7 @@
   .tittle-quote blockquote {
     font-size: 28px;
     line-height: 1.5em;
-    font-family: "Brandon Grotesque", Helvetica, sans-serif;
+    font-family: "brandon-grotesque", Helvetica, sans-serif;
     font-weight: 100;
     text-align: right;
     position: relative;
@@ -182,6 +183,7 @@
     content: open-quote;
     font-size: 6em;
     position: relative;
+<<<<<<< HEAD
     top: 115px;
     right: 590px; }
     @media screen and (max-width: 720px) {
@@ -189,6 +191,10 @@
         top: 35px;
         right: 285px;
         font-size: 3em; } }
+=======
+    right: 590px;
+    top: 115px; }
+>>>>>>> FETCH_HEAD
 
 .my-work {
   width: 100%;
@@ -198,7 +204,7 @@
   .my-work .cover-hover {
     font-size: 28px;
     line-height: 1.5em;
-    font-family: "Brandon Grotesque", Helvetica, sans-serif;
+    font-family: "brandon-grotesque", Helvetica, sans-serif;
     font-weight: 100;
     display: inline-block;
     position: relative;
@@ -291,10 +297,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+<<<<<<< HEAD
   top: 5px; }
   @media screen and (max-width: 720px) {
     .cover-four {
       background-position: center center; } }
+=======
+  top: 8px; }
+>>>>>>> FETCH_HEAD
 
 .cover-five {
   width: 50%;
@@ -334,38 +344,47 @@
   */
   height: 120px; }
   .footer .footer-icons {
-    width: 30%;
     height: auto;
     float: right;
     position: relative;
     bottom: 40%; }
+<<<<<<< HEAD
     @media screen and (max-width: 720px) {
       .footer .footer-icons {
         width: 40%; } }
+=======
+    .footer .footer-icons a {
+      color: #fba8a8; }
+>>>>>>> FETCH_HEAD
   .footer .footer-copyright {
     width: 30%;
     float: left;
     top: 50%;
     position: relative;
     font-size: 12px;
-    left: 100px;
     color: #fba8a8;
     font-weight: thin;
+<<<<<<< HEAD
     font-family: "Brandon Grotesque", Helvetica, sans-serif; }
     @media screen and (max-width: 720px) {
       .footer .footer-copyright {
         font-size: 8px; } }
+=======
+    font-family: "brandon-grotesque", Helvetica, sans-serif;
+    left: 75px; }
+>>>>>>> FETCH_HEAD
 
 .footer-contact {
   position: relative;
   top: 80px;
-  text-align: center; }
+  text-align: center;
+  right: 50px; }
   .footer-contact li {
     display: inline-block;
     padding: 20px; }
     .footer-contact li a {
       font-size: 17px;
-      font-family: "Brandon Grotesque", Helvetica, sans-serif;
+      font-family: "brandon-grotesque", Helvetica, sans-serif;
       color: white;
       font-weight: 300;
       text-decoration: none; }
@@ -379,18 +398,18 @@
 		image: url("../images/iconsprite.png");
 	 	background-position:  -105px  55px;
 	 	width: 30px;
-	 	height: 30px;	
+	 	height: 30px;
 	 }
 
 
 	 .dribble {
 
-	 	background-position:  -105px  55px;	
+	 	background-position:  -105px  55px;
 	 }
 
 	 .linkedin {
 
-	 	background-position:  -105px  55px;	
+	 	background-position:  -105px  55px;
 	 }
 */
 /* Styles */
@@ -413,7 +432,7 @@ a {
 .home {
   width: 100%;
   font-size: 17px;
-  font-family: "Brandon Grotesque", Helvetica, sans-serif;
+  font-family: "brandon-grotesque", Helvetica, sans-serif;
   color: white;
   font-weight: 300;
   margin-left: 17%;
@@ -439,7 +458,7 @@ a {
   display: block; }
   .title h1 {
     color: #ffecdb;
-    font-family: "Brandon Grotesque", Helvetica, sans-serif;
+    font-family: "brandon-grotesque", Helvetica, sans-serif;
     font-weight: 600;
     font-size: 100px;
     letter-spacing: -1px;
@@ -458,7 +477,7 @@ a {
     width: 50%;
     float: right;
     font-size: 1.250em;
-    font-family: "Brandon Grotesque", Helvetica, sans-serif;
+    font-family: "brandon-grotesque", Helvetica, sans-serif;
     font-weight: 300;
     line-height: 1.8em;
     letter-spacing: 0.01rem;
@@ -555,6 +574,7 @@ img {
   height: 120px;
   width: 70%;
   margin: auto; }
+<<<<<<< HEAD
 
 .short-footer-icons {
   width: 40%;
@@ -577,6 +597,24 @@ img {
     .short-footer-copyright {
       font-size: 8px;
       margin-left: 0px; } }
+=======
+  .short-footer .short-footer-icons {
+    width: 40%;
+    height: auto;
+    float: right;
+    position: relative;
+    bottom: 40%; }
+  .short-footer .short-footer-copyright {
+    width: 30%;
+    float: left;
+    margin-left: 50px;
+    top: 40%;
+    position: relative;
+    font-size: 12px;
+    color: #fba8a8;
+    font-weight: 100;
+    font-family: "brandon-grotesque", Helvetica, sans-serif; }
+>>>>>>> FETCH_HEAD
 
 .short-footer-contact {
   position: relative;
@@ -592,7 +630,7 @@ img {
     padding: 5px; }
     .short-footer-contact li a {
       font-size: 17px;
-      font-family: "Brandon Grotesque", Helvetica, sans-serif;
+      font-family: "brandon-grotesque", Helvetica, sans-serif;
       color: white;
       font-weight: 300;
       text-decoration: none; }

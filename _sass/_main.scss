@@ -198,16 +198,16 @@
   0%{
     bottom:5px;
   }
-  
+
   25%, 75% {
     bottom:15px;
   }
-  
-  
+
+
   50% {
     bottom:20px;
   }
-  
+
   100% {
     bottom:0;
   }
@@ -225,11 +225,11 @@
 	background: $cloud;
 	@include wrapper;
 	text-align: right;
-
+}
 
 	blockquote {
 
-		@include subheadlines;
+				@include subheadlines;
 					text-align: right;
 					position: relative;
 					color: $background;
@@ -239,27 +239,28 @@
 				    	@media screen and (max-width:720px){
 							margin-right: 20px;
 							font-size: 13px;
+
 					}
-
-
 				}
-blockquote:before { 
-  					color: $background;
-  					content: open-quote;
-  					font-size: 6em;
-  					position: relative;
-  					top: 115px;
-  					right: 590px;
+
+
+			
+	blockquote:before {
+			color: $background;
+			content: open-quote;
+			font-size: 6em;
+			position: relative;
+			right: 590px;
+			top: 115px;
 
   						@media screen and (max-width:720px){
 							top: 35px;
 							right: 285px;
 							font-size: 3em;
 					}
+	}
 
-				}
 
-}
 
 
 
@@ -409,11 +410,15 @@ blockquote:before {
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
+<<<<<<< HEAD
 	top: 5px;
 	@media screen and (max-width:720px){
 
                         background-position:center center;
                     }
+=======
+	top: 8px;
+>>>>>>> FETCH_HEAD
 
 }
 
@@ -429,7 +434,7 @@ blockquote:before {
 	background-size: cover;
 	position: relative;
 	top: 1.5px;
-		
+
 
 
 }
@@ -446,7 +451,7 @@ blockquote:before {
 	background-size: cover;
 	position: relative;
 	top: 1.5px;
-		
+
 
 }
 
@@ -470,14 +475,20 @@ blockquote:before {
 
 	.footer-icons {
 
-		width: 30%;
 		height: auto;
 		float: right;
 		position: relative;
 		bottom: 40%;
+<<<<<<< HEAD
 		@media screen and (max-width:720px){
 								width: 40%;
 					}
+=======
+
+		a {
+			color: lighten($background,20%);
+		}
+>>>>>>> FETCH_HEAD
 	}
 
 	.footer-copyright {
@@ -487,13 +498,16 @@ blockquote:before {
 		top: 50%;
 		position: relative;
 		font-size: 12px;
-		left: 100px;
 		color: lighten($background,20%);
 		font-weight: thin;
 		font-family: $font;
+<<<<<<< HEAD
 		@media screen and (max-width:720px){
 								font-size: 8px;
 					}
+=======
+		left: 75px;
+>>>>>>> FETCH_HEAD
 	}
 
 
@@ -504,7 +518,7 @@ blockquote:before {
 	position: relative;
 	top: 80px;
 	text-align: center;
-
+	right: 50px;
 
 	li {
 
@@ -532,18 +546,17 @@ blockquote:before {
 		image: url("../images/iconsprite.png");
 	 	background-position:  -105px  55px;
 	 	width: 30px;
-	 	height: 30px;	
+	 	height: 30px;
 	 }
 
 
 	 .dribble {
 
-	 	background-position:  -105px  55px;	
+	 	background-position:  -105px  55px;
 	 }
 
 	 .linkedin {
 
-	 	background-position:  -105px  55px;	
+	 	background-position:  -105px  55px;
 	 }
 */
-
