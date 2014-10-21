@@ -255,7 +255,7 @@
 
   						@media screen and (max-width:720px){
 							top: 35px;
-							right: 285px;
+							right: 273px;
 							font-size: 3em;
 					}
 	}
@@ -464,63 +464,74 @@
 }
 
 .footer {
+
 	background: $background;
 	@include wrapper;
 	height: 120px;
-
-		.footer-icons {
-
-			height: auto;
-			float: right;
-			position: relative;
-			bottom: 40%;
-			@media screen and (max-width:720px){
-									width: 40%;
-						}
-		}
 }
-
-		a {
-			color: lighten($background,20%);
-		}
-	
-
 	.footer-copyright {
-
-		width: 30%;
+		width: 50%;
 		float: left;
 		top: 50%;
 		position: relative;
 		font-size: 12px;
+		margin-right: 50px;
 		color: lighten($background,20%);
 		font-weight: thin;
 		font-family: $font;
 		@media screen and (max-width:720px){
-								font-size: 8px;
-					}
+								font-size: 6px;
+								margin-left: 10px;
+		}
 	}
+
+		.footer-icons {
+			width: 40%;
+			height: auto;
+			float: right;
+			position: relative;
+			bottom: 40%;
+		}
+
+
+
+
+
+
+		/*a {color: lighten($background,20%);}*/
+	
+
+	
 
 
 
 
 
 .footer-contact {
+
 	position: relative;
 	top: 80px;
 	text-align: center;
 	right: 50px;
+	@media screen and (max-width:720px){
+								right: 10px;
+								top: 90px;
+							}
 
 	li {
 
 		display: inline-block;
 		padding: 20px;
+		@media screen and (max-width:720px){
+								padding: 5px;}
+
 
 		a {
-						@include secondary;
-						text-decoration: none;
-						@media screen and (max-width:720px){
-								font-size: 8px;
-					}
+
+			@include secondary;
+			text-decoration: none;
+					@media screen and (max-width:720px){
+								font-size: 8px;}
 
 				&:hover {
 

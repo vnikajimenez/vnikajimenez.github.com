@@ -61,7 +61,6 @@ a {
 
          @media screen and (max-width:720px){
 
-                   margin-left: 5%;
                    top: 20px;
                    
 
@@ -89,7 +88,7 @@ a {
         margin: 0;
         @media screen and (max-width:720px){
 
-                   font-size: 30px;
+                   font-size: 40px;
 
             }       
 
@@ -112,7 +111,7 @@ a {
             @media screen and (max-width:720px){
 
                    font-size: 1em;
-                    width: 90%;
+                    width: 85%;
                     line-height: 1.5em;
 
 
@@ -275,7 +274,7 @@ img {
         @media screen and (max-width:720px){
 
                     font-size: 8px;
-                    margin-left: 0px;
+                    margin-left: 10px;
 
                    }
     }
@@ -290,7 +289,7 @@ img {
     width: 70%;
     @media screen and (max-width:720px){
 
-                        width: 50%;
+                        width: 80%;
                         top: 0px;
                     }
 
@@ -299,6 +298,12 @@ img {
 
         display: inline-block;
         padding: 5px;
+        @media screen and (max-width:720px){
+
+
+                        padding: 0px;
+                    }
+       }
 
         a {
             @include secondary;
@@ -306,6 +311,7 @@ img {
             @media screen and (max-width:720px){
 
                         font-size: 12px;
+                        padding: 0px;
                     }
 
                 &:hover {
@@ -314,5 +320,5 @@ img {
                 }
         }
 
-    }
 }
+
