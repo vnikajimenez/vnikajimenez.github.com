@@ -1,3 +1,4 @@
+/* Styles */
 .wrapper {
   width: 100%;
   /*  min-height: 100%;
@@ -28,6 +29,12 @@
   float: right;
   text-align: middle;
   top: 25%; }
+  @media screen and (max-width: 720px) {
+    .tittle-myname {
+      max-width: 700px;
+      margin-right: 20px;
+      top: 10%;
+      padding-bottom: 0; } }
   .tittle-myname h1 {
     color: #ffecdb;
     font-family: "Brandon Grotesque", Helvetica, sans-serif;
@@ -39,6 +46,9 @@
     position: relative;
     text-shadow: rgba(0, 0, 0, 0.03) 2px 2px, rgba(0, 0, 0, 0.0285) 4px 4px, rgba(0, 0, 0, 0.027) 6px 6px, rgba(0, 0, 0, 0.0255) 8px 8px, rgba(0, 0, 0, 0.024) 10px 10px;
     margin: 0; }
+    @media screen and (max-width: 720px) {
+      .tittle-myname h1 {
+        font-size: 30px; } }
   .tittle-myname h2 {
     font-size: 36px;
     line-height: 1.8em;
@@ -50,6 +60,9 @@
     text-align: right;
     top: 90px;
     position: relative; }
+    @media screen and (max-width: 720px) {
+      .tittle-myname h2 {
+        font-size: 21px; } }
 
 .header-button {
   font-size: 17px;
@@ -68,6 +81,12 @@
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   -o-transform: rotate(90deg); }
+  @media screen and (max-width: 720px) {
+    .header-button {
+      height: 40px;
+      width: 100px;
+      left: -100px;
+      top: 36%; } }
 
 .header-button {
   -webkit-animation: slide 0.5s forwards;
@@ -83,6 +102,14 @@
   100% {
     left: -80px; } }
 
+@media screen and (max-width: 720px) {
+  @-webkit-keyframes slide {
+    100% {
+      left: -30px; } } }
+@media screen and (max-width: 720px) {
+  @keyframes slide {
+    100% {
+      left: -30px; } } }
 .header-button:hover {
   opacity: 2;
   -webkit-transition: all .2s linear;
@@ -95,6 +122,9 @@
   position: relative;
   top: 30%;
   color: #ffecdb; }
+  @media screen and (max-width: 720px) {
+    .see-my-work {
+      font-size: 14px; } }
 
 .flecha {
   width: 50px;
@@ -128,7 +158,6 @@
 
 .tittle-quote {
   background: #ffecdb;
-  height: 400px;
   width: 100%;
   /*  min-height: 100%;
   */
@@ -144,6 +173,10 @@
     margin-right: 100px;
     top: 20%;
     quotes: "\201C" "\201D" "\2018" "\2019"; }
+    @media screen and (max-width: 720px) {
+      .tittle-quote blockquote {
+        margin-right: 20px;
+        font-size: 13px; } }
   .tittle-quote blockquote:before {
     color: #f64747;
     content: open-quote;
@@ -151,6 +184,11 @@
     position: relative;
     top: 115px;
     right: 590px; }
+    @media screen and (max-width: 720px) {
+      .tittle-quote blockquote:before {
+        top: 35px;
+        right: 285px;
+        font-size: 3em; } }
 
 .my-work {
   width: 100%;
@@ -167,6 +205,9 @@
     color: #ffecdb;
     text-align: center;
     z-index: 4; }
+    @media screen and (max-width: 720px) {
+      .my-work .cover-hover {
+        font-size: 16px; } }
 
 .overlay {
   display: block;
@@ -182,9 +223,15 @@
   .overlay .hover-text {
     position: relative;
     top: 90px; }
+    @media screen and (max-width: 720px) {
+      .overlay .hover-text {
+        top: 110px; } }
   .overlay .middle-text {
     position: relative;
     top: 80px; }
+    @media screen and (max-width: 720px) {
+      .overlay .middle-text {
+        top: 100px; } }
   .overlay .line-separator {
     position: relative;
     width: 5%;
@@ -194,6 +241,9 @@
     top: 45px;
     -webkit-transition: width 1s linear 2s;
     transition: width 1s linear 2s; }
+    @media screen and (max-width: 720px) {
+      .overlay .line-separator {
+        top: 82px; } }
 
 .hidden {
   display: none; }
@@ -242,6 +292,9 @@
   background-size: cover;
   position: relative;
   top: 5px; }
+  @media screen and (max-width: 720px) {
+    .cover-four {
+      background-position: center center; } }
 
 .cover-five {
   width: 50%;
@@ -286,6 +339,9 @@
     float: right;
     position: relative;
     bottom: 40%; }
+    @media screen and (max-width: 720px) {
+      .footer .footer-icons {
+        width: 40%; } }
   .footer .footer-copyright {
     width: 30%;
     float: left;
@@ -296,6 +352,9 @@
     color: #fba8a8;
     font-weight: thin;
     font-family: "Brandon Grotesque", Helvetica, sans-serif; }
+    @media screen and (max-width: 720px) {
+      .footer .footer-copyright {
+        font-size: 8px; } }
 
 .footer-contact {
   position: relative;
@@ -310,6 +369,9 @@
       color: white;
       font-weight: 300;
       text-decoration: none; }
+      @media screen and (max-width: 720px) {
+        .footer-contact li a {
+          font-size: 8px; } }
       .footer-contact li a:hover {
         color: #ffecdb; }
 
@@ -331,6 +393,7 @@
 	 	background-position:  -105px  55px;	
 	 }
 */
+/* Styles */
 img {
   width: 100%;
   background-repeat: no-repeat; }
@@ -365,6 +428,10 @@ a {
     -moz-transition: all 0.28s cubic-bezier(0.4, 0, 0.2, 1);
     -webkit-transition: all 0.28s cubic-bezier(0.4, 0, 0.2, 1);
     transition: all 0.28s cubic-bezier(0.4, 0, 0.2, 1); }
+  @media screen and (max-width: 720px) {
+    .home {
+      margin-left: 5%;
+      top: 20px; } }
 
 .title {
   width: 85%;
@@ -379,6 +446,9 @@ a {
     color: #f64747;
     text-shadow: rgba(0, 0, 0, 0.03) 2px 2px, rgba(0, 0, 0, 0.0285) 4px 4px, rgba(0, 0, 0, 0.027) 6px 6px, rgba(0, 0, 0, 0.0255) 8px 8px, rgba(0, 0, 0, 0.024) 10px 10px;
     margin: 0; }
+    @media screen and (max-width: 720px) {
+      .title h1 {
+        font-size: 30px; } }
 
 .container-text {
   overflow: auto;
@@ -396,12 +466,20 @@ a {
     -webkit-font-smoothing: antialiased;
     color: #2c3e50;
     word-break: keep-all; }
+    @media screen and (max-width: 720px) {
+      .container-text .inside-text {
+        font-size: 1em;
+        width: 90%;
+        line-height: 1.5em; } }
 
 a {
   font-size: 22px;
   font-family: "Brandon Grotesque", Helvetica, sans-serif;
   color: #f64747;
   font-weight: 400; }
+  @media screen and (max-width: 720px) {
+    a {
+      font-size: 14px; } }
 
 a:hover {
   opacity: .7; }
@@ -425,6 +503,10 @@ img {
   position: fixed;
   text-align: center;
   top: 40%; }
+  @media screen and (max-width: 720px) {
+    .navigation-container {
+      width: 40px;
+      top: 20%; } }
   .navigation-container .navigation-arrow {
     background-color: #f64747;
     width: 50px;
@@ -432,8 +514,7 @@ img {
     background: url("../images/iconsprite.png");
     background-position: -75px  55px;
     position: relative;
-    top: 17px;
-    left: 6px; }
+    top: 17px; }
 
 .navigation-container-right {
   width: 50px;
@@ -442,6 +523,10 @@ img {
   position: fixed;
   right: 0px;
   top: 40%; }
+  @media screen and (max-width: 720px) {
+    .navigation-container-right {
+      width: 40px;
+      top: 20%; } }
   .navigation-container-right .navigation-arrow {
     width: 50px;
     height: 50px;
@@ -470,28 +555,38 @@ img {
   height: 120px;
   width: 70%;
   margin: auto; }
-  .short-footer .short-footer-icons {
-    width: 40%;
-    height: auto;
-    float: right;
-    position: relative;
-    bottom: 40%; }
-  .short-footer .short-footer-copyright {
-    width: 30%;
-    float: left;
-    margin-left: 50px;
-    top: 40%;
-    position: relative;
-    font-size: 12px;
-    color: #fba8a8;
-    font-weight: 100;
-    font-family: "Brandon Grotesque", Helvetica, sans-serif; }
+
+.short-footer-icons {
+  width: 40%;
+  height: auto;
+  float: right;
+  position: relative;
+  bottom: 40%; }
+
+.short-footer-copyright {
+  width: 30%;
+  float: left;
+  margin-left: 50px;
+  top: 40%;
+  position: relative;
+  font-size: 12px;
+  color: #fba8a8;
+  font-weight: 100;
+  font-family: "Brandon Grotesque", Helvetica, sans-serif; }
+  @media screen and (max-width: 720px) {
+    .short-footer-copyright {
+      font-size: 8px;
+      margin-left: 0px; } }
 
 .short-footer-contact {
   position: relative;
   top: 80px;
   text-align: left;
   width: 70%; }
+  @media screen and (max-width: 720px) {
+    .short-footer-contact {
+      width: 50%;
+      top: 0px; } }
   .short-footer-contact li {
     display: inline-block;
     padding: 5px; }
@@ -501,5 +596,8 @@ img {
       color: white;
       font-weight: 300;
       text-decoration: none; }
+      @media screen and (max-width: 720px) {
+        .short-footer-contact li a {
+          font-size: 12px; } }
       .short-footer-contact li a:hover {
         color: #ffecdb; }
