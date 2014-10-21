@@ -410,15 +410,10 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-<<<<<<< HEAD
 	top: 5px;
 	@media screen and (max-width:720px){
 
-                        background-position:center center;
-                    }
-=======
-	top: 8px;
->>>>>>> FETCH_HEAD
+                        background-position:center center;                    }
 
 }
 
@@ -473,23 +468,22 @@
 	@include wrapper;
 	height: 120px;
 
-	.footer-icons {
+		.footer-icons {
 
-		height: auto;
-		float: right;
-		position: relative;
-		bottom: 40%;
-<<<<<<< HEAD
-		@media screen and (max-width:720px){
-								width: 40%;
-					}
-=======
+			height: auto;
+			float: right;
+			position: relative;
+			bottom: 40%;
+			@media screen and (max-width:720px){
+									width: 40%;
+						}
+		}
+}
 
 		a {
 			color: lighten($background,20%);
 		}
->>>>>>> FETCH_HEAD
-	}
+	
 
 	.footer-copyright {
 
@@ -501,17 +495,13 @@
 		color: lighten($background,20%);
 		font-weight: thin;
 		font-family: $font;
-<<<<<<< HEAD
 		@media screen and (max-width:720px){
 								font-size: 8px;
 					}
-=======
-		left: 75px;
->>>>>>> FETCH_HEAD
 	}
 
 
-}
+
 
 
 .footer-contact {
@@ -542,21 +532,4 @@
 }
 
 
-	/*.email {
-		image: url("../images/iconsprite.png");
-	 	background-position:  -105px  55px;
-	 	width: 30px;
-	 	height: 30px;
-	 }
-
-
-	 .dribble {
-
-	 	background-position:  -105px  55px;
-	 }
-
-	 .linkedin {
-
-	 	background-position:  -105px  55px;
-	 }
-*/
+	

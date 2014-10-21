@@ -97,10 +97,10 @@
 @-webkit-keyframes slide {
   100% {
     left: -80px; } }
+
 @keyframes slide {
   100% {
     left: -80px; } }
-<<<<<<< HEAD
 
 @media screen and (max-width: 720px) {
   @-webkit-keyframes slide {
@@ -110,8 +110,6 @@
   @keyframes slide {
     100% {
       left: -30px; } } }
-=======
->>>>>>> FETCH_HEAD
 .header-button:hover {
   opacity: 2;
   -webkit-transition: all .2s linear;
@@ -157,44 +155,42 @@
 
   100% {
     bottom: 0; } }
+
 .tittle-quote {
   background: #ffecdb;
   width: 100%;
   /*  min-height: 100%;
   */
   text-align: right; }
-  .tittle-quote blockquote {
-    font-size: 28px;
-    line-height: 1.5em;
-    font-family: "brandon-grotesque", Helvetica, sans-serif;
-    font-weight: 100;
-    text-align: right;
-    position: relative;
-    color: #f64747;
-    margin-right: 100px;
-    top: 20%;
-    quotes: "\201C" "\201D" "\2018" "\2019"; }
-    @media screen and (max-width: 720px) {
-      .tittle-quote blockquote {
-        margin-right: 20px;
-        font-size: 13px; } }
-  .tittle-quote blockquote:before {
-    color: #f64747;
-    content: open-quote;
-    font-size: 6em;
-    position: relative;
-<<<<<<< HEAD
-    top: 115px;
-    right: 590px; }
-    @media screen and (max-width: 720px) {
-      .tittle-quote blockquote:before {
-        top: 35px;
-        right: 285px;
-        font-size: 3em; } }
-=======
-    right: 590px;
-    top: 115px; }
->>>>>>> FETCH_HEAD
+
+blockquote {
+  font-size: 28px;
+  line-height: 1.5em;
+  font-family: "brandon-grotesque", Helvetica, sans-serif;
+  font-weight: 100;
+  text-align: right;
+  position: relative;
+  color: #f64747;
+  margin-right: 100px;
+  top: 20%;
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+  @media screen and (max-width: 720px) {
+    blockquote {
+      margin-right: 20px;
+      font-size: 13px; } }
+
+blockquote:before {
+  color: #f64747;
+  content: open-quote;
+  font-size: 6em;
+  position: relative;
+  right: 590px;
+  top: 115px; }
+  @media screen and (max-width: 720px) {
+    blockquote:before {
+      top: 35px;
+      right: 285px;
+      font-size: 3em; } }
 
 .my-work {
   width: 100%;
@@ -297,14 +293,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-<<<<<<< HEAD
   top: 5px; }
   @media screen and (max-width: 720px) {
     .cover-four {
       background-position: center center; } }
-=======
-  top: 8px; }
->>>>>>> FETCH_HEAD
 
 .cover-five {
   width: 50%;
@@ -348,31 +340,25 @@
     float: right;
     position: relative;
     bottom: 40%; }
-<<<<<<< HEAD
     @media screen and (max-width: 720px) {
       .footer .footer-icons {
         width: 40%; } }
-=======
-    .footer .footer-icons a {
-      color: #fba8a8; }
->>>>>>> FETCH_HEAD
-  .footer .footer-copyright {
-    width: 30%;
-    float: left;
-    top: 50%;
-    position: relative;
-    font-size: 12px;
-    color: #fba8a8;
-    font-weight: thin;
-<<<<<<< HEAD
-    font-family: "Brandon Grotesque", Helvetica, sans-serif; }
-    @media screen and (max-width: 720px) {
-      .footer .footer-copyright {
-        font-size: 8px; } }
-=======
-    font-family: "brandon-grotesque", Helvetica, sans-serif;
-    left: 75px; }
->>>>>>> FETCH_HEAD
+
+a {
+  color: #fba8a8; }
+
+.footer-copyright {
+  width: 30%;
+  float: left;
+  top: 50%;
+  position: relative;
+  font-size: 12px;
+  color: #fba8a8;
+  font-weight: thin;
+  font-family: "brandon-grotesque", Helvetica, sans-serif; }
+  @media screen and (max-width: 720px) {
+    .footer-copyright {
+      font-size: 8px; } }
 
 .footer-contact {
   position: relative;
@@ -394,24 +380,6 @@
       .footer-contact li a:hover {
         color: #ffecdb; }
 
-	/*.email {
-		image: url("../images/iconsprite.png");
-	 	background-position:  -105px  55px;
-	 	width: 30px;
-	 	height: 30px;
-	 }
-
-
-	 .dribble {
-
-	 	background-position:  -105px  55px;
-	 }
-
-	 .linkedin {
-
-	 	background-position:  -105px  55px;
-	 }
-*/
 /* Styles */
 img {
   width: 100%;
@@ -574,7 +542,6 @@ img {
   height: 120px;
   width: 70%;
   margin: auto; }
-<<<<<<< HEAD
 
 .short-footer-icons {
   width: 40%;
@@ -592,29 +559,11 @@ img {
   font-size: 12px;
   color: #fba8a8;
   font-weight: 100;
-  font-family: "Brandon Grotesque", Helvetica, sans-serif; }
+  font-family: "brandon-grotesque", Helvetica, sans-serif; }
   @media screen and (max-width: 720px) {
     .short-footer-copyright {
       font-size: 8px;
       margin-left: 0px; } }
-=======
-  .short-footer .short-footer-icons {
-    width: 40%;
-    height: auto;
-    float: right;
-    position: relative;
-    bottom: 40%; }
-  .short-footer .short-footer-copyright {
-    width: 30%;
-    float: left;
-    margin-left: 50px;
-    top: 40%;
-    position: relative;
-    font-size: 12px;
-    color: #fba8a8;
-    font-weight: 100;
-    font-family: "brandon-grotesque", Helvetica, sans-serif; }
->>>>>>> FETCH_HEAD
 
 .short-footer-contact {
   position: relative;
