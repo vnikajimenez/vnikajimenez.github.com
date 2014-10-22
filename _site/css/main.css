@@ -348,7 +348,7 @@ blockquote:before {
 .footer-copyright {
   width: 50%;
   float: left;
-  top: 50%;
+  top: 55%;
   position: relative;
   font-size: 12px;
   margin-left: 50px;
@@ -370,13 +370,13 @@ blockquote:before {
 /*a {color: lighten($background,20%);}*/
 .footer-contact {
   position: relative;
-  top: 85px;
+  top: 80px;
   text-align: right;
   right: 90px; }
   @media screen and (max-width: 720px) {
     .footer-contact {
       right: 40px;
-      top: 100px; } }
+      top: 103px; } }
   .footer-contact li {
     display: inline-block;
     padding: 20px; }
