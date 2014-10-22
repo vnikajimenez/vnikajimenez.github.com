@@ -45,6 +45,7 @@
     letter-spacing: -1px;
     text-align: left;
     position: relative;
+    top: 20px;
     					/*text-shadow: rgba(0,0,0,.03) 2px 2px,
     					rgba(0,0,0,.0285) 4px 4px,rgba(0,0,0,.0270) 6px 6px,
     					rgba(0,0,0,.0255) 8px 8px,rgba(0,0,0,.0240) 10px 10px;
@@ -456,7 +457,6 @@ a {
     font-size: 100px;
     letter-spacing: -1px;
     color: #f64747;
-    text-shadow: rgba(0, 0, 0, 0.03) 2px 2px, rgba(0, 0, 0, 0.0285) 4px 4px, rgba(0, 0, 0, 0.027) 6px 6px, rgba(0, 0, 0, 0.0255) 8px 8px, rgba(0, 0, 0, 0.024) 10px 10px;
     margin: 0; }
     @media screen and (max-width: 720px) {
       .title h1 {
@@ -529,7 +529,8 @@ img {
     background: url("../images/iconsprite.png");
     background-position: -75px  55px;
     position: relative;
-    top: 17px; }
+    top: 17px;
+    right: 0px; }
 
 .navigation-container-right {
   width: 50px;
@@ -549,7 +550,7 @@ img {
     background-position: -105px  55px;
     position: relative;
     top: 17px;
-    right: 6px; }
+    right: 0px; }
 
 .navigation-container:hover {
   opacity: 2;
