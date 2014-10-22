@@ -124,7 +124,7 @@
 
 	@media screen and (max-width: 768px){
 
-							top: 26%;						}
+			top: 26%; }
 
 }
 
@@ -255,9 +255,15 @@
 					margin-right: 100px;
 					top: 20%;
 				    quotes: "\201C""\201D""\2018""\2019";
+
 				    	@media screen and (max-width:720px){
 							margin-right: 20px;
 							font-size: 13px;
+
+					}
+
+						@media screen and (max-width:768px){
+							margin-right: 20px;
 
 					}
 				}
@@ -494,13 +500,12 @@
 		top: 50%;
 		position: relative;
 		font-size: 12px;
-		margin-right: 50px;
+		margin-left: 70px;
 		color: lighten($background,20%);
 		font-weight: thin;
 		font-family: $font;
 		@media screen and (max-width:720px){
 								font-size: 6px;
-								margin-left: 10px;
 		}
 	}
 
@@ -530,8 +535,8 @@
 
 	position: relative;
 	top: 80px;
-	text-align: center;
-	right: 50px;
+	text-align: right;
+	right: 70px;
 	@media screen and (max-width:720px){
 								right: 10px;
 								top: 90px;
@@ -550,7 +555,7 @@
 			@include secondary;
 			text-decoration: none;
 					@media screen and (max-width:720px){
-								font-size: 8px;}
+								font-size: 10px;}
 
 				&:hover {
 
