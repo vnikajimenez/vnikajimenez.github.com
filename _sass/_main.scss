@@ -39,7 +39,7 @@
 	margin-right: 70px;
 	float:right;
 	text-align: middle;
-	top: 30%;
+	top: 27.5%;
 
 		@media screen and (max-width: 768px){
 
@@ -73,6 +73,7 @@
 						@media screen and (max-width:720px) {
 
 							font-size: 30px;
+							top: 10px;
 						}
 
 				}
@@ -187,7 +188,7 @@
 
 	width: 50px;
 	height: 50px;
-	margin-top:30px;
+	margin-top:20px;
 	background: url("../images/iconsprite.png");
 	background-position: -11px  58px;
 	float: right;
@@ -498,7 +499,7 @@
 	.footer-copyright {
 		width: 50%;
 		float: left;
-		top: 55%;
+		top: 50%;
 		position: relative;
 		font-size: 12px;
 		margin-left: 50px;
@@ -516,7 +517,7 @@
 			height: auto;
 			float: right;
 			position: relative;
-			bottom: 40%;
+			bottom: 45%;
 		}
 
 		/*a {color: lighten($background,20%);}*/
@@ -528,7 +529,7 @@
 	text-align: right;
 	right: 90px;
 	@media screen and (max-width:720px){
-								right: 40px;
+								right: 30px;
 								top: 103px;
 							}
 

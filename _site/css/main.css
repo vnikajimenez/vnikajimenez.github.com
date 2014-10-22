@@ -28,7 +28,7 @@
   margin-right: 70px;
   float: right;
   text-align: middle;
-  top: 30%; }
+  top: 27.5%; }
   @media screen and (max-width: 768px) {
     .tittle-myname {
       max-width: 600px;
@@ -55,7 +55,8 @@
         font-size: 50px; } }
     @media screen and (max-width: 720px) {
       .tittle-myname h1 {
-        font-size: 30px; } }
+        font-size: 30px;
+        top: 10px; } }
   .tittle-myname h2 {
     font-size: 36px;
     line-height: 1.8em;
@@ -137,7 +138,7 @@
 .flecha {
   width: 50px;
   height: 50px;
-  margin-top: 30px;
+  margin-top: 20px;
   background: url("../images/iconsprite.png");
   background-position: -11px  58px;
   float: right;
@@ -360,7 +361,7 @@ blockquote:before {
 .footer-copyright {
   width: 50%;
   float: left;
-  top: 55%;
+  top: 50%;
   position: relative;
   font-size: 12px;
   margin-left: 50px;
@@ -377,7 +378,7 @@ blockquote:before {
   height: auto;
   float: right;
   position: relative;
-  bottom: 40%; }
+  bottom: 45%; }
 
 /*a {color: lighten($background,20%);}*/
 .footer-contact {
@@ -387,7 +388,7 @@ blockquote:before {
   right: 90px; }
   @media screen and (max-width: 720px) {
     .footer-contact {
-      right: 40px;
+      right: 30px;
       top: 103px; } }
   .footer-contact li {
     display: inline-block;
@@ -430,10 +431,10 @@ a {
   font-family: "brandon-grotesque", Helvetica, sans-serif;
   color: white;
   font-weight: 300;
-  margin-left: 17%;
+  margin-left: 17.5%;
   text-align: left;
   color: #f64747;
-  top: 40px;
+  top: 35px;
   position: relative; }
   .home:hover {
     -moz-transform: translate3d(0, 0, 0);
@@ -444,7 +445,7 @@ a {
     transition: all 0.28s cubic-bezier(0.4, 0, 0.2, 1); }
   @media screen and (max-width: 720px) {
     .home {
-      top: 20px; } }
+      top: 18px; } }
 
 .title {
   width: 85%;
@@ -467,7 +468,7 @@ a {
   margin-top: 30px;
   margin-bottom: 40px; }
   .container-text .inside-text {
-    width: 50%;
+    width: 45%;
     float: right;
     font-size: 1.250em;
     font-family: "brandon-grotesque", Helvetica, sans-serif;
@@ -478,14 +479,14 @@ a {
     -webkit-font-smoothing: antialiased;
     color: #2c3e50;
     word-break: keep-all; }
+    @media screen and (max-width: 768px) {
+      .container-text .inside-text {
+        width: 75%; } }
     @media screen and (max-width: 720px) {
       .container-text .inside-text {
         font-size: 1em;
         width: 85%;
         line-height: 1.5em; } }
-    @media screen and (max-width: 768px) {
-      .container-text .inside-text {
-        width: 80%; } }
 
 a {
   font-size: 22px;
@@ -520,8 +521,8 @@ img {
   top: 40%; }
   @media screen and (max-width: 720px) {
     .navigation-container {
-      width: 40px;
-      top: 20%; } }
+      top: 27%;
+      width: 30px; } }
   .navigation-container .navigation-arrow {
     background-color: #f64747;
     width: 50px;
@@ -530,7 +531,11 @@ img {
     background-position: -75px  55px;
     position: relative;
     top: 17px;
-    right: 0px; }
+    left: 3px; }
+    @media screen and (max-width: 720px) {
+      .navigation-container .navigation-arrow {
+        top: 16px;
+        left: -3px; } }
 
 .navigation-container-right {
   width: 50px;
@@ -541,8 +546,8 @@ img {
   top: 40%; }
   @media screen and (max-width: 720px) {
     .navigation-container-right {
-      width: 40px;
-      top: 20%; } }
+      top: 27%;
+      width: 30px; } }
   .navigation-container-right .navigation-arrow {
     width: 50px;
     height: 50px;
@@ -550,7 +555,11 @@ img {
     background-position: -105px  55px;
     position: relative;
     top: 17px;
-    right: 0px; }
+    right: 8px; }
+    @media screen and (max-width: 720px) {
+      .navigation-container-right .navigation-arrow {
+        top: 16px;
+        right: 12px; } }
 
 .navigation-container:hover {
   opacity: 2;

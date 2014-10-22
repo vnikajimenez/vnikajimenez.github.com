@@ -48,10 +48,10 @@ a {
 
     width: 100%;
     @include secondary;
-    margin-left: 17%;
+    margin-left: 17.5%;
     text-align: left;
     color: $background;
-    top: 40px;
+    top: 35px;
     position: relative;
 
          &:hover {
@@ -61,7 +61,7 @@ a {
 
          @media screen and (max-width:720px){
 
-                   top: 20px;
+                   top: 18px;
                    
 
             }       
@@ -102,22 +102,23 @@ a {
     margin-bottom: 40px;
 
     .inside-text {
-        width: 50%;
+        width: 45%;
         float: right;
         @include reading;
-            @media screen and (max-width:720px){
+           
+
+            @media screen and (max-width: 768px){
+
+                width: 75%;
+
+            } 
+             @media screen and (max-width:720px){
 
                    font-size: 1em;
                     width: 85%;
                     line-height: 1.5em;
 
             }
-
-            @media screen and (max-width: 768px){
-
-                width: 80%;
-
-            } 
 
 
 
@@ -176,8 +177,8 @@ img {
     top: 40%;
             @media screen and (max-width:720px){
 
-                            width: 40px;
-                            top: 20%;
+                            top: 27%;
+                            width: 30px;
             }
 
 
@@ -190,10 +191,17 @@ img {
                 background-position:  -75px  55px;
                 position: relative;
                 top: 17px;
-                right: 0px;
+                left: 3px;
+
+                @media screen and (max-width:720px){
+
+                            top: 16px;
+                            left: -3px;
+
+                }
 
             
-            }
+        }
 
 }
 
@@ -208,8 +216,8 @@ img {
     top: 40%;
     @media screen and (max-width:720px){
 
-                            width: 40px;
-                            top: 20%;
+                            top: 27%;
+                            width: 30px;
 
             }
                            
@@ -221,7 +229,13 @@ img {
         background-position:  -105px  55px;
         position: relative;
         top: 17px;
-        right: 0px;
+        right: 8px;
+        @media screen and (max-width:720px){
+
+                            top: 16px;
+                            right: 12px;
+
+            }
 
        
 
