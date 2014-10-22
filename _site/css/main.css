@@ -35,6 +35,11 @@
       margin-right: 20px;
       top: 10%;
       padding-bottom: 0; } }
+  @media screen and (max-width: 768px) {
+    .tittle-myname {
+      max-width: 600px;
+      margin-right: 20px;
+      top: 15%; } }
   .tittle-myname h1 {
     color: #ffecdb;
     font-family: "brandon-grotesque", Helvetica, sans-serif;
@@ -49,6 +54,9 @@
     @media screen and (max-width: 720px) {
       .tittle-myname h1 {
         font-size: 30px; } }
+    @media screen and (max-width: 768px) {
+      .tittle-myname h1 {
+        font-size: 70px; } }
   .tittle-myname h2 {
     font-size: 36px;
     line-height: 1.8em;
@@ -75,7 +83,7 @@
   text-align: center;
   cursor: pointer;
   left: -120px;
-  top: 45%;
+  top: 36%;
   background-color: #F76764;
   opacity: .7;
   -webkit-transform: rotate(90deg);
@@ -87,6 +95,9 @@
       width: 100px;
       left: -100px;
       top: 36%; } }
+  @media screen and (max-width: 768px) {
+    .header-button {
+      top: 26%; } }
 
 .header-button {
   -webkit-animation: slide 0.5s forwards;
@@ -463,6 +474,9 @@ a {
         font-size: 1em;
         width: 85%;
         line-height: 1.5em; } }
+    @media screen and (max-width: 768px) {
+      .container-text .inside-text {
+        width: 80%; } }
 
 a {
   font-size: 22px;

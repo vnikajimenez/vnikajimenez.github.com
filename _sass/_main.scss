@@ -47,6 +47,13 @@
 			top: 10%;
 			padding-bottom: 0;
 		}
+
+		@media screen and (max-width: 768px){
+
+			max-width: 600px;
+			margin-right: 20px;
+			top: 15%;
+		}
 	
 				h1 {
 
@@ -58,9 +65,17 @@
 					rgba(0,0,0,.0285) 4px 4px,rgba(0,0,0,.0270) 6px 6px,
 					rgba(0,0,0,.0255) 8px 8px,rgba(0,0,0,.0240) 10px 10px;
 					margin: 0;
+
 						@media screen and (max-width:720px) {
+
 						font-size: 30px;
 					}
+
+
+						@media screen and (max-width: 768px){
+
+							font-size: 70px;
+						}
 
 				}
 
@@ -93,7 +108,7 @@
 	text-align: center;
 	cursor: pointer;
 	left: -120px;
-	top: 45%;
+	top: 36%;
 	background-color: #F76764;
 	opacity: .7;
 	-webkit-transform: rotate(90deg);
@@ -106,6 +121,10 @@
 			left: -100px;
 			top: 36%;
 	}
+
+	@media screen and (max-width: 768px){
+
+							top: 26%;						}
 
 }
 
