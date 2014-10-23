@@ -194,17 +194,17 @@
 	float: right;
 	position: relative;
 	opacity: .7;
-  	-webkit-animation:bounce 2s infinite;
-  	animation:bounce 2s infinite;
+  	-webkit-animation:bounce 1s infinite;
+  	animation:bounce 1s infinite;
 
 
 		&:hover {
 
 			opacity:10;
-			-webkit-transition: all .2s linear;
-			transition: all .2s linear;
-			-ms-transition: all .2s linear;
-			transition: all .2s linear;
+			-webkit-transition: all .1s linear;
+			transition: all .1s linear;
+			-ms-transition: all .1s linear;
+			transition: all .1s linear;
 		}
 }
 
@@ -227,7 +227,7 @@
 	  }
 
 	  100% {
-	    bottom:0;
+	    bottom:5px;
 	  }
   
 }
@@ -253,7 +253,7 @@
 	  }
 
 	  100% {
-	    bottom:0;
+	    bottom:5px;
 	  }
 }
 
