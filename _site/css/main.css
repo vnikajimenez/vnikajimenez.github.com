@@ -155,9 +155,15 @@
 
 @-webkit-keyframes bounce {
   0% {
+    bottom: 5px; }
+
+  25% {
     bottom: 10px; }
 
-  25%, 75%,50% {
+  50% {
+    bottom: 15px; }
+
+  75% {
     bottom: 20px; }
 
   100% {
@@ -165,9 +171,15 @@
 
 @keyframes bounce {
   0% {
+    bottom: 5px; }
+
+  25% {
     bottom: 10px; }
 
-  25%, 75%,50% {
+  50% {
+    bottom: 15px; }
+
+  75% {
     bottom: 20px; }
 
   100% {
