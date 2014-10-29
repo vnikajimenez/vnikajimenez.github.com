@@ -431,7 +431,6 @@ img {
   */
   background-color: #ffecdb;
   background-size: cover;
-  text-align: left;
   overflow: auto; }
 
 a {
@@ -479,9 +478,10 @@ a {
   overflow: auto;
   margin-top: 30px;
   margin-bottom: 40px;
-  margin-left: 17.5%; }
+  margin: auto;
+  width: 70%; }
   .container-text .inside-text {
-    width: 45%;
+    width: 65%;
     float: left;
     font-size: 1.250em;
     font-family: "brandon-grotesque", Helvetica, sans-serif;
@@ -530,8 +530,9 @@ img {
   height: 80px;
   background: #f64747;
   position: fixed;
-  text-align: center;
-  top: 40%; }
+  text-align: right;
+  top: 40%;
+  left: 0; }
   @media screen and (max-width: 720px) {
     .navigation-container {
       top: 27%;
