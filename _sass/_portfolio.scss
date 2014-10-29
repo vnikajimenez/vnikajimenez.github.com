@@ -82,6 +82,7 @@ a {
         @include titulo;
         color: $background;
         margin-left: 17.5%;
+        margin-bottom: 1%;
         @media screen and (max-width:720px){
 
                    font-size: 40px;
@@ -98,12 +99,13 @@ a {
 .container-text {
     overflow: auto;
     margin-top: 30px;
-    margin-bottom: 40px;
     margin: auto;
-    width: 70%;
+    width: 85%;
 
     .inside-text {
-        width: 65%;
+        width: 40%;
+        margin-left: 12%;
+        margin-bottom: 2%;
         float: left;
         @include reading;
            
@@ -175,11 +177,11 @@ img {
     background: $background;
     position: fixed;
     text-align: right;
-    top: 40%;
+    top: 22%;
     left: 0;
             @media screen and (max-width:720px){
 
-                            top: 27%;
+                            top: 21%;
                             width: 30px;
             }
 
@@ -215,10 +217,10 @@ img {
     background: $background;
     position: fixed;
     right: 0px;
-    top: 40%;
+    top: 22%;
     @media screen and (max-width:720px){
 
-                            top: 27%;
+                            top: 21%;
                             width: 30px;
 
             }
