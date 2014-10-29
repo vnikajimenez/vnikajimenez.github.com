@@ -32,7 +32,6 @@ img {
     @include wrapper;
     background-color: $cloud;
     background-size: cover;
-    text-align: right;
     overflow: auto;
 
 }
@@ -48,8 +47,8 @@ a {
 
     width: 100%;
     @include secondary;
-    margin-left: 17.5%;
-    text-align: left;
+    float: left;
+    text-align: right;
     color: $background;
     top: 35px;
     position: relative;
@@ -74,7 +73,7 @@ a {
 .title {
 
     width: 85%;
-    text-align: right;
+    text-align: left;
     display: block;
 
     
@@ -82,7 +81,7 @@ a {
     h1 {
         @include titulo;
         color: $background;
-        margin: 0;
+        margin-left: 17.5%;
         @media screen and (max-width:720px){
 
                    font-size: 40px;
@@ -100,10 +99,12 @@ a {
     overflow: auto;
     margin-top: 30px;
     margin-bottom: 40px;
+    margin: auto;
+    width: 70%
 
     .inside-text {
-        width: 45%;
-        float: right;
+        width: 65%;
+        float: left;
         @include reading;
            
 
@@ -173,8 +174,9 @@ img {
     height: 80px;
     background: $background;
     position: fixed;
-    text-align: center;
+    text-align: right;
     top: 40%;
+    left: 0;
             @media screen and (max-width:720px){
 
                             top: 27%;
