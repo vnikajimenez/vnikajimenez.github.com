@@ -210,7 +210,7 @@ blockquote {
   @media screen and (max-width: 720px) {
     blockquote {
       margin-right: 20px;
-      font-size: 13px;
+      font-size: 18px;
       top: 40%; } }
 
 blockquote:before {
@@ -223,7 +223,7 @@ blockquote:before {
   @media screen and (max-width: 720px) {
     blockquote:before {
       top: 25px;
-      right: 275px;
+      right: 380px;
       font-size: 2em; } }
 
 .my-work {
@@ -289,15 +289,17 @@ blockquote:before {
   height: 250px;
   z-index: 3;
   background-image: url("../images/single.png");
+  background-color: #ECECEC;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #95a5a6;
   float: right;
   position: relative;
   top: 35px; }
 
 .cover-two {
-  background-color: #bdc3c7;
+  background-color: #6C7A89;
   width: 50%;
   height: 250px;
   background-image: url("../images/pipeline-logo.png");
@@ -308,22 +310,13 @@ blockquote:before {
   position: relative;
   top: 35px; }
 
-/*.cover-three {
-
-		background-color: #95A5A6;
-		width: 25%;
-		height: 250px;
-		margin-left: -5px;
-
-
-
-}*/
 .cover-four {
   width: 100%;
   height: 252px;
   background-image: url("../images/after-cover.png");
   opacity: 5;
   background-position: left bottom;
+  background-color: #DADFE1;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -335,9 +328,9 @@ blockquote:before {
 .cover-five {
   width: 50%;
   height: 250px;
-  background-color: #95a5a6;
+  background-color: #6C7A89;
   opacity: 5;
-  background-image: url("../images/whiskcover.png");
+  background-image: url("../images/w-cover.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -347,10 +340,10 @@ blockquote:before {
 .cover-six {
   width: 50%;
   height: 250px;
-  background-color: #ABB7B7;
+  background-color: #ECF0F1;
   float: right;
-  background-image: url("../images/acopiocover.png");
-  background-position: center center;
+  background-image: url("../images/whiskcover.png");
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -386,7 +379,7 @@ blockquote:before {
       margin-left: 30px; } }
 
 .footer-icons {
-  width: 40%;
+  width: 45%;
   height: auto;
   float: right;
   position: relative;
@@ -395,13 +388,13 @@ blockquote:before {
 /*a {color: lighten($background,20%);}*/
 .footer-contact {
   position: relative;
-  top: 90px;
+  top: 86px;
   text-align: right;
   right: 90px; }
   @media screen and (max-width: 720px) {
     .footer-contact {
-      right: 30px;
-      top: 103px; } }
+      right: 20px;
+      top: 95px; } }
   .footer-contact li {
     display: inline-block;
     padding: 20px; }
@@ -445,8 +438,9 @@ a {
   float: left;
   text-align: right;
   color: #f64747;
-  top: 35px;
-  position: relative; }
+  top: 20px;
+  position: relative;
+  left: 59px; }
   .home:hover {
     -moz-transform: translate3d(0, 0, 0);
     -webkit-transform: translate3d(0, 0, 0);
@@ -456,7 +450,8 @@ a {
     transition: all 0.28s cubic-bezier(0.4, 0, 0.2, 1); }
   @media screen and (max-width: 720px) {
     .home {
-      top: 18px; } }
+      top: 18px;
+      left: 15px; } }
 
 .title {
   width: 85%;
@@ -470,7 +465,7 @@ a {
     font-size: 100px;
     letter-spacing: -1px;
     color: #f64747;
-    margin-left: 17.5%;
+    margin-left: 15%;
     margin-bottom: 1%; }
     @media screen and (max-width: 720px) {
       .title h1 {
@@ -480,11 +475,23 @@ a {
   overflow: auto;
   margin-top: 30px;
   margin: auto;
-  width: 85%; }
+  width: 70%;
+  z-index: 8;
+  text-align: center;
+  position: relative; }
+  @media screen and (max-width: 768px) {
+    .container-text {
+      width: 80%;
+      left: 20px; } }
+  @media screen and (max-width: 720px) {
+    .container-text {
+      width: 80%;
+      left: 20px; } }
   .container-text .inside-text {
-    width: 70%;
-    margin-left: 12%;
-    margin-bottom: 2%;
+    width: 65%;
+    position: relative;
+    text-align: left;
+    margin-bottom: 5%;
     float: left;
     font-size: 1.250em;
     font-family: "brandon-grotesque", Helvetica, sans-serif;
@@ -497,15 +504,17 @@ a {
     word-break: keep-all; }
     @media screen and (max-width: 768px) {
       .container-text .inside-text {
-        width: 85%; } }
+        width: 100%;
+        font-size: 1.3em; } }
     @media screen and (max-width: 720px) {
       .container-text .inside-text {
         font-size: 1em;
-        width: 95%;
+        width: 80%;
         line-height: 1.5em; } }
 
 a {
   font-size: 22px;
+  position: relative;
   font-family: "Brandon Grotesque", Helvetica, sans-serif;
   color: #f64747;
   font-weight: 400; }
@@ -517,7 +526,7 @@ a:hover {
   opacity: .7; }
 
 .portfolio-image {
-  width: 70%;
+  width: 75%;
   margin: auto;
   margin-bottom: 50px;
   text-align: center;
@@ -622,7 +631,7 @@ img {
 
 .short-footer-contact {
   position: relative;
-  top: 80px;
+  top: 40px;
   text-align: left;
   width: 70%; }
   @media screen and (max-width: 720px) {

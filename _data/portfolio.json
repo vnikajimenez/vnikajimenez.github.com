@@ -1,7 +1,8 @@
 {
-  "Pipeline":{"prev":"illustrations.html", "next":"single.html"},
+  "Pipeline":{"prev":"w.html", "next":"single.html"},
   "Single":{"prev":"pipeline.html", "next":"aftercloud.html"},
   "Aftercloud":{"prev":"single.html", "next":"whisk.html"},
-  "Whisk":{"prev":"aftercloud.html", "next":"illustrations.html"},
-  "Illustrations":{"prev":"whisk.html", "next":"pipeline.html"}
+  "Whisk":{"prev":"aftercloud.html", "next":"w.html"},
+  "W":{"prev":"whisk.html", "next":"pipeline.html"},
+
 }

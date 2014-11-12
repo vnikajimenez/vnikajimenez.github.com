@@ -284,7 +284,7 @@
 
 						@media screen and (max-width:720px){
 							margin-right: 20px;
-							font-size: 13px;
+							font-size: 18px;
 							top: 40%;
 						}
 				}
@@ -301,7 +301,7 @@
 
   					@media screen and (max-width:720px){
 						top: 25px;
- 						right: 275px;
+ 						right: 380px;
 						font-size: 2em;
 					}
 	}
@@ -404,9 +404,11 @@
 	height: 250px;
 	z-index: 3;
 	background-image: url("../images/single.png");
+	background-color: #ECECEC;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-color: #95a5a6;
 	float: right;
 	position: relative;
 	top: 35px;
@@ -420,7 +422,7 @@
 
 .cover-two {
 
-	background-color: #bdc3c7;
+	background-color: #6C7A89;
 	width: 50%;
 	height: 250px;
 	background-image: url("../images/pipeline-logo.png");
@@ -435,17 +437,6 @@
 
 
 
-/*.cover-three {
-
-		background-color: #95A5A6;
-		width: 25%;
-		height: 250px;
-		margin-left: -5px;
-
-
-
-}*/
-
 .cover-four {
 
 	width: 100%;
@@ -453,6 +444,7 @@
 	background-image: url("../images/after-cover.png");
 	opacity: 5;
 	background-position:left bottom;
+	background-color: #DADFE1;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
@@ -467,9 +459,9 @@
 
 	width: 50%;
 	height: 250px;
-	background-color:#95a5a6;
+	background-color:#6C7A89;
 	opacity: 5;
-	background-image: url("../images/whiskcover.png");
+	background-image: url("../images/w-cover.png");
 	background-position:center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -484,10 +476,10 @@
 
 	width: 50%;
 	height: 250px;
-	background-color:#ABB7B7;
+	background-color:#ECF0F1;
 	float: right;
-	background-image: url("../images/acopiocover.png");
-	background-position:center center;
+	background-image: url("../images/whiskcover.png");
+	background-position:center top;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
@@ -532,7 +524,7 @@
 	}
 
 		.footer-icons {
-			width: 40%;
+			width: 45%;
 			height: auto;
 			float: right;
 			position: relative;
@@ -544,12 +536,12 @@
 .footer-contact {
 
 	position: relative;
-	top: 90px;
+	top: 86px;
 	text-align: right;
 	right: 90px;
 	@media screen and (max-width:720px){
-								right: 30px;
-								top: 103px;
+								right: 20px;
+								top: 95px;
 							}
 
 	li {
