@@ -104,19 +104,17 @@ a {
     margin-top: 30px;
     margin: auto;
     width: 70%;
-    z-index: 8;
     text-align: center;
     position: relative;
     @media screen and (max-width:768px){
 
-                width: 80%;
+                    width: 100%;
                    left: 20px;
 
             } 
     @media screen and (max-width:720px){
 
-                   width: 80%;
-                   left: 20px;
+                   left: 40px;
 
 
             }
