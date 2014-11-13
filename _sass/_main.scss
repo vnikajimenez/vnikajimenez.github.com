@@ -271,7 +271,7 @@
 	blockquote {
 
 				@include subheadlines;
-					text-align: right;
+					text-align:right;
 					position: relative;
 					color: $background;
 					margin-right: 70px;
@@ -283,9 +283,11 @@
 						}
 
 						@media screen and (max-width:720px){
-							margin-right: 20px;
-							font-size: 18px;
-							top: 40%;
+
+							width: 75%;
+							font-size: 17px;
+							top: 20%;
+							left: 70px;
 						}
 				}
 
@@ -300,9 +302,8 @@
 			top: 115px;
 
   					@media screen and (max-width:720px){
-						top: 25px;
- 						right: 380px;
-						font-size: 2em;
+						top: 65px;
+ 						right: 260px;
 					}
 	}
 

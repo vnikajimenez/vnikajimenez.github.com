@@ -209,9 +209,10 @@ blockquote {
       margin-right: 20px; } }
   @media screen and (max-width: 720px) {
     blockquote {
-      margin-right: 20px;
-      font-size: 18px;
-      top: 40%; } }
+      width: 75%;
+      font-size: 17px;
+      top: 20%;
+      left: 70px; } }
 
 blockquote:before {
   color: #f64747;
@@ -222,9 +223,8 @@ blockquote:before {
   top: 115px; }
   @media screen and (max-width: 720px) {
     blockquote:before {
-      top: 25px;
-      right: 380px;
-      font-size: 2em; } }
+      top: 65px;
+      right: 260px; } }
 
 .my-work {
   width: 100%;
