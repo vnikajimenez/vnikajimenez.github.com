@@ -502,11 +502,11 @@ a {
     word-break: keep-all; }
     @media screen and (max-width: 768px) {
       .container-text .inside-text {
-        width: 100%;
+        width: 80%;
         font-size: 1.3em; } }
     @media screen and (max-width: 720px) {
       .container-text .inside-text {
-        font-size: 1em;
+        font-size: 1.2em;
         width: 90%;
         line-height: 1.5em; } }
 
