@@ -507,7 +507,7 @@ a {
     @media screen and (max-width: 720px) {
       .container-text .inside-text {
         font-size: 1em;
-        width: 80%;
+        width: 90%;
         line-height: 1.5em; } }
 
 a {
