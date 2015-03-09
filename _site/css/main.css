@@ -486,7 +486,7 @@ a {
     .container-text {
       left: 40px; } }
   .container-text .inside-text {
-    width: 65%;
+    width: 80%;
     position: relative;
     text-align: left;
     margin-bottom: 5%;
