@@ -1,1 +1,25 @@
 @import 'variables';
+
+.portfolio-content {
+
+  width: 100%;
+  margin-top: 20px;
+
+  .left-column {
+    float: left;
+    width: 65%;
+  }
+
+  .right-column {
+    float: right;
+    width: 33%;
+  }
+}
+
+.portfolio-image {
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+}
