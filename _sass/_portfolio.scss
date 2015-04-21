@@ -14,6 +14,16 @@
   .right-column {
     float: right;
     width: 33%;
+
+    .controls {
+      margin-top: 10px;
+      .previous-next {
+        float: left;
+      }
+      .home {
+        float: right;
+      }
+    }
   }
 }
 

@@ -9,6 +9,19 @@ layout: default
     <div class="right-column">
       <h1>{{ page.title }}</h1>
       {{ page.text }}
+      <div class="controls">
+        <div class="previous-next">
+          {% if site.data.portfolio[page.title].prev %}
+          <a href="{{ site.data.portfolio[page.title].prev }}"><< Previous</a>
+          {% endif %}
+          {% if site.data.portfolio[page.title].next %}
+          <a href="{{ site.data.portfolio[page.title].next }}">Next >></a>
+          {% endif %}
+        </div>
+        <div class="home">
+          <a href="index.html">Home</a>
+        </div>
+      </div>
     </div>
   </div>
 </div>

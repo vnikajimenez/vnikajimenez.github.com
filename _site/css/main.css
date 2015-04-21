@@ -27,7 +27,7 @@
       margin-bottom: 20px; }
     .main-content .right-column .single {
       background-color: #F5B439; }
-    .main-content .right-column .my-application {
+    .main-content .right-column .candidate-experience {
       background-color: #C50439; }
     .main-content .right-column .w {
       background-color: #A5C439; }
@@ -48,6 +48,12 @@
   .portfolio-content .right-column {
     float: right;
     width: 33%; }
+    .portfolio-content .right-column .controls {
+      margin-top: 10px; }
+      .portfolio-content .right-column .controls .previous-next {
+        float: left; }
+      .portfolio-content .right-column .controls .home {
+        float: right; }
 
 .portfolio-image {
   width: 100%; }
