@@ -4,12 +4,10 @@ $blue: #2c3e50;
 $font:"brandon-grotesque",Helvetica,sans-serif;
 $background: #F64747;
 
-//RESPOSIVE VARIABLES
-
-
- 
-
-
+// Portfolio colors
+$single: #F5B439;
+$my-application: #C50439;
+$w: #A5C439;
 
 /* Styles */
 
@@ -88,16 +86,4 @@ $background: #F64747;
     font-family: $font;
     color: lighten($background, 90%);
     font-weight: 300;
-}
-
-
-
-@mixin hover {
-
-    -moz-transform: translate3d(0,0,0);
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
-    -moz-transition: all .28s cubic-bezier(.4,0,.2,1);
-    -webkit-transition: all .28s cubic-bezier(.4,0,.2,1);
-    transition: all .28s cubic-bezier(.4,0,.2,1);
 }
