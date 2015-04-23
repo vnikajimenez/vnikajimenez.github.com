@@ -1,91 +1,10 @@
 //VARIABLES
-$cloud: #FFECDB;
-$blue: #2c3e50;
-$font:"brandon-grotesque",Helvetica,sans-serif;
-$background: #F64747;
+$font:"adobe-caslon-pro";
+$highlight-font:"effra";
 
-$piece-border: 7px;
+$piece-border: 2px;
 
 // Portfolio piece colors
 $single: #F5B439;
 $candidate-experience: #C50439;
 $w: #A5C439;
-
-/* Styles */
-
-//MIXINS
-
-@mixin wrapper  {
-    width: 100%;
-/*  min-height: 100%;
-*/}
-
-@mixin main {
-    width: 100%;
-    height: auto;
-}
-
-@mixin middle {
-    width: 40%;
-    margin:auto;
-}
-
-@mixin text {
-
-    width: 70%;
-}
-
-//TYPOGRAPHY
-
-@mixin titulo {
-    color: $cloud;
-    font-family: $font;
-    font-weight: 600;
-    font-size:100px;
-    letter-spacing: -1px;
-}
-
-@mixin reading {
-    font-size: 1.250em;
-    font-family: $font;
-    font-weight: 300;
-    line-height: 1.8em;
-    letter-spacing: 0.01rem;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    color: $blue;
-    word-break:keep-all;
-
-}
-
-
-@mixin headlines {
-
-    font-size: 36px;
-    line-height: 1.8em;
-    font-family:$font;
-    font-weight: 100;
-    color: $cloud;
-    letter-spacing: -.3px;
-
-
-}
-
-
-@mixin subheadlines {
-
-    font-size: 28px;
-    line-height: 1.5em;
-    font-family: $font;
-    font-weight: 100;
-
-
-}
-
-@mixin secondary  {
-
-    font-size: 17px;
-    font-family: $font;
-    color: lighten($background, 90%);
-    font-weight: 300;
-}
