@@ -93,11 +93,11 @@ a {
 		.candidate-experience:hover {
 			background-color: $candidate-experience;
 		}
-		.w {
-			border: $piece-border solid $w;
+		.publisher {
+			border: $piece-border solid $publisher;
 		}
-		.w:hover {
-			background-color: $w;
+		.publisher:hover {
+			background-color: $publisher;
 		}
 	}
 }
