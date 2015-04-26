@@ -8,7 +8,13 @@ h1 {
 
 h2 {
   font-family: "effra";
-  font-size: 35px; }
+  font-size: 35px;
+  font-weight: normal; }
+
+a {
+  font-family: "effra";
+  font-size: 17px;
+  font-weight: 700; }
 
 .wrapper {
   width: 1200px;
@@ -23,14 +29,16 @@ h2 {
     float: left;
     text-align: center; }
     .main-content .left-column .first-name {
-      font-size: 35px;
-      margin-bottom: 20px; }
+      font-size: 35px; }
     .main-content .left-column .last-name {
+      font-family: "effra";
       font-size: 70px;
       font-weight: 900;
-      word-wrap: break-word; }
+      word-wrap: break-word;
+      margin-bottom: 20px; }
     .main-content .left-column .blurb {
-      margin-top: 20px; }
+      margin-top: 20px;
+      line-height: 26px; }
   .main-content .right-column {
     width: 909px;
     float: right; }
@@ -67,6 +75,8 @@ h2 {
   width: 100%;
   margin-top: 20px;
   overflow: hidden; }
+  .portfolio-content p {
+    line-height: 26px; }
   .portfolio-content .left-column {
     float: left;
     width: 65%; }

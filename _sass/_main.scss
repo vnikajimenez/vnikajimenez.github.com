@@ -13,6 +13,13 @@ h1 {
 h2 {
 	font-family: $highlight-font;
 	font-size: 35px;
+	font-weight: normal;
+}
+
+a {
+	font-family: $highlight-font;
+	font-size: 17px;
+	font-weight: 700;
 }
 
 .wrapper {
@@ -32,17 +39,19 @@ h2 {
 
 		.first-name {
 			font-size: 35px;
-			margin-bottom: 20px;
 		}
 
 		.last-name {
+			font-family: $highlight-font;
 			font-size: 70px;
 			font-weight: 900;
 			word-wrap: break-word;
+			margin-bottom: 20px;
 		}
 
 		.blurb {
 			margin-top: 20px;
+			line-height: 26px;
 		}
 	}
 
