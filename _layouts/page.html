@@ -3,16 +3,16 @@ layout: default
 ---
 <div class="wrapper">
   <div class="portfolio-content">
-    <div class="left-column">
+    <div class="left-column" id="left-column">
       {{ content }}
     </div>
-    <div class="right-column">
+    <div class="right-column" id="right-column">
       <h2>{{ page.title }}</h2>
       <br>
       <p><a href="{{ page.link }}" target="_blank">{{ page.link_title }}</a></p>
       <br>
       {{ page.text }}
-      <div class="controls">
+      <div class="controls" >
         <div class="previous-next">
           {% if site.data.portfolio[page.title].prev %}
           <a href="{{ site.data.portfolio[page.title].prev }}"><< Previous</a>
