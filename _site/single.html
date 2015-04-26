@@ -18,6 +18,14 @@
     <link rel="canonical" href="http://yourdomain.com/single.html">
 
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/skrollr.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        var s = skrollr.init({
+          forceHeight: false
+        });
+      });
+    </script>
 </head>
 
 
@@ -28,7 +36,7 @@
 
     <div class="wrapper">
   <div class="portfolio-content">
-    <div class="left-column" id="left-column">
+    <div class="left-column" id="left-column" data--75-bottom="transform:translateY(0px)" data--500-bottom="transform:translateY(425px);">
       <div class="portfolio-image">
 		<img src="images/flow-single.png" alt="photo"/>
 </div><!--image-->
@@ -37,7 +45,7 @@
 </div><!--image-->
 
     </div>
-    <div class="right-column" id="right-column">
+    <div class="right-column" id="right-column" data--75-bottom="transform:translateY(0px)" data--500-bottom="transform:translateY(425px);">
       <h2>Single</h2>
       <br>
       <p><a href="http://singlelist.herokuapp.com/" target="_blank">Single Live</a></p>
