@@ -26,6 +26,7 @@
     
 
 
+<<<<<<< HEAD
     <div class="wrapper">
   <div class="main-content">
     <div class="left-column">
@@ -64,6 +65,124 @@
   <hr>
   <p>Made with &hearts; by Veronica Jimenez</p>
 </div>
+=======
+    <header>
+  <div class="header-wrap">
+      <div class="tittle-myname">
+        <h1>Veronica Jimenez</h1>
+        <h2>Designer</h2>
+        <a href="#"><div id="work-scroll" class="flecha">&nbsp;</div><a>
+      </div><!--end of tittle-->
+
+  <div class="header-button"><a class="see-my-work" href="images/veronicajimenez.pdf">RESUME</a></div>
+  </div><!--end of header-->
+</header>
+  <div class="wrapper style">
+    <div class="tittle-quote">
+      <blockquote>
+        <p>Creativity is people who care enough to keep thinking </br> about something
+        until they find the simplest way to do it
+        </p>
+        <footer>-L.Wroblewski</footer>
+      </blockquote>
+    </div><!--end of quote-->
+    <div class="my-work" id="work-start">
+        <a class="in-hover" href="single.html">
+          <div class="cover-one cover-hover">
+            <div class="hidden overlay">
+              <h3 class="middle-text">SINGLE</h3>
+              <h4 class="hover-text">Mobile Web Design</h4>
+              <div class="line-separator"></div>
+            </div>
+          </div>
+        </a>
+        <a class="in-hover" href="pipeline.html">
+          <div class="cover-two cover-hover">
+            <div class="hidden overlay">
+              <h3 class="middle-text">PIPELINE</h3>
+              <h4 class="hover-text">UI Design</h4>
+              <div class="line-separator"></div>
+            </div>
+          </div>
+        </a>
+        <a class="in-hover" href="#">
+          <div class="cover-three cover-hover">
+            <div class="hidden overlay">
+              <h3 class="middle-text">TPS</h3>
+              <h4 class="hover-text">UX Design</h4>
+              <div class="line-separator"></div>
+            </div>
+          </div>
+        </a>
+    </div><!--end of trabajo-->
+    <div class="my-work">
+      <a class="in-hover" href="aftercloud.html">
+          <div class="cover-four cover-hover">
+            <div  class="hidden overlay">
+              <h3 class="middle-text">AFTERCLOUD</h3>
+              <h4 class="hover-text">UI/UX Design</h4>
+              <div class="line-separator"></div>
+            </div>
+          </div>
+        </a>
+    </div><!--end of trabajo-->
+    <div class="my-work">
+      <a class="in-hover" href="w.html">
+          <div class="cover-five cover-hover">
+            <div class="hidden overlay">
+              <h3 class="middle-text">W</h3>
+              <h4 class="hover-text">UI/UX Design</h4>
+              <div class="line-separator"></div>
+            </div>
+          </div>
+        </a>
+      <a class="in-hover" href="whisk.html">
+          <div class="cover-six cover-hover">
+            <div class="hidden overlay">
+              <h3 class="middle-text">MY APPLICATION</h3>
+              <h4 class="hover-text">UI/UX Design</h4>
+              <div class="line-separator"></div>
+            </div>
+          </div>
+        </a>
+    </div><!--end of trabajo-->
+    <div class="spacing-div">
+
+    </div><!--end of separator-->
+  </div><!--end of wrapper-->
+
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('#work-scroll').on("click", function() {
+      $('html, body').animate({
+            scrollTop: $('#work-start').offset().top + 'px'
+        }, 'slow');
+    });
+
+    $(".in-hover").on("mouseenter", function(){
+      $(this).find(".hidden").fadeIn(600);
+    }).on("mouseleave", function(){
+      $(this).find('.hidden').fadeOut();
+    });
+  });
+
+
+</script>
+
+
+    <div class="footer">
+  <div class="footer-copyright">
+    <p class="copyright-text">Designed & Coded with love by Veronica Jimenez</p>
+  </div><!--end of footer copyright-->
+  <div class="footer-icons">
+    <ul class="footer-contact">
+        <li class="email"><a href="mailto:vargasnika@gmail.com">Email</a></li>
+        <li><a href="https://dribbble.com/jimeneznika">Dribbble</a></li>
+        <li><a href="https://www.linkedin.com/in/jimeneznika">Linkedin</a></li>
+    </ul>
+  </div><!--footericons-->
+</div><!--end of footer-->
+>>>>>>> master
 
 
   </body>
