@@ -3,10 +3,10 @@ layout: default
 ---
 <div class="wrapper">
   <div class="portfolio-content">
-    <div class="left-column {{ page.color_class }}" id="left-column" data--75-bottom="transform:translateY(0px)" data--500-bottom="transform:translateY(425px);">
+    <div class="left-column {{ page.color_class }}" id="left-column" {% if page.longer == "right" %}data--75-bottom="transform:translateY(0px)" data--500-bottom="transform:translateY(425px);"{% endif %}>
       {{ content }}
     </div>
-    <div class="right-column" id="right-column" data--75-bottom="transform:translateY(0px)" data--500-bottom="transform:translateY(425px);">
+    <div class="right-column" id="right-column" {% if page.longer == "left" %}data--75-bottom="transform:translateY(0px)" data--500-bottom="transform:translateY(425px);"{% endif %}>
       <h2>{{ page.title }}</h2>
       <br>
       <p><a href="{{ page.link }}" target="_blank">{{ page.link_title }}</a></p>
