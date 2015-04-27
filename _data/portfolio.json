@@ -1,8 +1,5 @@
 {
-  "Pipeline":{"prev":"w.html", "next":"single.html"},
-  "Single":{"prev":"pipeline.html", "next":"aftercloud.html"},
-  "Aftercloud":{"prev":"single.html", "next":"whisk.html"},
-  "Whisk":{"prev":"aftercloud.html", "next":"w.html"},
-  "W":{"prev":"whisk.html", "next":"pipeline.html"},
-
+  "Single":{"prev":"publisher.html", "next":"candidate-experience.html"},
+  "Candidate Experience":{"prev":"single.html", "next":"publisher.html"},
+  "Publisher":{"prev":"candidate-experience.html", "next":"single.html"},
 }

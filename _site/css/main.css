@@ -61,17 +61,17 @@ a {
       transition: background 0.5s ease;
       background-color: white; }
     .main-content .right-column .single {
-      border: 2px solid #F5B439; }
+      border: 2px solid #1E4147; }
     .main-content .right-column .single:hover {
-      background-color: #F5B439; }
+      background-color: #1E4147; }
     .main-content .right-column .candidate-experience {
-      border: 2px solid #C50439; }
+      border: 2px solid #01A0DF; }
     .main-content .right-column .candidate-experience:hover {
-      background-color: #C50439; }
+      background-color: #01A0DF; }
     .main-content .right-column .publisher {
-      border: 2px solid #A5C439; }
+      border: 2px solid #D8DFD0; }
     .main-content .right-column .publisher:hover {
-      background-color: #A5C439; }
+      background-color: #D8DFD0; }
 
 .footer {
   text-align: center;
