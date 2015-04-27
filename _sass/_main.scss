@@ -57,8 +57,20 @@ a {
 		}
 
 		.blurb {
-			margin-top: 20px;
+			margin: 20px 0px;
 			line-height: 26px;
+		}
+
+		.links {
+			width: 100%;
+
+			.left {
+				float: left;
+			}
+
+			.right {
+				float: right;
+			}
 		}
 	}
 
