@@ -15,6 +15,18 @@
     width: 65%;
   }
 
+  .single {
+    background-color: #1E4147;
+  }
+
+  .candidate-experience {
+    background-color: $candidate-experience;
+  }
+
+  .publisher {
+    background-color: $publisher;
+  }
+
   .right-column {
     float: right;
     width: 33%;

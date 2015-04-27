@@ -61,17 +61,17 @@ a {
       transition: background 0.5s ease;
       background-color: white; }
     .main-content .right-column .single {
-      border: 2px solid #1E4147; }
+      border: 2px solid #E8575E; }
     .main-content .right-column .single:hover {
-      background-color: #1E4147; }
+      background-color: #E8575E; }
     .main-content .right-column .candidate-experience {
       border: 2px solid #01A0DF; }
     .main-content .right-column .candidate-experience:hover {
       background-color: #01A0DF; }
     .main-content .right-column .publisher {
-      border: 2px solid #D8DFD0; }
+      border: 2px solid #D8D5D0; }
     .main-content .right-column .publisher:hover {
-      background-color: #D8DFD0; }
+      background-color: #D8D5D0; }
 
 .footer {
   text-align: center;
@@ -88,6 +88,12 @@ a {
   .portfolio-content .left-column {
     float: left;
     width: 65%; }
+  .portfolio-content .single {
+    background-color: #1E4147; }
+  .portfolio-content .candidate-experience {
+    background-color: #01A0DF; }
+  .portfolio-content .publisher {
+    background-color: #D8D5D0; }
   .portfolio-content .right-column {
     float: right;
     width: 33%; }
