@@ -1,44 +1,45 @@
 /* Styles */
 p {
-  font-family: "adobe-caslon-pro";
+  font-family: "adobe-caslon-pro", serif;
   font-size: 17px; }
 
 h1 {
-  font-family: "effra";
+  font-family: "effra", Helvetica, Arial, sans-serif;
   font-size: 70px; }
 
 h2 {
-  font-family: "effra";
+  font-family: "effra", Helvetica, Arial, sans-serif;
   font-size: 35px;
   font-weight: normal; }
 
 h3 {
-  font-family: "effra";
+  font-family: "effra", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 23px; }
 
 a {
-  font-family: "effra";
+  font-family: "effra", Helvetica, Arial, sans-serif;
   font-size: 17px;
   font-weight: 700;
   color: #000; }
 
 .wrapper {
-  width: 1200px;
+  width: 1024px;
   margin: auto;
   overflow: auto; }
 
 .main-content {
   width: 100%;
-  margin-top: 20px; }
+  margin-top: 78px; }
   .main-content .left-column {
-    width: 171px;
+    width: 316px;
     float: left;
-    text-align: center; }
+    text-align: left;
+    margin-right: 78px; }
     .main-content .left-column .first-name {
       font-size: 35px; }
     .main-content .left-column .last-name {
-      font-family: "effra";
+      font-family: "effra", Helvetica, Arial, sans-serif;
       font-size: 70px;
       font-weight: 900;
       word-wrap: break-word;
@@ -53,7 +54,7 @@ a {
       .main-content .left-column .links .right {
         float: right; }
   .main-content .right-column {
-    width: 909px;
+    width: 629px;
     float: right; }
     .main-content .right-column a {
       text-decoration: none;
@@ -61,11 +62,12 @@ a {
       font-size: 50px; }
     .main-content .right-column .portfolio-piece {
       height: 242px;
-      line-height: 242px;
       text-align: center;
-      margin-bottom: 20px;
+      margin-bottom: 78px;
       transition: background 0.5s ease;
       background-color: white; }
+      .main-content .right-column .portfolio-piece h2 {
+        margin-bottom: 10px; }
     .main-content .right-column .single {
       border: 2px solid #E8575E; }
     .main-content .right-column .single:hover {
@@ -81,19 +83,27 @@ a {
 
 .footer {
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 78px; }
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
 
 /* Styles */
 .portfolio-content {
   width: 100%;
-  margin-top: 20px;
+  margin-bottom: 78px;
   overflow: hidden; }
+  .portfolio-content .header {
+    height: 78px; }
   .portfolio-content p {
     line-height: 26px; }
   .portfolio-content .left-column {
     float: left;
-    width: 65%; }
+    width: 624px; }
   .portfolio-content .single {
     background-color: #1E4147; }
   .portfolio-content .candidate-experience {
@@ -102,7 +112,7 @@ a {
     background-color: #D8D5D0; }
   .portfolio-content .right-column {
     float: right;
-    width: 33%; }
+    width: 322px; }
     .portfolio-content .right-column .controls {
       margin-top: 10px; }
       .portfolio-content .right-column .controls .previous-next {

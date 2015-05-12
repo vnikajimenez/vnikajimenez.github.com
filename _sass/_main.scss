@@ -30,19 +30,20 @@ a {
 }
 
 .wrapper {
-	width: 1200px;
+	width: 1024px;
 	margin: auto;
 	overflow: auto;
 }
 
 .main-content {
 	width: 100%;
-	margin-top: 20px;
+	margin-top: $main-margin;
 
 	.left-column {
-		width: 171px;
+		width: 316px;
 		float: left;
-		text-align: center;
+		text-align: left;
+		margin-right: $main-margin;
 
 		.first-name {
 			font-size: 35px;
@@ -54,6 +55,7 @@ a {
 			font-weight: 900;
 			word-wrap: break-word;
 			margin-bottom: 20px;
+			//text-align: center;
 		}
 
 		.blurb {
@@ -75,7 +77,7 @@ a {
 	}
 
 	.right-column {
-		width: 909px;
+		width: 629px;
 		float: right;
 
 		a {
@@ -86,11 +88,14 @@ a {
 
 		.portfolio-piece {
 			height: 242px;
-			line-height: 242px;
 			text-align: center;
-			margin-bottom: 20px;
+			margin-bottom: $main-margin;
 			transition: background 0.5s ease;
 			background-color: white;
+
+			h2 {
+				margin-bottom: 10px;
+			}
 		}
 
 		.single {
@@ -116,6 +121,13 @@ a {
 
 .footer {
 	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: $main-margin;
+}
+
+.vertical-align {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+	transform: translateY(-50%);
 }

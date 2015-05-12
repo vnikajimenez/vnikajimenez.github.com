@@ -3,8 +3,12 @@
 .portfolio-content {
 
   width: 100%;
-  margin-top: 20px;
+  margin-bottom: $main-margin;
   overflow: hidden;
+
+  .header {
+    height: $main-margin;
+  }
 
   p {
     line-height: 26px;
@@ -12,7 +16,7 @@
 
   .left-column {
     float: left;
-    width: 65%;
+    width: 624px;
   }
 
   .single {
@@ -29,7 +33,7 @@
 
   .right-column {
     float: right;
-    width: 33%;
+    width: 322px;
 
     .controls {
       margin-top: 10px;
