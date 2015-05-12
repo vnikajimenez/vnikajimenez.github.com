@@ -13,11 +13,13 @@
     <script src="//use.typekit.net/zxe1way.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
 
-    <link href="/css/normalize.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/lightbox.css">
     <link rel="canonical" href="http://yourdomain.com/single.html">
 
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script type="text/javascript" src="js/skrollr.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
@@ -25,7 +27,7 @@
         if (windowWidth > 1000) {
           var s = skrollr.init({
             forceHeight: false
-          });          
+          });
         }
       });
     </script>
@@ -44,13 +46,13 @@
     </div>
     <div class="left-column single" id="left-column" >
       <div class="portfolio-image">
-		<img src="images/flow-single.png" alt="photo"/>
+	<a href="images/flow-single.png" data-lightbox="image-1" data-title="Single"><img src="images/flow-single.png" alt="photo"/></a>
 </div>
 <div class="portfolio-image">
-	<img src="images/single-video.gif" alt="photo"/>
+	<a href="images/single-video.gif" data-lightbox="image-2" data-title="Single"><img src="images/single-video.gif" alt="photo"/></a>
 </div>
 <div class="portfolio-image">
-	<img src="images/single-mobile.png" alt="photo"/>
+	<a href="images/single-mobile.png" data-lightbox="image-3" data-title="Single"><img src="images/single-mobile.png" alt="photo"/></a>
 </div>
 
     </div>
