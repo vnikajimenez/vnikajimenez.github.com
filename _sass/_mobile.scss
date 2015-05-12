@@ -1,0 +1,46 @@
+@media only screen and (max-width: 1000px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .main-content {
+    margin-left: $mobile-margin;
+    margin-right: $mobile-margin;
+    width: auto;
+
+    .left-column {
+      float: none;
+      margin: 0px;
+      width: 100%;
+    }
+
+    .right-column {
+      width: 100%;
+      margin: 0px;
+      margin-top: $main-margin;
+    }
+  }
+
+  .footer {
+    margin-left: $mobile-margin;
+    margin-right: $mobile-margin;
+    width: auto;
+  }
+
+  .portfolio-content {
+    margin-left: $mobile-margin;
+    margin-right: $mobile-margin;
+    width: auto;
+
+    .left-column {
+      float: none;
+      width: 100%;
+    }
+
+    .right-column {
+      float: none;
+      width: 100%;
+      margin-top: $main-margin;
+    }
+  }
+}

@@ -124,3 +124,37 @@ a {
   width: 100%; }
   .portfolio-image img {
     width: 100%; }
+
+@media only screen and (max-width: 1000px) {
+  .wrapper {
+    width: 100%; }
+
+  .main-content {
+    margin-left: 39px;
+    margin-right: 39px;
+    width: auto; }
+    .main-content .left-column {
+      float: none;
+      margin: 0px;
+      width: 100%; }
+    .main-content .right-column {
+      width: 100%;
+      margin: 0px;
+      margin-top: 78px; }
+
+  .footer {
+    margin-left: 39px;
+    margin-right: 39px;
+    width: auto; }
+
+  .portfolio-content {
+    margin-left: 39px;
+    margin-right: 39px;
+    width: auto; }
+    .portfolio-content .left-column {
+      float: none;
+      width: 100%; }
+    .portfolio-content .right-column {
+      float: none;
+      width: 100%;
+      margin-top: 78px; } }
