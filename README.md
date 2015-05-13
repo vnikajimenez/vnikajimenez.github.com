@@ -1,4 +1,4 @@
-vnikajimenez
+Veronica Jimenez
 ============
 
-this is my Github example
+This is my portfolio page.
