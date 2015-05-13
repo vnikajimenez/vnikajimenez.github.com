@@ -1,4 +1,8 @@
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1024px) {
+  p {
+    font-size: 22px;
+  }
+
   .wrapper {
     width: 100%;
   }
@@ -12,6 +16,10 @@
       float: none;
       margin: 0px;
       width: 100%;
+
+      .last-name {
+        font-size: 50px;
+      }
     }
 
     .right-column {
@@ -31,6 +39,10 @@
     margin-left: $mobile-margin;
     margin-right: $mobile-margin;
     width: auto;
+
+    p {
+      line-height: 33px;
+    }
 
     .left-column {
       float: none;

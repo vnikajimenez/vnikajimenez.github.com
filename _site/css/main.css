@@ -125,7 +125,10 @@ a {
   .portfolio-image img {
     width: 100%; }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1024px) {
+  p {
+    font-size: 22px; }
+
   .wrapper {
     width: 100%; }
 
@@ -137,6 +140,8 @@ a {
       float: none;
       margin: 0px;
       width: 100%; }
+      .main-content .left-column .last-name {
+        font-size: 50px; }
     .main-content .right-column {
       width: 100%;
       margin: 0px;
@@ -151,6 +156,8 @@ a {
     margin-left: 39px;
     margin-right: 39px;
     width: auto; }
+    .portfolio-content p {
+      line-height: 33px; }
     .portfolio-content .left-column {
       float: none;
       width: 100%; }
