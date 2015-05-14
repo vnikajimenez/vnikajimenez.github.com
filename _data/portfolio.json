@@ -1,5 +1,6 @@
 {
+  "Candidate Experience":{"prev":"single.html", "next":"hiring-material.html"},
+  "Hiring":{"prev":"candidate-experience.html", "next":"publisher.html"},
+  "Publisher":{"prev":"hiring-material.html", "next":"single.html"},
   "Single":{"prev":"publisher.html", "next":"candidate-experience.html"},
-  "Candidate Experience":{"prev":"single.html", "next":"publisher.html"},
-  "Publisher":{"prev":"candidate-experience.html", "next":"single.html"},
 }

@@ -116,6 +116,12 @@ a {
 		.publisher:hover {
 			background-color: $publisher;
 		}
+		.hiring-material {
+			border: $piece-border solid $hiring-material;
+		}
+		.hiring-material:hover {
+			background-color: $hiring-material;
+		}
 	}
 }
 

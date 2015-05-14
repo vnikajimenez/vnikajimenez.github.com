@@ -80,6 +80,10 @@ a {
       border: 2px solid #D8D5D0; }
     .main-content .right-column .publisher:hover {
       background-color: #D8D5D0; }
+    .main-content .right-column .hiring-material {
+      border: 2px solid #549809; }
+    .main-content .right-column .hiring-material:hover {
+      background-color: #549809; }
 
 .footer {
   text-align: center;
@@ -110,6 +114,8 @@ a {
     background-color: #01A0DF; }
   .portfolio-content .publisher {
     background-color: #D8D5D0; }
+  .portfolio-content .hiring-material {
+    background-color: #EFEFEF; }
   .portfolio-content .right-column {
     float: right;
     width: 372px; }
