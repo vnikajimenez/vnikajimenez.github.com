@@ -1,5 +1,9 @@
 @import 'variables';
 
+body {
+	color: $font-color;
+}
+
 p {
 	font-family: $font;
 	font-size: 17px;
@@ -26,7 +30,7 @@ a {
 	font-family: $highlight-font;
 	font-size: 17px;
 	font-weight: 700;
-	color: #000;
+	color: $font-color;
 }
 
 .wrapper {
@@ -82,7 +86,7 @@ a {
 
 		a {
 			text-decoration: none;
-			color: #000;
+			color: $font-color;
 			font-size: 50px;
 		}
 
