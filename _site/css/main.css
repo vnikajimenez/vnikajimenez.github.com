@@ -72,17 +72,17 @@ a {
       .main-content .right-column .portfolio-piece h2 {
         margin-bottom: 10px; }
     .main-content .right-column .single {
-      border: 2px solid #e8575e; }
+      border: 2px solid #E8575E; }
     .main-content .right-column .single:hover {
-      background-color: #e8575e; }
+      background-color: #E8575E; }
     .main-content .right-column .candidate-experience {
-      border: 2px solid #01a0df; }
+      border: 2px solid #01A0DF; }
     .main-content .right-column .candidate-experience:hover {
-      background-color: #01a0df; }
+      background-color: #01A0DF; }
     .main-content .right-column .publisher {
-      border: 2px solid #d8d5d0; }
+      border: 2px solid #D8D5D0; }
     .main-content .right-column .publisher:hover {
-      background-color: #d8d5d0; }
+      background-color: #D8D5D0; }
     .main-content .right-column .hiring-material {
       border: 2px solid #549809; }
     .main-content .right-column .hiring-material:hover {
@@ -114,9 +114,9 @@ a {
   .portfolio-content .single {
     background-color: #1E4147; }
   .portfolio-content .candidate-experience {
-    background-color: #01a0df; }
+    background-color: #01A0DF; }
   .portfolio-content .publisher {
-    background-color: #d8d5d0; }
+    background-color: #D8D5D0; }
   .portfolio-content .hiring-material {
     background-color: #EFEFEF; }
   .portfolio-content .right-column {
