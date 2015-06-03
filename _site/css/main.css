@@ -40,7 +40,8 @@ a {
     text-align: left;
     margin-right: 78px; }
     .main-content .left-column .first-name {
-      font-size: 35px; }
+      font-size: 35px;
+      margin-left: 15px; }
     .main-content .left-column .last-name {
       font-family: "effra", Helvetica, Arial, sans-serif;
       font-size: 70px;
