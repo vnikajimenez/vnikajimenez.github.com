@@ -31,6 +31,12 @@ a {
 	font-size: 17px;
 	font-weight: 700;
 	color: $font-color;
+
+}
+
+a:hover{
+	color: $font-color;
+	opacity: 5;
 }
 
 .wrapper {
@@ -51,7 +57,7 @@ a {
 
 		.name {
 			font-size: 35px;
-			margin-left:15px;
+			font-weight: 100;
 		}
 
 		.last-name {
@@ -90,6 +96,14 @@ a {
 			color: $font-color;
 			font-size: 50px;
 		}
+		.job-title {
+
+			margin: auto;
+			font-size: 35px;
+			font-weight: 100;
+
+
+		}
 
 		.portfolio-piece {
 			height: 479px;
@@ -125,13 +139,13 @@ a {
 			@include project-colors($candidate-experience, '../images/candidate-cover.png');
 		}
 		.publisher {
-			@include project-colors($publisher, '../images/candidate-cover.png');
+			@include project-colors($publisher, '../images/hireloop-cover.png');
 		}
 		.hiring-material {
 			@include project-colors($hiring-material, '../images/hiring-cover.png');
 		}
 		.single {
-			@include project-colors($single, '../images/candidate-cover.png');
+			@include project-colors($single, '../images/single-cover.png');
 		}
 	}
 }

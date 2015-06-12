@@ -20,7 +20,7 @@
   }
 
   .single {
-    background-color: #1E4147;
+    background-color: $single;
   }
 
   .candidate-experience {
@@ -40,7 +40,7 @@
     width: 372px;
 
     .controls {
-      margin-top: 10px;
+      margin-top: 50px;
       .previous-next {
         float: left;
       }
@@ -53,8 +53,10 @@
 
 .portfolio-image {
   width: 100%;
+  margin-bottom: 50px;
 
   img {
     width: 100%;
   }
+
 }

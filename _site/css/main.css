@@ -26,6 +26,10 @@ a {
   font-weight: 700;
   color: #2e3135; }
 
+a:hover {
+  color: #2e3135;
+  opacity: 5; }
+
 .wrapper {
   width: 1024px;
   margin: auto;
@@ -41,7 +45,7 @@ a {
     margin-right: 78px; }
     .main-content .left-column .name {
       font-size: 35px;
-      margin-left: 15px; }
+      font-weight: 100; }
     .main-content .left-column .last-name {
       font-family: "effra", Helvetica, Arial, sans-serif;
       font-size: 70px;
@@ -64,6 +68,10 @@ a {
       text-decoration: none;
       color: #2e3135;
       font-size: 50px; }
+    .main-content .right-column .job-title {
+      margin: auto;
+      font-size: 35px;
+      font-weight: 100; }
     .main-content .right-column .portfolio-piece {
       height: 479px;
       text-align: left;
@@ -82,17 +90,17 @@ a {
     .main-content .right-column .candidate-experience .cover {
       background: #01A0DF url("../images/candidate-cover.png") no-repeat scroll center; }
     .main-content .right-column .publisher h2 {
-      color: #D8D5D0; }
+      color: #9B9B9B; }
     .main-content .right-column .publisher .cover {
-      background: #D8D5D0 url("../images/candidate-cover.png") no-repeat scroll center; }
+      background: #9B9B9B url("../images/hireloop-cover.png") no-repeat scroll center; }
     .main-content .right-column .hiring-material h2 {
       color: #549809; }
     .main-content .right-column .hiring-material .cover {
       background: #549809 url("../images/hiring-cover.png") no-repeat scroll center; }
     .main-content .right-column .single h2 {
-      color: #E8575E; }
+      color: #183e46; }
     .main-content .right-column .single .cover {
-      background: #E8575E url("../images/candidate-cover.png") no-repeat scroll center; }
+      background: #183e46 url("../images/single-cover.png") no-repeat scroll center; }
 
 .footer {
   text-align: center;
@@ -118,25 +126,26 @@ a {
     float: left;
     width: 574px; }
   .portfolio-content .single {
-    background-color: #1E4147; }
+    background-color: #183e46; }
   .portfolio-content .candidate-experience {
     background-color: #01A0DF; }
   .portfolio-content .publisher {
-    background-color: #D8D5D0; }
+    background-color: #9B9B9B; }
   .portfolio-content .hiring-material {
     background-color: #EFEFEF; }
   .portfolio-content .right-column {
     float: right;
     width: 372px; }
     .portfolio-content .right-column .controls {
-      margin-top: 10px; }
+      margin-top: 50px; }
       .portfolio-content .right-column .controls .previous-next {
         float: left; }
       .portfolio-content .right-column .controls .home {
         float: right; }
 
 .portfolio-image {
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 50px; }
   .portfolio-image img {
     width: 100%; }
 
