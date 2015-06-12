@@ -1,6 +1,6 @@
 {
-  "Candidate Experience":{"prev":"single.html", "next":"hiring-material.html"},
-  "Hiring App":{"prev":"candidate-experience.html", "next":"publisher.html"},
-  "Publisher":{"prev":"hiring-material.html", "next":"single.html"},
-  "Single":{"prev":"publisher.html", "next":"candidate-experience.html"},
+  "Hiring App":{"prev":"single.html", "next":"candidate-experience.html"},
+  "Candidate Experience":{"prev":"hiring-material.html", "next":"publisher.html"},
+  "New Hireloop Post":{"prev":"candidate-experience.html", "next":"single.html"},
+  "Single App":{"prev":"publisher.html", "next":"candidate-experience.html"},
 }
