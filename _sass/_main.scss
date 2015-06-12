@@ -16,7 +16,7 @@ h1 {
 
 h2 {
 	font-family: $highlight-font;
-	font-size: 35px;
+	font-size: 25px;
 	font-weight: normal;
 }
 
@@ -49,7 +49,7 @@ a {
 		text-align: left;
 		margin-right: $main-margin;
 
-		.first-name {
+		.name {
 			font-size: 35px;
 			margin-left:15px;
 		}
@@ -92,43 +92,50 @@ a {
 		}
 
 		.portfolio-piece {
-			height: 242px;
-			text-align: center;
+			height: 479px;
+			text-align: left;
 			margin-bottom: $main-margin;
-			transition: background 0.5s ease;
 			background-color: white;
+			box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+
+			.header {
+				margin-left: 35px;
+				height: 100px;
+			}
+
+			.cover {
+				height: 379px;
+			}
 
 			h2 {
 				margin-bottom: 10px;
 			}
 		}
 
-		.single {
-			border: $piece-border solid $single;
+		@mixin project-colors($color, $url) {
+			h2 {
+				color: $color;
+			}
+			.cover {
+				background: $color url($url) no-repeat scroll center;
+			}
 		}
-		.single:hover {
-			background-color: $single;
-		}
+
 		.candidate-experience {
-			border: $piece-border solid $candidate-experience;
-		}
-		.candidate-experience:hover {
-			background-color: $candidate-experience;
+			@include project-colors($candidate-experience, '../images/candidate-cover.png');
 		}
 		.publisher {
-			border: $piece-border solid $publisher;
-		}
-		.publisher:hover {
-			background-color: $publisher;
+			@include project-colors($publisher, '../images/candidate-cover.png');
 		}
 		.hiring-material {
-			border: $piece-border solid $hiring-material;
+			@include project-colors($hiring-material, '../images/hiring-cover.png');
 		}
-		.hiring-material:hover {
-			background-color: $hiring-material;
+		.single {
+			@include project-colors($single, '../images/candidate-cover.png');
 		}
 	}
 }
+
 
 .footer {
 	text-align: center;
@@ -142,5 +149,3 @@ a {
   -ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
-
-
