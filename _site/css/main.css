@@ -144,7 +144,10 @@ a:hover {
     width: 100%; }
   .portfolio-image iframe {
     margin: auto;
-    display: block; }
+    display: none; }
+    @media only screen and (min-width: 30em) {
+      .portfolio-image iframe {
+        display: block; } }
 
 @media only screen and (max-width: 1024px) {
   p {
