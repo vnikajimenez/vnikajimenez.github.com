@@ -49,47 +49,41 @@ a:hover{
 	width: 100%;
 	margin-top: $main-margin;
 
+	.column-top {
+		font-size: 35px;
+		font-weight: 100;
+	}
+
 	.left-column {
-		width: 316px;
+		width: 432px;
 		float: left;
 		text-align: left;
 		margin-right: $main-margin;
 
-		.name {
-			font-size: 35px;
-			font-weight: 100;
-		}
-
-		.last-name {
-			font-family: $highlight-font;
-			font-size: 70px;
-			font-weight: 900;
-			word-wrap: break-word;
-			margin-bottom: 20px;
-			//text-align: center;
-		}
-
-		.blurb {
-			margin: 20px 0px;
-			line-height: 26px;
-		}
-
-		.links {
-			width: 100%;
-
-			.left {
+		.blurb-line {
+			.icon {
 				float: left;
+				width: 31px;
 			}
 
-			.right {
-				float: right;
+			.team {
+				height: 52px;
+			}
+
+			.blurb {
+				margin: 20px 0px;
+				line-height: 26px;
 			}
 		}
 	}
 
 	.right-column {
-		width: 629px;
+		width: 517px;
 		float: right;
+
+		.column-top {
+			margin-bottom: 26px;
+		}
 
 		a {
 			text-decoration: none;

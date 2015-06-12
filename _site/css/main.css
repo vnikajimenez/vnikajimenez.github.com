@@ -37,33 +37,28 @@ a:hover {
 
 .main-content {
   width: 100%;
-  margin-top: 78px; }
+  margin-top: 75px; }
+  .main-content .column-top {
+    font-size: 35px;
+    font-weight: 100; }
   .main-content .left-column {
-    width: 316px;
+    width: 432px;
     float: left;
     text-align: left;
-    margin-right: 78px; }
-    .main-content .left-column .name {
-      font-size: 35px;
-      font-weight: 100; }
-    .main-content .left-column .last-name {
-      font-family: "effra", Helvetica, Arial, sans-serif;
-      font-size: 70px;
-      font-weight: 900;
-      word-wrap: break-word;
-      margin-bottom: 20px; }
-    .main-content .left-column .blurb {
+    margin-right: 75px; }
+    .main-content .left-column .blurb-line .icon {
+      float: left;
+      width: 31px; }
+    .main-content .left-column .blurb-line .team {
+      height: 52px; }
+    .main-content .left-column .blurb-line .blurb {
       margin: 20px 0px;
       line-height: 26px; }
-    .main-content .left-column .links {
-      width: 100%; }
-      .main-content .left-column .links .left {
-        float: left; }
-      .main-content .left-column .links .right {
-        float: right; }
   .main-content .right-column {
-    width: 629px;
+    width: 517px;
     float: right; }
+    .main-content .right-column .column-top {
+      margin-bottom: 26px; }
     .main-content .right-column a {
       text-decoration: none;
       color: #2e3135;
@@ -75,7 +70,7 @@ a:hover {
     .main-content .right-column .portfolio-piece {
       height: 479px;
       text-align: left;
-      margin-bottom: 78px;
+      margin-bottom: 75px;
       background-color: white;
       box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5); }
       .main-content .right-column .portfolio-piece .header {
@@ -104,7 +99,7 @@ a:hover {
 
 .footer {
   text-align: center;
-  margin-bottom: 78px; }
+  margin-bottom: 75px; }
 
 .vertical-align {
   position: relative;
@@ -116,10 +111,10 @@ a:hover {
 /* Styles */
 .portfolio-content {
   width: 100%;
-  margin-bottom: 78px;
+  margin-bottom: 75px;
   overflow: hidden; }
   .portfolio-content .header {
-    height: 78px; }
+    height: 75px; }
   .portfolio-content p {
     line-height: 26px; }
   .portfolio-content .left-column {
@@ -148,6 +143,9 @@ a:hover {
   margin-bottom: 50px; }
   .portfolio-image img {
     width: 100%; }
+  .portfolio-image iframe {
+    margin: auto;
+    display: block; }
 
 @media only screen and (max-width: 1024px) {
   p {
@@ -169,7 +167,7 @@ a:hover {
     .main-content .right-column {
       width: 100%;
       margin: 0px;
-      margin-top: 78px; }
+      margin-top: 75px; }
 
   .footer {
     margin-left: 39px;
@@ -188,4 +186,4 @@ a:hover {
     .portfolio-content .right-column {
       float: none;
       width: 100%;
-      margin-top: 78px; } }
+      margin-top: 75px; } }
