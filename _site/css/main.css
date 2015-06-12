@@ -45,14 +45,18 @@ a:hover {
     float: left;
     text-align: left;
     margin-right: 75px; }
-    .main-content .left-column .blurb-line .icon {
-      float: left;
-      width: 31px; }
-    .main-content .left-column .blurb-line .team {
-      height: 52px; }
-    .main-content .left-column .blurb-line .blurb {
+    .main-content .left-column .blurb-line {
       margin: 20px 0px;
-      line-height: 26px; }
+      overflow: auto; }
+      .main-content .left-column .blurb-line .icon {
+        float: left;
+        width: 31px; }
+      .main-content .left-column .blurb-line .text {
+        float: left;
+        max-width: 401px; }
+      .main-content .left-column .blurb-line .blurb {
+        line-height: 26px;
+        width: 401; }
   .main-content .right-column {
     width: 517px;
     float: right; }
@@ -153,6 +157,9 @@ a:hover {
   p {
     font-size: 22px; }
 
+  a {
+    font-size: 22px; }
+
   .wrapper {
     width: 100%; }
 
@@ -164,8 +171,8 @@ a:hover {
       float: none;
       margin: 0px;
       width: 100%; }
-      .main-content .left-column .last-name {
-        font-size: 50px; }
+      .main-content .left-column .blurb-line .text {
+        max-width: 85%; }
     .main-content .right-column {
       width: 100%;
       margin: 0px;

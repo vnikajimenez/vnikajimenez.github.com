@@ -60,18 +60,22 @@ a:hover{
 		margin-right: $main-margin;
 
 		.blurb-line {
+			margin: 20px 0px;
+			overflow: auto;
+
 			.icon {
 				float: left;
 				width: 31px;
 			}
 
-			.team {
-				height: 52px;
+			.text {
+				float: left;
+				max-width: 401px;
 			}
 
 			.blurb {
-				margin: 20px 0px;
 				line-height: 26px;
+				width: 401;
 			}
 		}
 	}
