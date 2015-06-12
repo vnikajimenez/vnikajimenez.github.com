@@ -30,12 +30,13 @@ a:hover {
   opacity: 5; }
 
 .wrapper {
-  width: 1024px;
+  width: 1030px;
   margin: auto;
   overflow: auto; }
 
 .main-content {
-  width: 100%;
+  width: 1024px;
+  margin: auto;
   margin-top: 75px; }
   .main-content .column-top {
     font-size: 35px;
@@ -60,7 +61,8 @@ a:hover {
         width: 401; }
   .main-content .right-column {
     width: 517px;
-    float: right; }
+    float: right;
+    overflow: visible; }
     .main-content .right-column .column-top {
       margin-bottom: 26px; }
     .main-content .right-column a {
@@ -76,7 +78,8 @@ a:hover {
       text-align: left;
       margin-bottom: 75px;
       background-color: white;
-      box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5); }
+      box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+      transition: box-shadow 0.2s ease-out; }
       .main-content .right-column .portfolio-piece .header {
         margin-left: 35px;
         height: 100px; }
@@ -84,6 +87,8 @@ a:hover {
         height: 379px; }
       .main-content .right-column .portfolio-piece h2 {
         margin-bottom: 10px; }
+    .main-content .right-column .portfolio-piece:hover {
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5); }
     .main-content .right-column .candidate-experience h2 {
       color: #01A0DF; }
     .main-content .right-column .candidate-experience .cover {
@@ -114,9 +119,10 @@ a:hover {
 
 /* Styles */
 .portfolio-content {
-  width: 100%;
+  width: 1024px;
+  margin: auto;
   margin-bottom: 75px;
-  overflow: hidden; }
+  overflow: visible; }
   .portfolio-content .header {
     height: 75px; }
   .portfolio-content p {

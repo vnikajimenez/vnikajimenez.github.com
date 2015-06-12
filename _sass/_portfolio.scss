@@ -2,9 +2,10 @@
 
 .portfolio-content {
 
-  width: 100%;
+  width: 1024px;
+  margin: auto;
   margin-bottom: $main-margin;
-  overflow: hidden;
+  overflow: visible;
 
   .header {
     height: $main-margin;

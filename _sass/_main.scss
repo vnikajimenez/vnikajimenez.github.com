@@ -39,13 +39,14 @@ a:hover{
 }
 
 .wrapper {
-	width: 1024px;
+	width: 1030px;
 	margin: auto;
 	overflow: auto;
 }
 
 .main-content {
-	width: 100%;
+	width: 1024px;
+	margin: auto;
 	margin-top: $main-margin;
 
 	.column-top {
@@ -84,6 +85,7 @@ a:hover{
 	.right-column {
 		width: 517px;
 		float: right;
+		overflow: visible;
 
 		.column-top {
 			margin-bottom: 26px;
@@ -109,6 +111,7 @@ a:hover{
 			margin-bottom: $main-margin;
 			background-color: white;
 			box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+			transition: box-shadow 0.2s ease-out;
 
 			.header {
 				margin-left: 35px;
@@ -122,6 +125,10 @@ a:hover{
 			h2 {
 				margin-bottom: 10px;
 			}
+		}
+
+		.portfolio-piece:hover {
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
 		}
 
 		@mixin project-colors($color, $url) {
