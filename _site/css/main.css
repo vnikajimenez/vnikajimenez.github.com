@@ -44,7 +44,7 @@ a:hover {
     font-weight: 700;
     text-align: center;
     word-spacing: 15px;
-    letter-spacing: -2px; }
+    letter-spacing: -.5px; }
   .main-content .left-column {
     width: 432px;
     float: left;
@@ -190,7 +190,9 @@ a:hover {
     margin-right: 39px;
     width: auto; }
     .main-content .column-top {
-      font-size: 25px; }
+      font-size: 25px;
+      word-spacing: 0px;
+      letter-spacing: -.7px; }
     .main-content .left-column {
       float: none;
       margin: 0px;
