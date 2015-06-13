@@ -58,7 +58,7 @@ a:hover {
         float: left;
         max-width: 382px; }
       .main-content .left-column .blurb-line .blurb {
-        line-height: 26px;
+        line-height: 29px;
         width: 401; }
   .main-content .right-column {
     width: 517px;
@@ -87,7 +87,7 @@ a:hover {
       .main-content .right-column .portfolio-piece .cover {
         height: 379px; }
       .main-content .right-column .portfolio-piece h2 {
-        margin-bottom: 10px; }
+        margin-bottom: 5px; }
     .main-content .right-column .portfolio-piece:hover {
       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5); }
     .main-content .right-column .candidate-experience h2 {
