@@ -1,10 +1,28 @@
 @media only screen and (max-width: 1024px) {
+  
+  h1 {
+   
+   font-size: 30px;
+
+  }
+
+  h2  {
+    
+    font-size: 20px;
+  }
+
+  h3  {
+    
+    font-size: 20px;
+  }
+
   p {
-    font-size: 22px;
+    font-size: 20px;
+    line-height: 25px;
   }
 
   a {
-    font-size: 22px;
+    font-size: 17px;
   }
 
   .wrapper {
@@ -15,6 +33,10 @@
     margin-left: $mobile-margin;
     margin-right: $mobile-margin;
     width: auto;
+     .column-top {
+          font-size: 25px;
+  
+      }
 
     .left-column {
       float: none;
@@ -54,6 +76,7 @@
     .left-column {
       float: none;
       width: 100%;
+       
     }
 
     .right-column {
@@ -63,3 +86,5 @@
     }
   }
 }
+
+

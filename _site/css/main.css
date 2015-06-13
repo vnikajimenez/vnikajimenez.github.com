@@ -149,8 +149,7 @@ a:hover {
     .portfolio-content .right-column .controls {
       margin-top: 50px; }
       .portfolio-content .right-column .controls .previous-next {
-        float: left;
-        word-spacing: 5px; }
+        float: left; }
       .portfolio-content .right-column .controls .home {
         float: right; }
 
@@ -167,11 +166,21 @@ a:hover {
         display: block; } }
 
 @media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 30px; }
+
+  h2 {
+    font-size: 20px; }
+
+  h3 {
+    font-size: 20px; }
+
   p {
-    font-size: 22px; }
+    font-size: 20px;
+    line-height: 25px; }
 
   a {
-    font-size: 22px; }
+    font-size: 17px; }
 
   .wrapper {
     width: 100%; }
@@ -180,6 +189,8 @@ a:hover {
     margin-left: 39px;
     margin-right: 39px;
     width: auto; }
+    .main-content .column-top {
+      font-size: 25px; }
     .main-content .left-column {
       float: none;
       margin: 0px;
