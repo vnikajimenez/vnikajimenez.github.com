@@ -55,7 +55,8 @@ a:hover {
       overflow: auto; }
       .main-content .left-column .blurb-line .icon {
         float: left;
-        width: 50px; }
+        width: 50px;
+        margin-top: 8px; }
       .main-content .left-column .blurb-line .text {
         float: left;
         max-width: 382px; }
