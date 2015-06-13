@@ -13,7 +13,6 @@ h1 {
 h2 {
   font-family: "effra", Helvetica, Arial, sans-serif;
   font-size: 28px;
-  font-weight: 100;
   letter-spacing: -.8; }
 
 h3 {
@@ -42,7 +41,7 @@ a:hover {
   margin-top: 75px; }
   .main-content .column-top {
     font-size: 35px;
-    font-weight: 100;
+    font-weight: 700;
     text-align: center;
     word-spacing: 15px;
     letter-spacing: -2px; }
@@ -91,8 +90,7 @@ a:hover {
         height: 379px; }
       .main-content .right-column .portfolio-piece h2 {
         margin-bottom: 5px;
-        font-weight: 100;
-        letter-spacing: -.8px; }
+        letter-spacing: -.5px; }
     .main-content .right-column .portfolio-piece:hover {
       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5); }
     .main-content .right-column .candidate-experience h2 {
@@ -152,7 +150,7 @@ a:hover {
       margin-top: 50px; }
       .portfolio-content .right-column .controls .previous-next {
         float: left;
-        word-spacing: 10px; }
+        word-spacing: 5px; }
       .portfolio-content .right-column .controls .home {
         float: right; }
 
