@@ -17,13 +17,13 @@ h1 {
 h2 {
 	font-family: $highlight-font;
 	font-size: 28px;
-	letter-spacing: -.8;
+	letter-spacing: -.5;
 }
 
 h3 {
 	font-family: $highlight-font;
 	font-weight: normal;
-	font-size: 23px;
+	font-size: 22px;
 }
 
 a {
@@ -65,6 +65,15 @@ a:hover{
 		text-align: left;
 		margin-right: $main-margin;
 
+		.column-top-margin {
+		font-size: 35px;
+		font-weight: 500;
+		text-align: center;
+		word-spacing: 15px;
+		letter-spacing: -.5px;
+		margin-bottom: 42px;
+	}
+
 		.blurb-line {
 			margin: 20px 0px;
 			overflow: auto;
@@ -92,10 +101,6 @@ a:hover{
 		width: 517px;
 		float: right;
 		overflow: visible;
-
-		.column-top {
-			margin-bottom: 26px;
-		}
 
 		a {
 			text-decoration: none;
