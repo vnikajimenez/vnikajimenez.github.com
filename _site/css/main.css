@@ -23,7 +23,8 @@ h3 {
 a {
   font-family: "effra", Helvetica, Arial, sans-serif;
   font-size: 17px;
-  color: #2e3135; }
+  color: #2e3135;
+  margin-right: 20px; }
 
 a:hover {
   color: #2e3135;
