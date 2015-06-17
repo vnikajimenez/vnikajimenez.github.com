@@ -205,7 +205,8 @@ a:hover {
     .main-content .column-top {
       font-size: 25px;
       word-spacing: 0px;
-      letter-spacing: -.7px; }
+      letter-spacing: -.7px;
+      margin-bottom: 21px; }
     .main-content .left-column {
       float: none;
       margin: 0px;
