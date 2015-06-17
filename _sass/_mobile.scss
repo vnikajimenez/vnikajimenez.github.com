@@ -24,8 +24,7 @@
 
   a {
     font-size: 17px;
-    margin-bottom: 30px;
-    margin-right: 10px;
+    
 
   }
 
@@ -42,22 +41,38 @@
           font-size: 25px;
           word-spacing: 0px;
           letter-spacing: -.7px;
+          margin-bottom: 21px;
   
       }
+      
+
 
     .left-column {
       float: none;
       margin: 0px;
       width: 100%;
 
-      .column-top-margin{
+      .column-top-margin {
 
-      font-size: 26px;
+        font-size: 26px;
+        margin-bottom: 21px;
       }
 
       .blurb-line {
         .text {
           max-width: 75%;
+        }
+        .icon {
+          
+          margin-top: 16px;
+        }
+
+        .text {
+          
+            a {
+              margin-right: 10px;
+              line-height: 45.5px;
+            }
         }
       }
 

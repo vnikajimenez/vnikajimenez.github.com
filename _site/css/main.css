@@ -69,6 +69,8 @@ a:hover {
         float: left;
         max-width: 382px;
         margin-top: 6px; }
+        .main-content .left-column .blurb-line .text a {
+          margin-right: 10px; }
       .main-content .left-column .blurb-line .blurb {
         line-height: 29px;
         width: 401; }
@@ -191,9 +193,7 @@ a:hover {
     line-height: 25px; }
 
   a {
-    font-size: 17px;
-    margin-bottom: 30px;
-    margin-right: 10px; }
+    font-size: 17px; }
 
   .wrapper {
     width: 100%; }
@@ -205,15 +205,22 @@ a:hover {
     .main-content .column-top {
       font-size: 25px;
       word-spacing: 0px;
-      letter-spacing: -.7px; }
+      letter-spacing: -.7px;
+      margin-bottom: 21px; }
     .main-content .left-column {
       float: none;
       margin: 0px;
       width: 100%; }
       .main-content .left-column .column-top-margin {
-        font-size: 26px; }
+        font-size: 26px;
+        margin-bottom: 21px; }
       .main-content .left-column .blurb-line .text {
         max-width: 75%; }
+      .main-content .left-column .blurb-line .icon {
+        margin-top: 16px; }
+      .main-content .left-column .blurb-line .text a {
+        margin-right: 10px;
+        line-height: 45.5px; }
     .main-content .right-column {
       width: 100%;
       margin: 0px;
