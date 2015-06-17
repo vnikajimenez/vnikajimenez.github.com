@@ -177,13 +177,13 @@ a:hover {
 
 @media only screen and (max-width: 1024px) {
   h1 {
-    font-size: 30px; }
+    font-size: 26px; }
 
   h2 {
     font-size: 26px; }
 
   h3 {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 37px; }
 
   p {
@@ -191,7 +191,9 @@ a:hover {
     line-height: 25px; }
 
   a {
-    font-size: 17px; }
+    font-size: 17px;
+    margin-bottom: 30px;
+    margin-right: 10px; }
 
   .wrapper {
     width: 100%; }
@@ -208,6 +210,8 @@ a:hover {
       float: none;
       margin: 0px;
       width: 100%; }
+      .main-content .left-column .column-top-margin {
+        font-size: 26px; }
       .main-content .left-column .blurb-line .text {
         max-width: 75%; }
     .main-content .right-column {

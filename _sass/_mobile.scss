@@ -2,7 +2,7 @@
   
   h1 {
    
-   font-size: 30px;
+   font-size: 26px;
 
   }
 
@@ -13,7 +13,7 @@
 
   h3  {
     
-    font-size: 24px;
+    font-size: 22px;
     line-height: 37px;
   }
 
@@ -24,6 +24,9 @@
 
   a {
     font-size: 17px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+
   }
 
   .wrapper {
@@ -46,6 +49,11 @@
       float: none;
       margin: 0px;
       width: 100%;
+
+      .column-top-margin{
+
+      font-size: 26px;
+      }
 
       .blurb-line {
         .text {
