@@ -64,13 +64,11 @@ a:hover {
       .main-content .left-column .blurb-line .icon {
         float: left;
         width: 50px;
-        margin-top: 10px; }
+        margin-top: 14px; }
       .main-content .left-column .blurb-line .text {
         float: left;
         max-width: 382px;
         margin-top: 6px; }
-        .main-content .left-column .blurb-line .text a {
-          margin-right: 10px; }
       .main-content .left-column .blurb-line .blurb {
         line-height: 29px;
         width: 401; }
