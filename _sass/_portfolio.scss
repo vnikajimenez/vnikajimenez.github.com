@@ -47,6 +47,10 @@
       margin-top: 50px;
       .previous-next {
         float: left;
+
+        a {
+          margin-right: 20px;
+        }
       }
       .home {
         float: right;

@@ -23,8 +23,7 @@ h3 {
 a {
   font-family: "effra", Helvetica, Arial, sans-serif;
   font-size: 17px;
-  color: #2e3135;
-  margin-right: 20px; }
+  color: #2e3135; }
 
 a:hover {
   color: #2e3135;
@@ -72,6 +71,8 @@ a:hover {
       .main-content .left-column .blurb-line .blurb {
         line-height: 29px;
         width: 401; }
+      .main-content .left-column .blurb-line a {
+        margin-right: 20px; }
   .main-content .right-column {
     width: 517px;
     float: right;
@@ -102,13 +103,13 @@ a:hover {
     .main-content .right-column .portfolio-piece:hover {
       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5); }
     .main-content .right-column .candidate-experience h2 {
-      color: #01a0df; }
+      color: #01A0DF; }
     .main-content .right-column .candidate-experience .cover {
-      background: #01a0df url("../images/candidate-cover.png") no-repeat scroll center; }
+      background: #01A0DF url("../images/candidate-cover.png") no-repeat scroll center; }
     .main-content .right-column .publisher h2 {
-      color: #9b9b9b; }
+      color: #9B9B9B; }
     .main-content .right-column .publisher .cover {
-      background: #9b9b9b url("../images/hireloop-cover.png") no-repeat scroll center; }
+      background: #9B9B9B url("../images/hireloop-cover.png") no-repeat scroll center; }
     .main-content .right-column .hiring-material h2 {
       color: #549809; }
     .main-content .right-column .hiring-material .cover {
@@ -147,9 +148,9 @@ a:hover {
   .portfolio-content .single {
     background-color: #183e46; }
   .portfolio-content .candidate-experience {
-    background-color: #01a0df; }
+    background-color: #01A0DF; }
   .portfolio-content .publisher {
-    background-color: #9b9b9b; }
+    background-color: #9B9B9B; }
   .portfolio-content .hiring-material {
     background-color: #EFEFEF; }
   .portfolio-content .right-column {
@@ -160,6 +161,8 @@ a:hover {
       margin-top: 50px; }
       .portfolio-content .right-column .controls .previous-next {
         float: left; }
+        .portfolio-content .right-column .controls .previous-next a {
+          margin-right: 20px; }
       .portfolio-content .right-column .controls .home {
         float: right; }
 
