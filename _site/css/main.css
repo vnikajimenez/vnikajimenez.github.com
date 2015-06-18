@@ -60,7 +60,7 @@ a:hover {
       margin-bottom: 42px; }
     .main-content .left-column .blurb-line {
       margin: 20px 0px;
-      overflow: auto; }
+      overflow: hidden; }
       .main-content .left-column .blurb-line .icon {
         float: left;
         width: 50px;
