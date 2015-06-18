@@ -99,13 +99,13 @@ a:hover {
     .main-content .right-column .portfolio-piece:hover {
       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5); }
     .main-content .right-column .candidate-experience h2 {
-      color: #01A0DF; }
+      color: #01a0df; }
     .main-content .right-column .candidate-experience .cover {
-      background: #01A0DF url("../images/candidate-cover.png") no-repeat scroll center; }
+      background: #01a0df url("../images/candidate-cover.png") no-repeat scroll center; }
     .main-content .right-column .publisher h2 {
-      color: #9B9B9B; }
+      color: #9b9b9b; }
     .main-content .right-column .publisher .cover {
-      background: #9B9B9B url("../images/hireloop-cover.png") no-repeat scroll center; }
+      background: #9b9b9b url("../images/hireloop-cover.png") no-repeat scroll center; }
     .main-content .right-column .hiring-material h2 {
       color: #549809; }
     .main-content .right-column .hiring-material .cover {
@@ -144,9 +144,9 @@ a:hover {
   .portfolio-content .single {
     background-color: #183e46; }
   .portfolio-content .candidate-experience {
-    background-color: #01A0DF; }
+    background-color: #01a0df; }
   .portfolio-content .publisher {
-    background-color: #9B9B9B; }
+    background-color: #9b9b9b; }
   .portfolio-content .hiring-material {
     background-color: #EFEFEF; }
   .portfolio-content .right-column {
