@@ -44,18 +44,14 @@ a:hover {
     font-weight: 500;
     text-align: center;
     word-spacing: 15px;
-    letter-spacing: -.5px; }
+    letter-spacing: -.5px;
+    margin-bottom: 55px; }
   .main-content .left-column {
     width: 432px;
     float: left;
     text-align: left;
     margin-right: 75px; }
-    .main-content .left-column .column-top-margin {
-      font-size: 35px;
-      font-weight: 500;
-      text-align: center;
-      word-spacing: 15px;
-      letter-spacing: -.5px;
+    .main-content .left-column .column-top {
       margin-bottom: 42px; }
     .main-content .left-column .blurb-line {
       margin: 20px 0px;
