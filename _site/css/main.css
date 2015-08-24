@@ -68,7 +68,8 @@ a:hover {
         line-height: 29px;
         width: 401; }
       .main-content .left-column .blurb-line a {
-        margin-right: 20px; }
+        margin-right: 20px;
+        font-weight: 600; }
   .main-content .right-column {
     width: 517px;
     float: right;
@@ -127,6 +128,9 @@ a:hover {
   transform: translateY(-50%); }
 
 /* Styles */
+.vertical-align a {
+  font-weight: 600; }
+
 .portfolio-content {
   width: 1024px;
   margin: auto;
@@ -153,12 +157,15 @@ a:hover {
     float: right;
     width: 372px;
     margin-bottom: 75px; }
+    .portfolio-content .right-column a {
+      font-weight: 600; }
     .portfolio-content .right-column .controls {
       margin-top: 50px; }
       .portfolio-content .right-column .controls .previous-next {
         float: left; }
         .portfolio-content .right-column .controls .previous-next a {
-          margin-right: 20px; }
+          margin-right: 20px;
+          font-weight: 600; }
       .portfolio-content .right-column .controls .home {
         float: right; }
 

@@ -1,4 +1,9 @@
 @import 'variables';
+.vertical-align{
+    a {
+      font-weight: 600;
+    }
+}
 
 .portfolio-content {
 
@@ -42,6 +47,9 @@
     float: right;
     width: 372px;
     margin-bottom: $main-margin;
+    a {
+      font-weight: 600;
+    }
 
     .controls {
       margin-top: 50px;
@@ -50,6 +58,7 @@
 
         a {
           margin-right: 20px;
+          font-weight: 600;
         }
       }
       .home {
