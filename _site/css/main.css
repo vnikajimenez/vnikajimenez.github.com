@@ -23,7 +23,8 @@ h3 {
 a {
   font-family: "effra", Helvetica, Arial, sans-serif;
   font-size: 17px;
-  color: #2e3135; }
+  color: #2e3135;
+  text-decoration: none; }
 
 a:hover {
   color: #2e3135;
@@ -129,7 +130,8 @@ a:hover {
 
 /* Styles */
 .vertical-align a {
-  font-weight: 600; }
+  font-weight: 600;
+  text-decoration: none; }
 
 .portfolio-content {
   width: 1024px;
