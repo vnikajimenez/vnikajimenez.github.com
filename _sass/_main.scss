@@ -31,11 +31,14 @@ a {
 	font-size: 17px;
 	color: $font-color;
 	text-decoration: none;
+	-o-transition:color .2s ease-out, background 1s ease-in;
+  	-ms-transition:color .2s ease-out, background 1s ease-in;
+  	-moz-transition:color .2s ease-out, background 1s ease-in;
 }
 
-a:hover{
-	color: $font-color;
-	opacity: 5;
+a:hover {
+	
+	color: #6C7A89;
 }
 
 .wrapper {

@@ -24,11 +24,13 @@ a {
   font-family: "effra", Helvetica, Arial, sans-serif;
   font-size: 17px;
   color: #2e3135;
-  text-decoration: none; }
+  text-decoration: none;
+  -o-transition: color .2s ease-out, background 1s ease-in;
+  -ms-transition: color .2s ease-out, background 1s ease-in;
+  -moz-transition: color .2s ease-out, background 1s ease-in; }
 
 a:hover {
-  color: #2e3135;
-  opacity: 5; }
+  color: #6C7A89; }
 
 .wrapper {
   width: 1030px;
