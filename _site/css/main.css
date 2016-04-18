@@ -118,6 +118,10 @@ a:hover {
       color: #183e46; }
     .main-content .right-column .single .cover {
       background: #183e46 url("../images/single-cover.png") no-repeat scroll center; }
+    .main-content .right-column .guardian h2 {
+      color: #f7efca; }
+    .main-content .right-column .guardian .cover {
+      background: #f7efca url("../images/guardian_cover.png") no-repeat scroll center; }
 
 .footer {
   text-align: center;
@@ -129,6 +133,9 @@ a:hover {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
+
+.main-content .right-column .guardian h2 {
+  color: #FDC607; }
 
 /* Styles */
 .vertical-align a {
@@ -157,6 +164,8 @@ a:hover {
     background-color: #9b9b9b; }
   .portfolio-content .hiring-material {
     background-color: #EFEFEF; }
+  .portfolio-content .guardian {
+    background-color: #F7EFCA; }
   .portfolio-content .right-column {
     float: right;
     width: 372px;

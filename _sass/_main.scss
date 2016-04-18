@@ -166,6 +166,9 @@ a:hover {
 		.single {
 			@include project-colors($single, '../images/single-cover.png');
 		}
+		.guardian {
+			@include project-colors($guardian, '../images/guardian_cover.png');
+		}
 	}
 }
 
@@ -181,4 +184,8 @@ a:hover {
 	-webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
 	transform: translateY(-50%);
+}
+
+.main-content .right-column .guardian h2 {
+	color: #FDC607;
 }
