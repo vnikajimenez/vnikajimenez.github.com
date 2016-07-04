@@ -1,4 +1,5 @@
 {
+  "Guardian":{"prev":"single.html", "next":"hiring-material.html"},
   "Hiring App":{"prev":"single.html", "next":"candidate-experience.html"},
   "Candidate Experience":{"prev":"hiring-material.html", "next":"publisher.html"},
   "New Hireloop Post":{"prev":"candidate-experience.html", "next":"single.html"},

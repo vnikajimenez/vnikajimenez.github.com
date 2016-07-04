@@ -166,6 +166,8 @@ a:hover {
     background-color: #EFEFEF; }
   .portfolio-content .guardian {
     background-color: #F7EFCA; }
+  .portfolio-content .portfolio-content .pipeline {
+    background-color: #3B3C44; }
   .portfolio-content .right-column {
     float: right;
     width: 372px;
@@ -183,8 +185,7 @@ a:hover {
         float: right; }
 
 .portfolio-image {
-  width: 100%;
-  margin-bottom: 50px; }
+  width: 100%; }
   .portfolio-image img {
     width: 100%; }
   .portfolio-image iframe {
